@@ -7,7 +7,7 @@
 \contentsline {chapter}{Dedication}{ix}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Evolutionary Algorithms}{1}
-\contentsline {section}{\numberline {1.2}Robustness in evolutionary algorithms}{2}
+\contentsline {section}{\numberline {1.2}Robustness in Evolutionary Algorithms}{2}
 \contentsline {section}{\numberline {1.3}Is a Review of All Previous Work Necessary Here?}{2}
 \contentsline {section}{\numberline {1.4}My Claims}{3}
 \contentsline {subsection}{\numberline {1.4.1}The Importance of My Claims}{4}
