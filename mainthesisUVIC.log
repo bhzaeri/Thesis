@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  26 NOV 2016 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  27 NOV 2016 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -265,6 +265,33 @@ Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen123
 \Gin@req@width=\dimen124
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count111
+)
+\csq@reset=\count112
+\csq@gtype=\count113
+\csq@glevel=\count114
+\csq@qlevel=\count115
+\csq@maxlvl=\count116
+\csq@tshold=\count117
+\csq@ltx@everypar=\toks29
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+
 (./mainthesisUVIC.aux (./chapters/1/chapter_intro.aux)
 (./chapters/2/chapter_problem.aux) (./chapters/3/chapter_new.aux)
 (./chapters/4/chapter_experiments.aux) (./chapters/5/chapter_evaluation.aux)
@@ -320,17 +347,17 @@ LaTeX Font Info:    ... okay on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
+\scratchcounter=\count118
 \scratchdimen=\dimen125
 \scratchbox=\box32
-\nofMPsegments=\count112
-\nofMParguments=\count113
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count114
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count121
 \MPscratchDim=\dimen126
-\MPnumerator=\count115
-\makeMPintoPDFobject=\count116
-\everyMPtoPDFconversion=\toks30
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
+\everyMPtoPDFconversion=\toks31
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -416,7 +443,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4] [5])
+[4]
+Overfull \hbox (2.09216pt too wide) in paragraph at lines 18--18
+ [][] []\OT1/cmr/m/n/12 Socio-Cultural Evo-lu-tion via Neighborhood-Restructuri
+ng in In- 
+ []
+
+[5])
 \tf@toc=\write3
 \openout3 = `mainthesisUVIC.toc'.
 
@@ -471,37 +504,35 @@ Chapter 2.
 
 
 ] [5] [6]
-Overfull \hbox (0.20197pt too wide) in paragraph at lines 17--18
+Overfull \hbox (0.20197pt too wide) in paragraph at lines 17--20
 \OT1/cmr/m/n/12 The au-thors of [] aimed at com-mer-cial-iz-ing Cul-tural Al-go
 -rithm Toolkit (CAT) thourgh
  []
 
+[7]
+Overfull \hbox (22.45273pt too wide) in paragraph at lines 26--26
+[]\OT1/cmr/bx/n/14.4 Socio-Cultural Evo-lu-tion via Neighborhood-Restructuring
+ []
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 \newline
-             ------------------------------\newline
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
+ []
+
+[9]
+
 ! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 \newline
+l.41 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -514,18 +545,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 \newline
+l.43 \newline
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[7] [8]) [9]
+[10] [11]) [12]
 \openout2 = `chapters/3/chapter_new.aux'.
 
  (./chapters/3/chapter_new.tex
 Chapter 3.
-[10
+[13
 
 
 
@@ -543,14 +574,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--10
 
  []
 
-[11]
+[14]
 Overfull \hbox (4.78215pt too wide) in paragraph at lines 12--13
 \OT1/cmr/m/n/12 ment is de-clared in the doc-u-ment body. In-put which ap-pears
  af-ter the $\OMS/cmsy/m/n/12 n$\OT1/cmr/m/n/12 end\OMS/cmsy/m/n/12 f\OT1/cmr/m
 /n/12 document\OMS/cmsy/m/n/12 g
  []
 
-[12]
+[15]
 LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 44.
 
  (/usr/share/texmf/tex/latex/R/tex/latex/omscmtt.fd
@@ -558,7 +589,7 @@ File: omscmtt.fd
 )
 LaTeX Font Info:    Font shape `OMS/cmtt/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
- [13]
+ [16]
 Overfull \hbox (27.3399pt too wide) in paragraph at lines 59--61
 []\OT1/cmr/m/n/12 For this the-sis tem-plate a spe-cial com-mand has been added
 , namely the $\OMS/cmsy/m/n/12 n$\OT1/cmr/bx/n/12 textTOCadd\OT1/cmr/m/n/12 .
@@ -578,56 +609,56 @@ Overfull \hbox (8.09969pt too wide) in paragraph at lines 82--84
 $\OMS/cmsy/m/n/12 n$\OT1/cmr/m/n/12 item$[[]]$
  []
 
-[14] [15]
+[17] [18]
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 148.
- [16]
+ [19]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 160.
- [17]
+ [20]
 Overfull \hbox (10.11649pt too wide) in paragraph at lines 200--203
 []\OT1/cmr/m/n/12 If you are in-ter-ested, look at the ac-tual file for this se
 c-tion namely "sec[]latexhelp.tex"
  []
 
-[18] [19] [20])) [21]
+[21] [22] [23])) [24]
 \openout2 = `chapters/4/chapter_experiments.aux'.
 
  (./chapters/4/chapter_experiments.tex
 Chapter 4.
-[22
-
-
-
-] [23]) [24]
-\openout2 = `chapters/5/chapter_evaluation.aux'.
-
- (./chapters/5/chapter_evaluation.tex
-Chapter 5.
-Missing character: There is no ’ in font cmti12!
 [25
 
 
 
 ] [26]) [27]
+\openout2 = `chapters/5/chapter_evaluation.aux'.
+
+ (./chapters/5/chapter_evaluation.tex
+Chapter 5.
+Missing character: There is no ’ in font cmti12!
+[28
+
+
+
+] [29]) [30]
 \openout2 = `chapters/6/chapter_conclusion.aux'.
 
  (./chapters/6/chapter_conclusion.tex
 Chapter 6.
-) [28
+) [31
 
 
 
-] [29]
+] [32]
 \openout2 = `chapters/appendix/chapter_app.aux'.
 
  (./chapters/appendix/chapter_app.tex
 Appendix A.
-) [30
+) [33
 
 
 
-] (./mainthesisUVIC.bbl) [31
+] (./mainthesisUVIC.bbl) [34
 
 
 ] (./mainthesisUVIC.aux
@@ -636,13 +667,13 @@ Appendix A.
 (./chapters/5/chapter_evaluation.aux) (./chapters/6/chapter_conclusion.aux)
 (./chapters/appendix/chapter_app.aux)) ) 
 Here is how much of TeX's memory you used:
- 3949 strings out of 493029
- 53601 string characters out of 6136234
- 126899 words of memory out of 5000000
- 7289 multiletter control sequences out of 15000+600000
+ 4779 strings out of 493029
+ 65632 string characters out of 6136234
+ 150303 words of memory out of 5000000
+ 8107 multiletter control sequences out of 15000+600000
  18461 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,12n,45p,1410b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,45p,1410b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
@@ -659,10 +690,10 @@ s/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmtt8.pfb>
-Output written on mainthesisUVIC.pdf (41 pages, 217465 bytes).
+Output written on mainthesisUVIC.pdf (44 pages, 223066 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
+ 212 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
