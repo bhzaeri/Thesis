@@ -56,45 +56,9 @@ Parameter heterogeneity occurs when some individuals in a group which follow the
 To compare the mentioned categories, the authors careted two test cases. The first one compared two PSO variants with different update rules: Velocity-based and Bare bones swarm. The evaluation results confirmed that velocity-based outperformed the other one. The second test case compared two PSO variants with different models of influence: best-of-neighborhood and fully-informed swarm. The evaluation results showed that the fully-informed algorithm outperfromed the best-of-neighborhood.
 \subsection{Leveraged Neighborhood Restructuring in Cultural Algorithms for Solving Real-World Numerical Optimization Problems}
 In the paper, the authors made an overall review of related works on Cultural Algorithms and Social Fabric [], [], []. They introduced the concept of social fabric as an infrastructure which facilitates the propagation of the influence of the knowledge sources thorugh the population space. The whole population is divided into multiple small sized tribes. Unlike other PSO-based multi-swarm variants, the tribal sub-swarms change their topology during the evolution process to keep diversity against stagnations.\newline
-The tribes are organized in a two-layer structure of advenced and rudimentary classes. The advanced calss is composed of best perfoming individuals of each tribe. The authors divided the evolution process of CAs into three stages: the secluion stage , the rapport stage , and the cohesive stage. 
+The tribes are organized in a two-layer structure of advanced and rudimentary classes. The advanced calss is composed of best perfoming individuals of each tribe. From each tribe, two examplars are chosen. The first one is the best of explorer knowledge sources (Normative and Topopgraphic) and the second one is the best of exploiter knowlegde sources (Situational). The authors utilized only three kinds of knowledge sources: Normative, Topographic, and Situational. They claimed that, other thpes of knowledge sources are suitable for dynamic problems. However, they used a set of static problems to evaluate their approach. The authors divided the evolution process of CAs into three stages: the secluion stage , the rapport stage , and the cohesive stage. In the seclusion stage, the tribes evolve independetly and without any exchange of information. Then, in the rapport stage, the tribes start to exchange knowledge via the advenced class. Also, the neighborhood restructuring strategy is lunched in each tribe. So, the tribes have the capability to restructure their topology to keep diversity and avoid local optima. The first two stages ensure that diversity has been kept in the initial iterations of the search process. Finally, in the third stage, all the tribes are merged together and continue the search process as a single CA model. \newline
+Based on the categorization proposed in [], the authors claimed that their apparoach is heterpgeneous regarding update-rule heterogeneity and neighborhood heteogeneity. Since the topology of each tribe is changing during the evolution process, the tribes might use different toplogies at the same time. So, it could be considered as heterogenous neuighborhood restructuring. Also, their approach utilizes update-rule heteogeneity because, there are individuals with different roles (explorer and exploiter). \newline
+In the exprimental results section, the authors used IEEE-CEC2011 competition on testing evolutionary algorithms on real-world numerical optimization problems. They presented an extended comparison of their approach with other propsed methods. At first, the authors tested the approach (T-SCANeR) with different values for these parameters: tie-breaking rule, $M_{thresh}$, and number of elites. There is no best value for tie-breaking rule as it is problem-dependent. For the $M_{thresh}$ parameter, the results show that the best value is 50. The best value for $n_{tElite}$ is 2. The second expriment was on varying the  window  size  within  which  the  social  fabricis  applied  and  aggregated ($W_{size}$). The best reported value for $W_{size}$ is 20. \newline
+In the two first exprients the best values for the parameters were determined. Based on the obtained values, the authors compared T-SCANeR with five other evolutionary algorithms on the IEEE-CEC2011 which is a set of 18 functions. T-SCANeR managed to outperform for most of the functions except for $T_{3}$, $T_{4}$, $T_{6}$, and $T_{11.5}$. Problems $T_{12}$ (full messenger problem) and $T_{13}$ (cassini problem) are associated with the European Space Agency (ESA). The authors claimed that T-SCANeR outperformed other methods by 2.193724 km/s for the messenger problem and 8.383090 for the cassini problem.
 \newline------------------------------\newline
 
-\newline
-
-\newline
-
-Here is where you tell me what is the problem you have been working on for the past few months (or years). I want all the details and you should not be timid about being too tutorial, except that you do not want to cross the line towards writing a textbook. However consider carefully that \textit{communication} implies conveying ideas to other people, while \textit{effective communication} occurs when your message is clearly understood. Remember that your audience must understand your message before they can agree with you.
-
-Ask yourself:
-\textit{who is your audience?} You might think of your supervisor who knows everything and you want to impress with your knowledge. I think instead of the graduate students who will be reading this thesis which is, after all, a property of the university. It is published as a university technical report so that others may learn by reading it. Then teach them! Be a bit tutorial. Even the expert external examiner will be impressed by your clarity of exposition if he or she does not need to read paragraphs twice in order to understand - something which people with PhDs and big egos find particularly irritating.
-
-On the other hand, do not go too far and give trivial definitions from concepts learned in a 3rd year undergraduate courses, else you might find yourself in trouble when having to remember the details during an oral examination.
-
-My approach is to put everything necessary to make clarity for
-the problem the main goal of this chapter, assuming an intelligent and well prepared reader who already has a Bachelor degree in an appropriate subject.
-
-Once I understand the problem clearly and its nuances (it may not be what I expected after all), I also need to know why the problem is important, what its impact is and what its application, if any. Here you are free to elaborate and write as much as you think is necessary to avoid the examination doubt that you have a brilliant new solution to a trivial and unimportant issue.
-
-I suggest reading various books on how to do research and set up problems. The best for me was "The Craft of Research" by Wayne Booth \cite{booth1}, which can be found in the main library at Q180.55 M4B66. From there I have transferred to my writing a fairly simple structure for talking about the topic of the research, with the question to be asked and its motivation and significance. It goes as follows:
-\begin{enumerate}
-\item {\textit{I am trying to learn about (working on, studying...)}}
-\item {\textit{because I want to find out....}}
-\item {\textit{in order to understand...}}
-\end{enumerate}
-
-Another way of looking at this is to ask the
-\textit{what}, \textit{why} and \textit{where}, starting from a \textit{setting} of the problem with a first point A, stating what the \textit{goal} is at point B and having an \textit{action link} between the two which will encompass your new solution. As surprising as this may be to some of you, I found reading a book from Microsoft very useful: "Beyond Bullet Points: Using Microsoft Office PowerPoint 2007 to Create Presentations That Inform" \cite {atkin}. The goal of the book is to improve presentations with Power Point, but there is a lot that can be transferred towards \textit{effective communication} for a thesis.
-
-In summary, my view of the second chapter on
-\textit{"The Problem to be solved"} is as follows:
-\begin{enumerate}
-\item {\textit{Not} all the background and definitions (boring!) - use instead just-in-time explanations as needed in every context as it comes up;}
-\item {Motivation in depth;}
-\item {Tutorial high level explanation, where it is important to choose the right pitch: who is the audience? who are you teaching here?}
-\item {Make it exciting, make it current, make it important - why do I want to keep reading?}
-\item {Should you list here the solutions from other researchers? I think not, list instead the different facets of the problems that other researchers have attacked.}
-\item {A taxonomy can be extremely useful to place your problem and its particular special features within the perfect context of the overall area, as you need to make sure that the reader understands perfectly what you are trying to solve.}
-\end{enumerate}
-
-
-\setlength{\unitlength}{\savedunitlength}
