@@ -1,4 +1,56 @@
-\section{Some \LaTeX Examples}
+\section{Evolutionary Algorithms}
+Evolutionary computing is a research area within computer science. As the name suggests, it is a particular flavor of computing, which draws inspiration from the process of natural evolution. In fact, they are computer programs which try to solve and optimize complex problems by simulating the behavior of natural systems. They utilize evolutionary operators such as crossover and mutation to improve the quality of a population of solutions. \newline
+Evolutionary algorithms start with a population of randomly generated solutions for a particular problem. Then, the algorithm modifies the solutions in an iteration-based process of some finite number of generations. The modification occurs through applying the so-called evolutionary operators such as crossover and mutation. The evolutionary operators might be binary or unary. For example, the crossover is a binary operator because it combines two solutions (individuals) to generate a new one. On the other hand, mutation is a unary operator because it makes random modifications on a single solution to improving its performance. The performance of each is evaluated using a fitness function. The fitness function represents the problem that needs to be solved or optimized. Usually, the fitness function is chosen from NP problems which are hard to solve by traditional problem-solving methods. In each iteration of an evolutionary algorithm, the evolutionary operators are applied to the individuals and the best performing offsprings will be transferred to the next generation. This process continues until meeting some stopping criteria which are already defined by a human user. Some examples of evolutionary lgorithms are:
+\begin{enumerate}
+	\item Genetic Algorithms
+	\item Evolutionary Porgramming
+	\item Differential Evolution
+\end{enumerate}
+However, the evolutionary algorithms are not restricted to biological processes. Some researchers have drawn inspiration from social systems to find solutions to complex problems. The complex and coordinated behavior of swarms not only fascinates biologists but also is an inspiration to computer scientists. Ant colonies and birds flocking are remarkable examples of coordinated collective behavior that emerges without centralized control. Swarm intelligence is a field of computer science that invents computational methods for solving problems in a way that is inspired by the behavior of real swarms and colonies. Principles of self-organization and communication (local and indirect) are essential to understanding the complex collective behavior. There are different types of swarm-based algorithms such as:
+\begin{enumerate}
+	\item Particle Swarm Optimization (PSO)
+	\item Ant Colony Optimization (ACO)
+	\item Cultural Algorithms (CA)
+\end{enumerate}
+\section{Cultural Algorithms}
+Cultural Algorithms (CA) were introduced by Reynolds as a type of population-based problem-solving approaches. CA combines biological evolution with socio-cognitive concepts to yield an optimization approach based on a dual inheritance theory. As defined by [Durham], culture is a \enquote{system of symbolically encoded conceptual phenomena that are socially and historically transmitted within and between populations}.From the definition, it can be stated that in cultural systems, evolution occurs at two levels: Macro-evolutionary level and micro-evolutionary level. Cultural algorithms define the evolution process through the cooperation of three distinct components: 
+\begin{enumerate}
+	\item Belief Space (Macro-evolutionary Level)
+	\item Population Space (Micro-evolutionary Level)
+	\item Communication Protocol
+\end{enumerate}
+%In the first component, a population-based algorithm, such as GA, PSO, and EP, is deployed. It is called micro-evolutionary level too. In the second component (belief space) or macro-evolutionary level, there are five types of knowledge sources.
+\subsection{Belief Space}
+Belief space keeps different kinds of knowledge obtained from the individuals' experience during the evolution process. It extracts the knowledge from the population and stores the knowledge in various formats called knowledge sources (KS). Each knowledge source extracts and keeps knowledge about a particular aspect of the search space. 
+\newline
+After each iteration, the best performing individuals are chosen and sent to the belief space to be utilized by the knowledge sources. The stored knowledge is used to bias the search process in the population space. Five types of knowledge sources have been identified in the belief space:
+\begin{enumerate}
+	\item Situational Knowledge: Successful exemplars of individuals
+	\item Normative Knowledge: The best range of value for each parameter
+	\item Topographic Knowledge: The best areas of the search space
+	\item Domain knowledge: The domain ranges for all the parameters and the best exemplars
+	\item Temporal Knowledge: Knowledge about the past changes in a dynamic environment
+\end{enumerate}
+\subsection{Population Space}
+In the population space, any population-based algorithm could be used. In the earlier variants of cultural algorithms, only GA was used. However, researchers utilized other population-based algorithms such as PSO and EP in the population component. In each generation, the best individuals are sent to the belief space to update the knowledge sources. Then, the belief space influences the population through the search process. Figure [] ....
+\subsection{Communication Protocol}
+In cultural algorithms, the belief space and the population communicate together through a two-way protocol. The population space sends the best individuals to the belief space using the acceptance function to update the knowledge sources. Then, the belief space bias the search direction of the population space through the influence function.
+\section{Social Fabric-based Cultural Algorithms}
+asd
+\newline ------------------- \newline
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 A Latex document is composed of two parts: the Preamble, and the Document Body.  The \textit{Preamble} is the site for inclusion of all document set up commands: definition of new commands, inclusion of pre\-built packages, template declaration, etc.  The \textit{Body} is where the document content is placed.
 

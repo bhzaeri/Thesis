@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  5 DEC 2016 14:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  8 DEC 2016 21:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -524,12 +524,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--64
 
  (./chapters/3/chapter_new.tex
 Chapter 3.
-[16
+(./chapters/3/sec_latexhelp.tex [16
 
 
 
-] (./chapters/3/sec_latexhelp.tex
-Overfull \hbox (38.98732pt too wide) in paragraph at lines 6--10
+] [17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+
+ []
+
+[19]
+Overfull \hbox (38.98732pt too wide) in paragraph at lines 58--62
 \OMS/cmsy/m/n/12 n$\OT1/cmr/bx/n/12 documentclass$\OT1/cmr/m/n/12 [\OML/cmm/m/i
 t/12 options\OT1/cmr/m/n/12 ]$\OMS/cmsy/m/n/12 f\OT1/cmr/m/it/12 doc style\OMS/
 cmsy/m/n/12 g \OT1/cmr/m/n/12 com-mand. For ex-am-ple, $\OMS/cmsy/m/n/12 n$\OT1
@@ -538,134 +543,130 @@ cmsy/m/n/12 g \OT1/cmr/m/n/12 com-mand. For ex-am-ple, $\OMS/cmsy/m/n/12 n$\OT1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--10
+Underfull \hbox (badness 10000) in paragraph at lines 58--62
 
  []
 
-[17]
-Overfull \hbox (4.78215pt too wide) in paragraph at lines 12--13
+
+Overfull \hbox (4.78215pt too wide) in paragraph at lines 64--65
 \OT1/cmr/m/n/12 ment is de-clared in the doc-u-ment body. In-put which ap-pears
  af-ter the $\OMS/cmsy/m/n/12 n$\OT1/cmr/m/n/12 end\OMS/cmsy/m/n/12 f\OT1/cmr/m
 /n/12 document\OMS/cmsy/m/n/12 g
  []
 
-[18]
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 44.
+[20]
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 96.
 
  (/usr/share/texmf/tex/latex/R/tex/latex/omscmtt.fd
 File: omscmtt.fd 
 )
 LaTeX Font Info:    Font shape `OMS/cmtt/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
- [19]
-Overfull \hbox (27.3399pt too wide) in paragraph at lines 59--61
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 96.
+ [21]
+Overfull \hbox (27.3399pt too wide) in paragraph at lines 111--113
 []\OT1/cmr/m/n/12 For this the-sis tem-plate a spe-cial com-mand has been added
 , namely the $\OMS/cmsy/m/n/12 n$\OT1/cmr/bx/n/12 textTOCadd\OT1/cmr/m/n/12 .
  []
 
 
-Overfull \hbox (20.95876pt too wide) in paragraph at lines 63--64
+Overfull \hbox (20.95876pt too wide) in paragraph at lines 115--116
 \OT1/cmr/m/n/12 Creating sec-tions, sub-sec-tions, and sub-sub-sec-tions is com
 -pleted us-ing the $\OMS/cmsy/m/n/12 n$\OT1/cmr/m/n/12 section\OMS/cmsy/m/n/12 
 f\OT1/cmr/m/n/12 Section
  []
 
-
-Overfull \hbox (8.09969pt too wide) in paragraph at lines 82--84
+[22]
+Overfull \hbox (8.09969pt too wide) in paragraph at lines 134--136
 []\OT1/cmr/m/n/12 define each item with the $\OMS/cmsy/m/n/12 n$\OT1/cmr/m/n/12
  item com-mand for non$\OMS/cmsy/m/n/12 n$\OT1/cmr/m/n/12 enumerated lists, or 
 $\OMS/cmsy/m/n/12 n$\OT1/cmr/m/n/12 item$[[]]$
  []
 
-[20] [21]
+[23] [24]
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 148.
- [22]
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 200.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 160.
- [23]
-Overfull \hbox (10.11649pt too wide) in paragraph at lines 200--203
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 212.
+ [25]
+Overfull \hbox (10.11649pt too wide) in paragraph at lines 252--255
 []\OT1/cmr/m/n/12 If you are in-ter-ested, look at the ac-tual file for this se
 c-tion namely "sec[]latexhelp.tex"
  []
 
-[24] [25] [26])) [27]
+[26] [27] [28])) [29]
 \openout2 = `chapters/4/chapter_experiments.aux'.
 
  (./chapters/4/chapter_experiments.tex
 Chapter 4.
-[28
+[30
 
 
 
-] [29]) [30]
+] [31]) [32]
 \openout2 = `chapters/5/chapter_evaluation.aux'.
 
  (./chapters/5/chapter_evaluation.tex
 Chapter 5.
 Missing character: There is no ’ in font cmti12!
-[31
+[33
 
 
 
-] [32]) [33]
+] [34]) [35]
 \openout2 = `chapters/6/chapter_conclusion.aux'.
 
  (./chapters/6/chapter_conclusion.tex
 Chapter 6.
-) [34
-
-
-
-] [35]
-\openout2 = `chapters/appendix/chapter_app.aux'.
-
- (./chapters/appendix/chapter_app.tex
-Appendix A.
 ) [36
 
 
 
-] (./mainthesisUVIC.bbl) [37
+] [37]
+\openout2 = `chapters/appendix/chapter_app.aux'.
+
+ (./chapters/appendix/chapter_app.tex
+Appendix A.
+) [38
+
+
+
+] (./mainthesisUVIC.bbl) [39
 
 
 ] (./mainthesisUVIC.aux
 (./chapters/1/chapter_intro.aux) (./chapters/2/chapter_problem.aux)
 (./chapters/3/chapter_new.aux) (./chapters/4/chapter_experiments.aux)
 (./chapters/5/chapter_evaluation.aux) (./chapters/6/chapter_conclusion.aux)
-(./chapters/appendix/chapter_app.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./chapters/appendix/chapter_app.aux)) ) 
 Here is how much of TeX's memory you used:
- 4779 strings out of 493029
- 65632 string characters out of 6136234
+ 4773 strings out of 493029
+ 65532 string characters out of 6136234
  150303 words of memory out of 5000000
- 8107 multiletter control sequences out of 15000+600000
- 18461 words of font info for 74 fonts, out of 8000000 for 9000
+ 8101 multiletter control sequences out of 15000+600000
+ 17001 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,45p,1418b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on mainthesisUVIC.pdf (47 pages, 238929 bytes).
+</usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmitt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmtt8.pfb>
+Output written on mainthesisUVIC.pdf (49 pages, 242207 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
+ 232 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
