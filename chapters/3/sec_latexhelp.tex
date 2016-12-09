@@ -36,6 +36,25 @@ In the population space, any population-based algorithm could be used. In the ea
 \subsection{Communication Protocol}
 In cultural algorithms, the belief space and the population communicate together through a two-way protocol. The population space sends the best individuals to the belief space using the acceptance function to update the knowledge sources. Then, the belief space bias the search direction of the population space through the influence function.
 \section{Social Fabric-based Cultural Algorithms}
+Social Fabric is a dynamic grid of information flow in which the individuals’ interactions happen. The fabrics (networks) are created by the connectivity of each agent with other agents in a dynamic structure. The topology of the network controls the rate and type of interactions. Like a multi-population model, there are multiple independent subpopulations (tribes) which are networked together.\newline
+In the Social Fabric idea, the influence of the belief space is propagated through the population using a multi-layered network of connections. There are Z tribes comprised of H individuals which form two layers: rudimentary and advanced. The members of each tribe are connected in a regular topology independent from other tribes. At this level, they form the rudimentary layer. From each tribe, the best performing individuals (elites) are connected. These connections create the advanced layer which is responsible for mediating the flow of information between different tribes. Figures 2 and 3 describe the network model.
+\subsection{Evolution Phases}The whole evolution process is split into three phases: seclusion, rapport, and cohesive. In the first stage, each tribe evolves as an independent basic CA model with no communication between tribes. In the second step, the advanced layer is formed by connecting elites of each tribe. Then, tribes start to exchange information during their evolution process. Ultimately, in the third step, all the tribes are merged into one CA model. Then the search process continues until meeting some stopping criteria.
+\subsection{Strategic Neighborhood Restructuring}In Social Fabric literature, Strategic Restructuring is a technique to help individuals to get rid of stagnation where there are copious local optima in the search landscape. Each tribe maintains a particular topology until it gets stagnated in a local optimum for a certain number of iterations. Then, the topology is reinitialized to motivate the individuals for a new search. Here, four types of topologies are utilized: Ring, Mesh, Hybrid-Tree, and Global.
+\subsection{Social fabric based influence function} In this model, the individuals might decide to change their controller KS using the majority of KSs which they receive from their neighborhood. Here, Majority Voting is used to find the controller KS of an individual \cite{che2010robust}. In the case of a tie, some tie-breaking rules are deployed such as MFU (most frequently used), LFU (least frequently used), Direct (the direct influencing KS), Random (a random choice), Last-used (the KS which controlled the KS in the last iteration) \cite{ali2012socio}. In the equation \ref{eq:4} the sum denotes the counts of KSs in $i$th node neighborhood and $\psi_{i}$ is its contoller KS. $\tau_{i}$ is the net affecting KS for the next iteration \cite{ali2016leveraged} \cite{sterling2004aggregation}. 
+\begin{equation}
+\label{eq:4}
+\tau_{i}=\sum_{j \in Nbr(i)}m_{ij} + \psi_{i}
+\end{equation}
+The Social Fabric approach can be generalized on different topologies as follows:
+\begin{equation}
+	KS(t+1)=
+		\begin{cases}
+			KS_{i}, & \forall KS_{j}\in \{KS-KS_{i}\}\Rightarrow weight(KS_{i}) > weight(KS_{j}) \\
+			KS_{cr}, & otherwise
+		\end{cases}
+\end{equation}
+Where $KS$ is the set of all knowledge sources, $KS_{i}, KS_{j}\in KS$. $weight(ܵKS_{i})$ is the number of neighbors that belong to the knowledge source $KS_{i}$. $KS_{cr}$ denotes the knowledge source chosen by a tie-breaking rule.
+\section{Particle Swarm Optimization}
 asd
 \newline ------------------- \newline
 
