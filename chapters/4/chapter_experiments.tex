@@ -1,5 +1,53 @@
-\startchapter{Experiments}
+\startchapter{Proposed Approaches: Improving Robustness in Social Fabric}
 \label{chapter:Exp}
+Inspired by natural systems, many evolutionary algorithms have been proposed to solve various optimization problems. These algorithms are expected to exhibit a consistent problem-solving behavior against different optimization landscapes. Unfortunately, as stated by No Free Lunch (NFL) theorem \cite{wolpert1997no}, there is no algorithm better than others over all cost functions. It means, there is no guarantee for an algorithm to work well for all functions if it shows promising results for a particular category of them. Therefore, robustness has been one of the most desired features which motivates researchers to invent new methods which are less dependent on the kind of a problem than others. Here, robustness means we need to develop search strategies which are capable of adapting themselves across different landscapes which might vary regarding aspects such as multimodality and the number of local optima. 
+\newline
+In this section, we are going to improve the robustness of CAs in both population space and belief space components. In the population space, a new neighborhood restructuring strategy will be proposed which aims at microscopic inspections for stagnation regarding individuals' local experience. Then, in the belief space, a new model of Normative KS will be proposed, which defines the normative ranges based on Confidence Interval inspired from Inferential Statistics. It stops the normative KS to be affected by sudden fluctuations in the input data.
+
+\section{Self-organization}
+A self-organized system is a group of agents with specific behavioral patterns which could not be predicted from the simple behaviors of the  individuals who make up the system. Kennedy and Eberhart [] described self-organization as follows: 
+\begin{displayquote}
+	"Self-organization The ability of some systems to generate their form without external pressures, either wholly or in part. It can be viewed as a system’s constant attempts to organize itself into ever more complex structures, even in the face of the constant forces of dissolution described by the second law of thermodynamics."
+\end{displayquote}
+Some of the primary attributes of self-organizing systems are listed below:
+\begin{enumerate}
+	\item Self-organizing systems usually exhibit the behaviors that appear to be spontaneous order.
+	\item Self-organization can be considered as a system’s constant attempts to organize itself into a variety of complex structures, even in the face of the forces of deviation (Robustness).
+	\item The overall status of a self-organizing system is an emergent property of all the ingredients of the system.
+	\item Interconnected components of the system become organized in a meaningful way based on local interactions of the components.
+	\item Complex systems have the potential to self-organize themselves.
+	\item The self-organization process works close to the “edge of chaos.”
+\end{enumerate}
+In the section, we will propose a new approach to improve the robustness of cultural algorithms regarding self-organization.
+\section{Irregular Neighborhood Restructuring}
+As proposed by \cite{ali2016leveraged}, when the agents of a tribe get stuck in a local optimum, then they choose a topology with fewer connections such as ring topology to motivate exploration. When the agents lack information, the topology is changed to a denser topology like Mesh, and ultimately Global. Whenever a tribe does not make progress for $M_{thresh}$ iterations, then the algorithm decides on upgrading/downgrading the current topology to other topologies. Downgrading happens by moving in the direction of gbest$\rightarrow$tree$\rightarrow$mesh$\rightarrow$lbest and Upgrading occurs in the direction of lbest$\rightarrow$mesh$\rightarrow$tree $\rightarrow$gbest. In our proposed approach, the restructuring process occurs at a microscopic level. There is no daemon process for inspecting stagnation. Every agent checks its performance for stagnation. If it gets stuck in a local optimum, it decides to upgrade/downgrade its neighborhood. The proposed strategy is described in the algorithm \ref{ref:RNR}. If the particle is the best in its neighborhood, it starts to decrease the number of connections to motivate exploration. However, if it is not the best, it needs to increase the neighborhood size to facilitate exploitation. Here, the topology is dynamic and irregular and the neighborhood size is different for each agent. So, it could be considered as a heterogeneous variant of CAs \cite{de2009heterogeneous}. The ultimate topology of the fabric is formed through local interactions of the agents. In this way, it improves the robustness of CAs regarding self-organization concept \cite{kennedy2001swarm}.
+
+\section{Confidence based Normative Knowledge Source}
+The current version of Normative KS is quite vulnerable to temporary fluctuations in the pattern of input data. The size of Normative ranges is subject to change dramatically with any temporal fluctuations. In this section, we are going to replace the ranges in the standard Normative KS with Confidence Interval from Inferential Statistics. Confidence-based changes are more robust against instantaneous changes in the input pattern. The update process of standard normative ranges is as follows:
+\begin{equation}
+lb_{j}(t+1) = \begin{cases} x_{i,j}(t), & x_{i,j}(t)\leq lb_{j}(t)\:or\:f(X_{i})<PL_{j}(t)  \\ lb_{j}, & \mbox{otherwise} \end{cases}
+\end{equation}
+
+\begin{equation}
+ub_{j}(t+1) = \begin{cases} x_{i,j}(t), & x_{i,j}(t)\ge ub_{j}(t)\:or\:f(X_{i})<PU_{j}(t)  \\ ub_{j}, & \mbox{otherwise} \end{cases} 
+\end{equation}%\newline
+The following is the definition of normative ranges based on Confidence Interval concept \cite{proakis1985probability}.
+%\begin{equation}
+%	(\bar{x}_{j}-q\cdot\dfrac{\sigma_{j}}{\sqrt{n}} , \bar{x}_{j}+q\cdot\dfrac{\sigma_{j}}{\sqrt{n}}) 
+%\end{equation}
+\begin{equation}
+lb_{j}=\bar{x}_{j}-q\cdot\dfrac{\sigma_{j}}{\sqrt{n}}
+\end{equation}
+\begin{equation}
+ub_{j}=\bar{x}_{j}+q\cdot\dfrac{\sigma_{j}}{\sqrt{n}}
+\end{equation}
+where 
+$\bar{x}$ is mean , $\sigma$ is standard deviation and $q$ is confidence coefficient \newline
+\newline ----------------------- \newline
+
+
+
+
 
 Assuming you have some experimental results to support your claims this is where all the data is reported. There are a few issues you should consider before dumping a lot of stuff here, or it will lose its effectiveness.
 
