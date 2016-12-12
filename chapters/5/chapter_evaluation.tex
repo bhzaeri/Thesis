@@ -1,42 +1,279 @@
-\startchapter{Evaluation, Analysis and Comparisons}
+\startchapter{Experimental Setup}
 \label{chapter:eval}
-
-For a Master's research this chapter represents the critical part where \textbf{you} are truly evaluated to determine whether you should be given your degree. Even more so for a PhD. Consider carefully what the University calendar states regarding the expectations for a master's thesis, paraphrased here.
-
+In this chapter, we explain the experimental setup, how to set the parameters and the optimization functions as the benchmark to evaluate the efficiency of our proposed approaches. 
+\section{Description}
+In this section, we describe IEEE-CEC2015 as the function set which we have chosen for our benchmark optimization purpose. IEEE-CEC2015 is a set of 15 functions with different properties such as multi-modality, copious local optima, and non-separability. All test functions are minimization problems defined as follows:
+\begin{equation}
+Y=f(x_{1}, x_{2}, x_{3}, \cdots, x_{D})
+\end{equation}
+where $D$ is the number of dimensions.\newline
+Before evaluation, all the vectors are shifted and rotated as described in [].$\mathbf{o}_{i}=[o_{i}{1}, o_{i}{2},\cdots, o_{i}{D}]$ is the shifted global optimum, which is randomly distributed in [-80,80] D For convenience, the same search ranges are defined for all test functions as $[-100, 100]^{D}$
+\section{Benchmark Functions}
+In this section, we describe the IEEE-CEC2015 functions and their properties as a well-known benchmark adopted by many researchers to evaluate innovative ideas in solving complex optimization problems. 
+\subsection{Unimodal Functions}
+\subsubsection{Rotated Bent Cigar Function}
+\begin{equation}
+	f_{1}(x)=x_{1}^{2}+10^{6}\sum_{i=2}^{D}x_{i}^2
+\end{equation}
+\begin{equation}
+	F_{1}(x)=f_{1}(M(x-o_{1}))+F_{1}^{*}
+\end{equation}
+Properties:
 \begin{enumerate}
-\item {\textit{A Master’s thesis is an original lengthy essay.} The main implication here is that the essay is original, that is, it is completely newly written by you and does not contain any writings from others unless precisely quoted. Any paraphrased items must be cited.}
-\item {\textit{It must demonstrate that:}
-    \begin{itemize}
-    \item {students understand research methods;}
-    \item {students are capable to employ research methods;}
-    \item {students demonstrate command of the subject.}
-    \end{itemize}}
-\item {\textit{The work may be based on:}
-    \begin{itemize}
-    \item {original data;}
-    \item {original exercise from scholarly literature;}
-    \item {data by others.}
-    \end{itemize}}
-\item {\textit{The work must show that:}
-    \begin{itemize}
-    \item {appropriate research methods have been used;}
-    \item {appropriate methods of critical analysis supplied.}
-    \end{itemize}}
-\item {\textit{The work must contain:}
-    \begin{itemize}
-    \item {evidence of some new contribution;}
-    \item {evidence of a new perspective on existing knowledge.}
-    \end{itemize}}
+	\item Unimodal
+	\item Non-separable
+	\item Smooth but narrow ridge
 \end{enumerate}
 
-Only the last point uses the attribute \textit{new} and it refers almost entirely to giving a new perspective and analysis, even if based on data from others. This truly implies that this current chapter on evaluation and analysis of results is the most important and must be written with care. You are demonstrating here that, even if given data and methods from others, your skills of critical judgment and analysis are now at the level that you can give professional evaluations.
+\subsubsection{Rotated Discus Function}
+\begin{equation}
+	f_{2}(x)=10^{6}x_{1}^{2}+\sum_{i=2}^{D}x_{i}^2
+\end{equation}
+\begin{equation}
+	F_{2}(x)=f_{2}(M(x-o_{2}))+F_{2}^{*}
+\end{equation}
+Properties:
+\begin{enumerate}
+\item Unimodal
+\item Non-separable
+\item With one sensitive direction	
+\end{enumerate}
 
-Things are slightly different for a PhD. According to the Graduate Calendar: \\ 
-\textit{a doctoral dissertation must embody original work and constitute a significant contribution to knowledge in the candidate's field of study. It should contain evidence of broad knowledge of the relevant literature, and should demonstrate a critical understanding of the works of scholars closely related to the subject of the dissertation. Material embodied in the dissertation should, in the opinion of scholars in the field, merit publication.}
+\subsection{Simple Multimodal Functions}
+\subsubsection{Shifted and Rotated Weierstrass Function}
+\begin{equation}
+	f_{3}(x)=\sum_{i=1}^{D}(\sum_{k=0}^{kmax}[a^{k}\cos(2\pi b^{k}(x_{i}+0.5))])-D\sum_{k=0}^{kmax}[a^{k}\cos(2\pi b^{k}\cdot 0.5)]
+\end{equation}
+where a=0.5, b=3, and kmax=20.
+\begin{equation}
+	F_{3}(x)=f_{3}(M(\frac{0.5(x-o_{3})}{100}))+F_{3}^{*}
+\end{equation}
+Properties:
+\begin{enumerate}
+\item Multi-modal
+\item Non-separable
+\item Continuous but differentiable only on a set of points	
+\end{enumerate}
+\subsubsection{Shifted and Rotated Schwefel's Function}
+\begin{equation}
+	f_{4}(x)=418.9829 \times D - \sum_{i=1}^{D}g(z_{i}), z_{i}=x_{i}+4.209687462275036e+002
+\end{equation}
+\begin{equation}
+	F_{4}(x)=f_{4}(M(\frac{1000(x-o_{4})}{100}))+F_{4}^{*}
+\end{equation}
+Properties:
+\begin{enumerate}
+\item Multi-modal
+\item Non-separable
+\item Local optima's number is huge and second better local optimum is far from the global optimum.
+\end{enumerate}
 
-\textit{The general form and style of dissertations may differ from department to department, but all dissertations shall be presented in a form which constitutes an integrated submission. The dissertation may include materials already published by the candidate, whether alone or in conjunction with others. Previously published materials must be integrated into the dissertation while at the same time distinguishing the student's own work from the work of other researchers. At the final oral examination, the doctoral candidate is responsible for the entire content of the dissertation. This includes those portions of co-authored papers which comprise part of the dissertation.}
+\subsubsection{Shifted and Rotated Katsuura Function}
+\begin{equation}
+	f_{5}(x)=\frac{10}{D_{2}}\prod_{i=1}^{D}(1+i\sum_{j=1}^{32}\frac{|2^{j}x_{i}-rand(2^{j}x_{i})|}{2^{j}})^{\frac{10}{D^{1.2}}}-\frac{10}{D^{2}}
+\end{equation}
+\begin{equation}
+	F_{5}(x)=f_{5}(M(\frac{5(x-o_{5})}{100}))+F_{5}^{*}
+\end{equation}
+Properties:
+\begin{enumerate}
+	\item Multi-modal
+	\item Non-separable
+	\item Continuous everywhere yet differentiable nowhere
+\end{enumerate}
 
-The second paragraph makes it clear that one must emphasize what is new and different from others, without arrogance, yet without being too subtle either. The first paragraph implies that for a PhD it is required that one approached an important open problem and gave a new solution altogether, making chapters 3, 4, 5 all part of the body of research being evaluated. In fact at times even the problem may be entirely new, thus including chapter 2 in the examination. This is in contrast to a Master's degree where the minimum requirement is for chapter 5 to be original.
+\subsubsection{Shifted and Rotated HappyCat Function}
+\begin{equation}
+	f_{6}=|\sum_{i=1}^{D}x_{i}^2-D|^{0.25}+\frac{0.5\sum_{i=1}^{D}x_{i}^{2}+\sum_{i=1}^{D}x_{i}}{D+0.5}
+\end{equation}
+\begin{equation}
+	F_{6}(x)=f_{6}(M(\frac{5(x-o_{6})}{100}))+F_{6}^{*}
+\end{equation}
+Properties:
+\begin{enumerate}
+	\item Multi-modal
+	\item Non-separable	
+\end{enumerate}
 
+\subsubsection{Shifted and Rotated HGBat Function}
+\begin{equation}
+	f_{7}=|(\sum_{i=1}^{D}x_{i}^2)^{2}-(\sum_{i=1}^{D}x_{i})^{2}|^{0.25}+\frac{0.5\sum_{i=1}^{D}x_{i}^{2}+\sum_{i=1}^{D}x_{i}}{D+0.5}
+\end{equation}
+\begin{equation}
+	F_{7}(x)=f_{7}(M(\frac{5(x-o_{7})}{100}))+F_{7}^{*}
+\end{equation}
+Properties:
+\begin{enumerate}
+	\item Multi-modal
+	\item Non-separable	
+\end{enumerate}
 
+\subsubsection{Shifted and Rotated Expanded Griewank's plus Rosenbrock's Function}
+\begin{equation}
+	f_{8}(x)=f_{11}(f_{10}(x_{x_{1}, x_{2}}))+f_{11}(f_{10}(x_{x_{2}, x_{3}}))+\cdots+f_{11}(f_{10}(x_{x_{D-1}, x_{D}}))+f_{11}(f_{10}(x_{x_{D}, x_{1}}))
+\end{equation}
+\begin{equation}
+	F_{8}(x)=f_{8}(M(\frac{5(x-o_{8})}{100})+1)+F_{8}^{*}
+\end{equation}
+Properties:
+\begin{enumerate}
+	\item Multi-modal
+	\item Non-separable	
+\end{enumerate}
 
+\subsubsection{Shifted and Rotated Expanded Scaffer's F6 Function}
+\begin{equation}
+	g(x,y)=0.5+\dfrac{(\sin^{2}(\sqrt{x^{2}+y^{2}})-0.5}{(1+0.001(x^{2}+y^{2}))^{2}}
+\end{equation}
+\begin{equation}
+	f_{9}(x)=g(x_{1},x_{2})+g(x_{2},x_{3})+\cdots+g(x_{D-1},x_{D})+g(x_{D},x_{1})
+\end{equation}
+\begin{equation}
+	F_{9}(x)=f_{9}(M(x-o_{9})+1)+F_{9}^{*}
+\end{equation}
+Properties:
+\begin{enumerate}
+	\item Multi-modal
+	\item Non-separable
+\end{enumerate}
+
+\subsection{Hybrid Functions}
+\subsubsection{Hybrid Function 1}
+This function is a hybrid of three functions: Modified Schwefel's function, Rastrigin's function, and High Conditioned Elliptic function.
+\begin{equation}
+	F_{10}(x)=0.3\times F_{4}(x)+0.3\times F_{12}(x)+0.4\times F_{13}(x)
+\end{equation}
+
+\subsubsection{Hybrid Function 2}
+This function is a hybrid of 4 functions: Griewank's function, Weierstrass function, Rosenbrock?s function, and Scaffer?s F6 function.
+\begin{equation}
+	F_{11}(x)=0.2\times F_{11}(x)+0.2\times F_{3}(x)+0.3\times F_{10}(x)+0.3\times F_{9}(x)
+\end{equation}
+
+\subsubsection{Hybrid Function 3}
+This function is a hybrid of 5 functions: Katsuura function, HappyCat function, Expanded Griewank's plus Rosenbrock's function, Modified Schwefel's function, and Ackley's function.
+\begin{equation}
+	F_{12}(x)=0.1\times F_{5}(x)+0.2\times F_{6}(x)+0.2\times F_{8}(x)+0.2\times F_{4}(x)+0.3\times F_{14}(x)
+\end{equation}
+
+\subsection{Composite Functions}
+The general format of composite function is as follows:
+\begin{equation}
+	F(x)=\sum_{i=1}^{N}\{\omega_{i}\times [\lambda_{i}g_{i}(x)+bias_{i}]\}+f^{*}
+\end{equation}
+$F(x)$: 	composition function\newline
+$g_{i}(x)$:	$i^{th}$ basic function used to construct the composition function\newline
+$N$: 		number of basic functions\newline
+$o_{i}$: new shifted optimum position for each $g_{i}(x)$, define the global and local optima's position.\newline
+$bias_{i}$: defines which optimum is global optimum.\newline
+$\sigma_{i}$: used to control each $g_{i}(x)$'s coverage range, a small $\sigma_{i}$ give a narrow range for that $g_{i}(x)$\newline
+$\lambda_{i}$: used to control each $g_{i}(x)$'s height\newline
+$w_{i}$: weight value for each $g_{i}(x)$, calculated as follows:
+\begin{equation}
+	w_{i}=\dfrac{1}{\sqrt{\sum_{j=1}^{D}(x_{j}-o_{ij})^{2}}}\exp(-\dfrac{\sum_{j=1}^{D}(x_{j}-o_{ij})^2}{2D\sigma_{i}^{2}})
+\end{equation}
+Now, the value of $\omega_{i}$ weight is calculated as:
+\begin{equation}
+	\omega_{i}=\dfrac{w_{i}}{\sum_{i=1}^{n}w_{i}}
+\end{equation}
+
+\subsubsection{Composition Function 1}
+Five types of basic functions are combined to construct this function:\newline
+N= 5, \sigma = [10, 20, 30, 40, 50], \lambda = [1, 1e-6, 1e-26, 1e-6, 1e-6], bias = [0, 100, 200, 300, 400]\newline
+$g_{1}$ : Rotated Rosenbrock's Function $f_{10}$\newline
+$g_{2}$ : High Conditioned Elliptic Function $f_{13}$\newline
+$g_{3}$ : Rotated Bent Cigar Function $f_{1}$\newline
+$g_{4}$ : Rotated Discus Function $f_{2}$\newline
+$g_{5}$ : High Conditioned Elliptic Function $f{13}$\newline
+Properties: 
+\begin{enumerate}
+	\item Multi-modal
+	\item Non-separable
+	\item Asymmetrical
+	\item Different properties around different local optima
+\end{enumerate}
+\subsubsection{Composition Function 2}
+Three types of basic functions are combined to construct this function:\newline
+N = 3, \sigma = [10, 30, 50], \lambda = [0.25, 1, 1e-7], bias = [0, 100, 200]\newline
+$g_{1}$ : Rotated Schwefel's function $f_{4}$ \newline
+$g_{2}$ : Rotated Rastrigin's function $f_{12}$ \newline
+$g_{3}$ : Rotated High Conditioned Elliptic function $f_{13}$\newline
+Properties: 
+\begin{enumerate}
+	\item Multi-modal
+	\item Non-separable
+	\item Asymmetrical
+	\item Different properties around different local optima
+\end{enumerate}
+
+\subsubsection{Composition Function 3}
+Five types of basic functions are combined to construct this function:\newline
+N = 5, \sigma = [10, 10, 10, 20, 20], \lambda = [10, 10, 2.5, 25, 1e-6], bias = [0, 100, 200, 300, 400]\newline
+$g_{1}$ : Rotated HGBat Function $f_{7}$\newline
+$g_{2}$ : Rotated Rastrigin?s Function $f_{12}$\newline
+$g_{3}$ : Rotated Schwefel's Function $f_{4}$\newline
+$g_{4}$ : Rotated Weierstrass Function $f_{3}$\newline
+$g_{5}$ : Rotated High Conditioned Elliptic Function $f_{13}$\newline
+Properties:
+\begin{enumerate}
+\item Multi-modal
+\item Non-separable
+\item Asymmetrical
+\item Different properties around different local optima	
+\end{enumerate}
+
+\subsection{Parameters Settings}
+We used the same initial values for the parameters as presented in []:
+\begin{itemize}
+\item Population Size: 90
+\item Number of tribes: 10
+\item The  window-size for  applying  the  social  influence  with  restructuring  (Wsize): 20
+\item The proportion of the best agents to be sent to the belief space (Pa): 0.25
+\item The number of elites in each tribe (nelite): 2
+\item The threshold trigger  for  restructuring  (Mthresh): 50
+\item Tie-breaking rule (TieR): MFU
+\item The maximum number of function evaluations (MaxFES): 150000 %1.5×105
+\item The social factor (Sf)  is an integer value variable that takes a value between 0 and 3. Note that these figures correspond to topologies, lbest, von-Neumann,n-star-bus,  and  gbest.	
+\end{itemize}
+Here, we use MaxFES as a stopping criterion. There are 20 independent runs for each function. And each function is tested for 10 and 30 number of dimensions.
+
+%For a Master's research this chapter represents the critical part where \textbf{you} are truly evaluated to determine whether you should be given your degree. Even more so for a PhD. Consider carefully what the University calendar states regarding the expectations for a master's thesis, paraphrased here.
+%
+%\begin{enumerate}
+%\item {\textit{A Master’s thesis is an original lengthy essay.} The main implication here is that the essay is original, that is, it is completely newly written by you and does not contain any writings from others unless precisely quoted. Any paraphrased items must be cited.}
+%\item {\textit{It must demonstrate that:}
+%    \begin{itemize}
+%    \item {students understand research methods;}
+%    \item {students are capable to employ research methods;}
+%    \item {students demonstrate command of the subject.}
+%    \end{itemize}}
+%\item {\textit{The work may be based on:}
+%    \begin{itemize}
+%    \item {original data;}
+%    \item {original exercise from scholarly literature;}
+%    \item {data by others.}
+%    \end{itemize}}
+%\item {\textit{The work must show that:}
+%    \begin{itemize}
+%    \item {appropriate research methods have been used;}
+%    \item {appropriate methods of critical analysis supplied.}
+%    \end{itemize}}
+%\item {\textit{The work must contain:}
+%    \begin{itemize}
+%    \item {evidence of some new contribution;}
+%    \item {evidence of a new perspective on existing knowledge.}
+%    \end{itemize}}
+%\end{enumerate}
+%
+%Only the last point uses the attribute \textit{new} and it refers almost entirely to giving a new perspective and analysis, even if based on data from others. This truly implies that this current chapter on evaluation and analysis of results is the most important and must be written with care. You are demonstrating here that, even if given data and methods from others, your skills of critical judgment and analysis are now at the level that you can give professional evaluations.
+%
+%Things are slightly different for a PhD. According to the Graduate Calendar: \\ 
+%\textit{a doctoral dissertation must embody original work and constitute a significant contribution to knowledge in the candidate's field of study. It should contain evidence of broad knowledge of the relevant literature, and should demonstrate a critical understanding of the works of scholars closely related to the subject of the dissertation. Material embodied in the dissertation should, in the opinion of scholars in the field, merit publication.}
+%
+%\textit{The general form and style of dissertations may differ from department to department, but all dissertations shall be presented in a form which constitutes an integrated submission. The dissertation may include materials already published by the candidate, whether alone or in conjunction with others. Previously published materials must be integrated into the dissertation while at the same time distinguishing the student's own work from the work of other researchers. At the final oral examination, the doctoral candidate is responsible for the entire content of the dissertation. This includes those portions of co-authored papers which comprise part of the dissertation.}
+%
+%The second paragraph makes it clear that one must emphasize what is new and different from others, without arrogance, yet without being too subtle either. The first paragraph implies that for a PhD it is required that one approached an important open problem and gave a new solution altogether, making chapters 3, 4, 5 all part of the body of research being evaluated. In fact at times even the problem may be entirely new, thus including chapter 2 in the examination. This is in contrast to a Master's degree where the minimum requirement is for chapter 5 to be original.
+%
+%
+%
+%

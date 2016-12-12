@@ -35,7 +35,28 @@
 \contentsline {section}{\numberline {4.1}Self-organization}{25}
 \contentsline {section}{\numberline {4.2}Irregular Neighborhood Restructuring}{26}
 \contentsline {section}{\numberline {4.3}Confidence based Normative Knowledge Source}{27}
-\contentsline {chapter}{\numberline {5}Evaluation, Analysis and Comparisons}{30}
-\contentsline {chapter}{\numberline {6}Conclusions}{33}
-\contentsline {chapter}{\numberline {A}Additional Information}{35}
-\contentsline {chapter}{Bibliography}{36}
+\contentsline {chapter}{\numberline {5}Experimental Setup}{28}
+\contentsline {section}{\numberline {5.1}Description}{28}
+\contentsline {section}{\numberline {5.2}Benchmark Functions}{29}
+\contentsline {subsection}{\numberline {5.2.1}Unimodal Functions}{29}
+\contentsline {subsubsection}{Rotated Bent Cigar Function}{29}
+\contentsline {subsubsection}{Rotated Discus Function}{29}
+\contentsline {subsection}{\numberline {5.2.2}Simple Multimodal Functions}{30}
+\contentsline {subsubsection}{Shifted and Rotated Weierstrass Function}{30}
+\contentsline {subsubsection}{Shifted and Rotated Schwefel's Function}{30}
+\contentsline {subsubsection}{Shifted and Rotated Katsuura Function}{30}
+\contentsline {subsubsection}{Shifted and Rotated HappyCat Function}{31}
+\contentsline {subsubsection}{Shifted and Rotated HGBat Function}{31}
+\contentsline {subsubsection}{Shifted and Rotated Expanded Griewank's plus Rosenbrock's Function}{32}
+\contentsline {subsubsection}{Shifted and Rotated Expanded Scaffer's F6 Function}{32}
+\contentsline {subsection}{\numberline {5.2.3}Hybrid Functions}{32}
+\contentsline {subsubsection}{Hybrid Function 1}{32}
+\contentsline {subsubsection}{Hybrid Function 2}{33}
+\contentsline {subsubsection}{Hybrid Function 3}{33}
+\contentsline {subsection}{\numberline {5.2.4}Composite Functions}{33}
+\contentsline {subsubsection}{Composition Function 1}{34}
+\contentsline {subsubsection}{Composition Function 2}{34}
+\contentsline {subsubsection}{Composition Function 3}{35}
+\contentsline {subsection}{\numberline {5.2.5}Parameters Settings}{35}
+\contentsline {chapter}{\numberline {A}Additional Information}{37}
+\contentsline {chapter}{Bibliography}{38}
