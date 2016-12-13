@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  11 DEC 2016 23:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  12 DEC 2016 22:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -472,28 +472,11 @@ Chapter 1.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 14--16
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-[2]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.20 \section
-             {Thesis Outline}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.20 \section
-             {Thesis Outline}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-)) [3]
+[2])) [3]
 \openout2 = `chapters/2/chapter_problem.aux'.
 
  (./chapters/2/chapter_problem.tex
@@ -504,22 +487,36 @@ Chapter 2.
 
 
 ] [5] [6]
-Overfull \hbox (0.20197pt too wide) in paragraph at lines 17--20
+Overfull \hbox (0.20197pt too wide) in paragraph at lines 18--21
 \OT1/cmr/m/n/12 The au-thors of [] aimed at com-mer-cial-iz-ing Cul-tural Al-go
 -rithm Toolkit (CAT) thourgh
  []
 
 [7]
-Overfull \hbox (22.45273pt too wide) in paragraph at lines 26--26
+Overfull \hbox (22.45273pt too wide) in paragraph at lines 27--27
 []\OT1/cmr/bx/n/14.4 Socio-Cultural Evo-lu-tion via Neighborhood-Restructuring
  []
 
-[8] [9] [10] [11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 58--64
+[8] [9] [10] [11] [12] [13] [14]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \newline
+             ------------------------------\newline
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-[13] [14]) [15]
+) [15]
 \openout2 = `chapters/3/chapter_new.aux'.
 
  (./chapters/3/chapter_new.tex
@@ -756,7 +753,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  4726 strings out of 493029
  64876 string characters out of 6136234
- 150284 words of memory out of 5000000
+ 151284 words of memory out of 5000000
  8071 multiletter control sequences out of 15000+600000
  12370 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -773,7 +770,7 @@ fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 
-Output written on mainthesisUVIC.pdf (48 pages, 209919 bytes).
+Output written on mainthesisUVIC.pdf (48 pages, 210869 bytes).
 PDF statistics:
  208 PDF objects out of 1000 (max. 8388607)
  144 compressed objects within 2 object streams
