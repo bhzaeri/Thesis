@@ -59,5 +59,9 @@
 \contentsline {subsubsection}{Composition Function 2}{34}
 \contentsline {subsubsection}{Composition Function 3}{35}
 \contentsline {section}{\numberline {5.3}Parameters Settings}{35}
-\contentsline {chapter}{\numberline {A}Additional Information}{37}
-\contentsline {chapter}{Bibliography}{38}
+\contentsline {chapter}{\numberline {6}Evaluation, Analysis and Comparisons}{37}
+\contentsline {section}{\numberline {6.1}Function 1: Bent Cigar Function}{37}
+\contentsline {section}{\numberline {6.2}Function 2: Discus Function}{38}
+\contentsline {section}{\numberline {6.3}Function 3: Weierstrass Function}{38}
+\contentsline {chapter}{\numberline {A}Additional Information}{40}
+\contentsline {chapter}{Bibliography}{41}

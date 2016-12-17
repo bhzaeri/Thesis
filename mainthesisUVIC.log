@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  12 DEC 2016 22:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  14 DEC 2016 14:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -295,7 +295,23 @@ Package csquotes Info: ... none found.
 (./mainthesisUVIC.aux (./chapters/1/chapter_intro.aux)
 (./chapters/2/chapter_problem.aux) (./chapters/3/chapter_new.aux)
 (./chapters/4/chapter_experiments.aux) (./chapters/5/chapter_evaluation.aux)
-(./chapters/6/chapter_conclusion.aux) (./chapters/appendix/chapter_app.aux))
+(./chapters/6/chapter_evaluation.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+) (./chapters/appendix/chapter_app.aux))
 \openout1 = `mainthesisUVIC.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -724,37 +740,49 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 [35]) [36]
-\openout2 = `chapters/6/chapter_conclusion.aux'.
+\openout2 = `chapters/6/chapter_evaluation.aux'.
+
+ (./chapters/6/chapter_evaluation.tex
+Chapter 6.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-No file chapters/6/chapter_conclusion.tex.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[37
+
+
+
+]) [38] [39]
 \openout2 = `chapters/appendix/chapter_app.aux'.
 
-(./chapters/appendix/chapter_app.tex
+ (./chapters/appendix/chapter_app.tex
 Appendix A.
-) [37
+) [40
 
 
 
-
-
-] (./mainthesisUVIC.bbl) [38
+] (./mainthesisUVIC.bbl) [41
 
 
 ] (./mainthesisUVIC.aux
 (./chapters/1/chapter_intro.aux) (./chapters/2/chapter_problem.aux)
 (./chapters/3/chapter_new.aux) (./chapters/4/chapter_experiments.aux)
-(./chapters/5/chapter_evaluation.aux) (./chapters/6/chapter_conclusion.aux)
+(./chapters/5/chapter_evaluation.aux) (./chapters/6/chapter_evaluation.aux)
 (./chapters/appendix/chapter_app.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 4726 strings out of 493029
- 64876 string characters out of 6136234
- 151284 words of memory out of 5000000
- 8071 multiletter control sequences out of 15000+600000
+ 4729 strings out of 493029
+ 64944 string characters out of 6136234
+ 151342 words of memory out of 5000000
+ 8073 multiletter control sequences out of 15000+600000
  12370 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,45p,1715b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -770,10 +798,10 @@ fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 
-Output written on mainthesisUVIC.pdf (48 pages, 210869 bytes).
+Output written on mainthesisUVIC.pdf (51 pages, 215110 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
+ 218 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
