@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  14 DEC 2016 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  17 DEC 2016 20:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -264,7 +264,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen123
 \Gin@req@width=\dimen124
-))
+)
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
 
@@ -288,14 +288,33 @@ Package csquotes Info: ... configuration file loaded successfully.
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
-))
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count118
+\float@exts=\toks30
+\float@box=\box32
+\@float@everytoks=\toks31
+\@floatcapt=\box33
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
+ (./mainthesisUVIC.aux (./chapters/1/chapter_intro.aux) (./chapters/2/chapter_p
+roblem.aux)
+(./chapters/3/chapter_new.aux) (./chapters/4/chapter_experiments.aux)
+(./chapters/5/chapter_evaluation.aux) (./chapters/6/chapter_evaluation.aux
 
-(./mainthesisUVIC.aux (./chapters/1/chapter_intro.aux)
-(./chapters/2/chapter_problem.aux) (./chapters/3/chapter_new.aux)
-(./chapters/4/chapter_experiments.aux) (./chapters/5/chapter_evaluation.aux)
-(./chapters/6/chapter_evaluation.aux
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -311,7 +330,67 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
-) (./chapters/appendix/chapter_app.aux))
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+) (./chapters/7/chapter_conclusion.aux) (./chapters/appendix/chapter_app.aux))
 \openout1 = `mainthesisUVIC.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -363,17 +442,17 @@ LaTeX Font Info:    ... okay on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count118
+\scratchcounter=\count119
 \scratchdimen=\dimen125
-\scratchbox=\box32
-\nofMPsegments=\count119
-\nofMParguments=\count120
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count121
+\scratchbox=\box34
+\nofMPsegments=\count120
+\nofMParguments=\count121
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count122
 \MPscratchDim=\dimen126
-\MPnumerator=\count122
-\makeMPintoPDFobject=\count123
-\everyMPtoPDFconversion=\toks31
+\MPnumerator=\count123
+\makeMPintoPDFobject=\count124
+\everyMPtoPDFconversion=\toks33
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -465,20 +544,20 @@ Overfull \hbox (2.09216pt too wide) in paragraph at lines 18--18
 ng in In- 
  []
 
-[5])
+[5] [6])
 \tf@toc=\write3
 \openout3 = `mainthesisUVIC.toc'.
 
- [6] (./mainthesisUVIC.lot)
+ [7] (./mainthesisUVIC.lot [8])
 \tf@lot=\write4
 \openout4 = `mainthesisUVIC.lot'.
 
- [7] (./mainthesisUVIC.lof)
+ [9] (./mainthesisUVIC.lof [10])
 \tf@lof=\write5
 \openout5 = `mainthesisUVIC.lof'.
 
 
-(./frontmatter/ack.tex [8]) (./frontmatter/ded.tex [9]) [10])
+(./frontmatter/ack.tex [11]) (./frontmatter/ded.tex [12]) [13])
 \openout2 = `chapters/1/chapter_intro.aux'.
 
 
@@ -744,33 +823,319 @@ you left one out. Proceed, with fingers crossed.
 
  (./chapters/6/chapter_evaluation.tex
 Chapter 6.
+<Figures/func1_10.jpeg, id=170, 626.34pt x 432.11438pt>
+File: Figures/func1_10.jpeg Graphic file (type jpg)
+
+<use Figures/func1_10.jpeg>
+Package pdftex.def Info: Figures/func1_10.jpeg used on input line 21.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+ [37
+
+
+
+]
+<Figures/func1_30.jpeg, id=174, 626.34pt x 432.11438pt>
+File: Figures/func1_30.jpeg Graphic file (type jpg)
+
+<use Figures/func1_30.jpeg>
+Package pdftex.def Info: Figures/func1_30.jpeg used on input line 39.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+ [38 <./Figures/func1_10.jpeg>]
+<Figures/func2_10.jpeg, id=179, 626.34pt x 432.11438pt>
+File: Figures/func2_10.jpeg Graphic file (type jpg)
+
+<use Figures/func2_10.jpeg>
+Package pdftex.def Info: Figures/func2_10.jpeg used on input line 61.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/func2_30.jpeg, id=180, 626.34pt x 432.11438pt>
+File: Figures/func2_30.jpeg Graphic file (type jpg)
+
+<use Figures/func2_30.jpeg>
+Package pdftex.def Info: Figures/func2_30.jpeg used on input line 79.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+ [39 <./Figures/func1_30.jpeg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/func3_10.jpeg, id=184, 626.34pt x 432.11438pt>
+File: Figures/func3_10.jpeg Graphic file (type jpg)
+
+<use Figures/func3_10.jpeg>
+Package pdftex.def Info: Figures/func3_10.jpeg used on input line 101.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37
+<Figures/func3_30.jpeg, id=185, 626.34pt x 432.11438pt>
+File: Figures/func3_30.jpeg Graphic file (type jpg)
+
+<use Figures/func3_30.jpeg>
+Package pdftex.def Info: Figures/func3_30.jpeg used on input line 120.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+ [40 <./Figures/func2_10.jpeg> <./Figures/func2_30.jpeg>] [41 <./Figures/func3_
+10.jpeg> <./Figures/func3_30.jpeg>]
+<Figures/func4_10.jpeg, id=192, 626.34pt x 432.11438pt>
+File: Figures/func4_10.jpeg Graphic file (type jpg)
+
+<use Figures/func4_10.jpeg>
+Package pdftex.def Info: Figures/func4_10.jpeg used on input line 142.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: File `func4_30' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162 	\includegraphics[scale=0.5]{func4_30}
+                                            
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[42 <./Figures/func4_10.jpeg>]
+<Figures/func5_10.jpeg, id=197, 626.34pt x 432.11438pt>
+File: Figures/func5_10.jpeg Graphic file (type jpg)
+
+<use Figures/func5_10.jpeg>
+Package pdftex.def Info: Figures/func5_10.jpeg used on input line 184.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/func5_30.jpeg, id=198, 626.34pt x 432.11438pt>
+File: Figures/func5_30.jpeg Graphic file (type jpg)
+
+<use Figures/func5_30.jpeg>
+Package pdftex.def Info: Figures/func5_30.jpeg used on input line 203.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+ [43 <./Figures/func5_10.jpeg>] [44 <./Figures/func5_30.jpeg>] <Figures/func6_1
+0.jpeg, id=205, 626.34pt x 432.11438pt>
+File: Figures/func6_10.jpeg Graphic file (type jpg)
+
+<use Figures/func6_10.jpeg>
+Package pdftex.def Info: Figures/func6_10.jpeg used on input line 227.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+
+<Figures/func6_30.jpeg, id=206, 626.34pt x 432.11438pt>
+File: Figures/func6_30.jpeg Graphic file (type jpg)
+
+<use Figures/func6_30.jpeg>
+Package pdftex.def Info: Figures/func6_30.jpeg used on input line 246.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+ [45 <./Figures/func6_10.jpeg>] [46 <./Figures/func6_30.jpeg>] <Figures/func7_1
+0.jpeg, id=213, 626.34pt x 432.11438pt>
+File: Figures/func7_10.jpeg Graphic file (type jpg)
+
+<use Figures/func7_10.jpeg>
+Package pdftex.def Info: Figures/func7_10.jpeg used on input line 270.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+
+<Figures/func7_30.jpeg, id=214, 626.34pt x 432.11438pt>
+File: Figures/func7_30.jpeg Graphic file (type jpg)
+
+<use Figures/func7_30.jpeg>
+Package pdftex.def Info: Figures/func7_30.jpeg used on input line 289.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+ [47 <./Figures/func7_10.jpeg>]
+Overfull \hbox (12.94173pt too wide) in paragraph at lines 295--295
+[]\OT1/cmr/bx/n/17.28 Function 8: Griewank's plus Rosen-brock's Func-
+ []
+
+<Figures/func8_10.jpeg, id=218, 626.34pt x 432.11438pt>
+File: Figures/func8_10.jpeg Graphic file (type jpg)
+
+<use Figures/func8_10.jpeg>
+Package pdftex.def Info: Figures/func8_10.jpeg used on input line 311.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/func8_30.jpeg, id=219, 626.34pt x 432.11438pt>
+File: Figures/func8_30.jpeg Graphic file (type jpg)
+
+<use Figures/func8_30.jpeg>
+Package pdftex.def Info: Figures/func8_30.jpeg used on input line 330.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+ [48 <./Figures/func7_30.jpeg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/func9_10.jpeg, id=224, 626.34pt x 432.11438pt>
+File: Figures/func9_10.jpeg Graphic file (type jpg)
+
+<use Figures/func9_10.jpeg>
+Package pdftex.def Info: Figures/func9_10.jpeg used on input line 352.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/func9_30.jpeg, id=225, 626.34pt x 432.11438pt>
+File: Figures/func9_30.jpeg Graphic file (type jpg)
+
+<use Figures/func9_30.jpeg>
+Package pdftex.def Info: Figures/func9_30.jpeg used on input line 371.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+ [49 <./Figures/func8_10.jpeg> <./Figures/func8_30.jpeg>] [50 <./Figures/func9_
+10.jpeg> <./Figures/func9_30.jpeg>]
+<Figures/func10_10.jpeg, id=232, 626.34pt x 432.11438pt>
+File: Figures/func10_10.jpeg Graphic file (type jpg)
+
+<use Figures/func10_10.jpeg>
+Package pdftex.def Info: Figures/func10_10.jpeg used on input line 393.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/func10_30.jpeg, id=233, 626.34pt x 432.11438pt>
+File: Figures/func10_30.jpeg Graphic file (type jpg)
+
+<use Figures/func10_30.jpeg>
+Package pdftex.def Info: Figures/func10_30.jpeg used on input line 412.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+ [51 <./Figures/func10_10.jpeg>]
+<Figures/func11_10.jpeg, id=237, 626.34pt x 432.11438pt>
+File: Figures/func11_10.jpeg Graphic file (type jpg)
+
+<use Figures/func11_10.jpeg>
+Package pdftex.def Info: Figures/func11_10.jpeg used on input line 434.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/func11_30.jpeg, id=238, 626.34pt x 432.11438pt>
+File: Figures/func11_30.jpeg Graphic file (type jpg)
+
+<use Figures/func11_30.jpeg>
+Package pdftex.def Info: Figures/func11_30.jpeg used on input line 453.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+ [52 <./Figures/func10_30.jpeg>] [53 <./Figures/func11_10.jpeg> <./Figures/func
+11_30.jpeg>]
+<Figures/func12_10.jpeg, id=245, 626.34pt x 432.11438pt>
+File: Figures/func12_10.jpeg Graphic file (type jpg)
+
+<use Figures/func12_10.jpeg>
+Package pdftex.def Info: Figures/func12_10.jpeg used on input line 475.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+
+<Figures/func12_30.jpeg, id=246, 626.34pt x 432.11438pt>
+File: Figures/func12_30.jpeg Graphic file (type jpg)
+
+<use Figures/func12_30.jpeg>
+Package pdftex.def Info: Figures/func12_30.jpeg used on input line 494.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+ [54 <./Figures/func12_10.jpeg>]
+<Figures/func13_10.jpeg, id=251, 626.34pt x 432.11438pt>
+File: Figures/func13_10.jpeg Graphic file (type jpg)
+
+<use Figures/func13_10.jpeg>
+Package pdftex.def Info: Figures/func13_10.jpeg used on input line 516.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/func13_30.jpeg, id=252, 626.34pt x 432.11438pt>
+File: Figures/func13_30.jpeg Graphic file (type jpg)
+
+<use Figures/func13_30.jpeg>
+Package pdftex.def Info: Figures/func13_30.jpeg used on input line 535.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+ [55 <./Figures/func12_30.jpeg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/func14_10.jpeg, id=256, 626.34pt x 432.11438pt>
+File: Figures/func14_10.jpeg Graphic file (type jpg)
+
+<use Figures/func14_10.jpeg>
+Package pdftex.def Info: Figures/func14_10.jpeg used on input line 557.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/func14_30.jpeg, id=257, 626.34pt x 432.11438pt>
+File: Figures/func14_30.jpeg Graphic file (type jpg)
+
+<use Figures/func14_30.jpeg>
+Package pdftex.def Info: Figures/func14_30.jpeg used on input line 576.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+ [56 <./Figures/func13_10.jpeg> <./Figures/func13_30.jpeg>] [57 <./Figures/func
+14_10.jpeg> <./Figures/func14_30.jpeg>]
+<Figures/func15_10.jpeg, id=264, 626.34pt x 432.11438pt>
+File: Figures/func15_10.jpeg Graphic file (type jpg)
+
+<use Figures/func15_10.jpeg>
+Package pdftex.def Info: Figures/func15_10.jpeg used on input line 598.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/func15_30.jpeg, id=265, 626.34pt x 432.11438pt>
+File: Figures/func15_30.jpeg Graphic file (type jpg)
+
+<use Figures/func15_30.jpeg>
+Package pdftex.def Info: Figures/func15_30.jpeg used on input line 617.
+(pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+ [58 <./Figures/func15_10.jpeg>]) [59 <./Figures/func15_30.jpeg>]
+\openout2 = `chapters/7/chapter_conclusion.aux'.
+
+ (./chapters/7/chapter_conclusion.tex
+Chapter 7.
+
+LaTeX Warning: Citation `ali2016leveraged' on page 60 undefined on input line 5
+.
+
+[60
 
 
 
-]) [38] [39]
+]) [61]
 \openout2 = `chapters/appendix/chapter_app.aux'.
 
  (./chapters/appendix/chapter_app.tex
 Appendix A.
-) [40
+) [62
 
 
 
-] (./mainthesisUVIC.bbl) [41
+] (./mainthesisUVIC.bbl) [63
 
 
 ] (./mainthesisUVIC.aux
 (./chapters/1/chapter_intro.aux) (./chapters/2/chapter_problem.aux)
 (./chapters/3/chapter_new.aux) (./chapters/4/chapter_experiments.aux)
 (./chapters/5/chapter_evaluation.aux) (./chapters/6/chapter_evaluation.aux)
-(./chapters/appendix/chapter_app.aux))
+(./chapters/7/chapter_conclusion.aux) (./chapters/appendix/chapter_app.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -779,10 +1144,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4729 strings out of 493029
- 64944 string characters out of 6136234
- 151342 words of memory out of 5000000
- 8073 multiletter control sequences out of 15000+600000
+ 4990 strings out of 493029
+ 69909 string characters out of 6136234
+ 153552 words of memory out of 5000000
+ 8278 multiletter control sequences out of 15000+600000
  12370 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,45p,1715b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -798,10 +1163,10 @@ fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 
-Output written on mainthesisUVIC.pdf (51 pages, 215110 bytes).
+Output written on mainthesisUVIC.pdf (76 pages, 3919290 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 151 compressed objects within 2 object streams
+ 328 PDF objects out of 1000 (max. 8388607)
+ 206 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
