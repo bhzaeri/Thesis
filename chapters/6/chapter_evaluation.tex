@@ -2,9 +2,10 @@
 \startchapter{Evaluation, Analysis and Comparisons}
 \label{chapter:eval2}
 In this chapter, we present a detailed comparison of our two approaches: Irregular neighborhood restructuring (ISFCA) and Confidence-based normative knowledge source (CSFCA) with other methods. We chose the standard social fabric algorithm [ref] and Tribe-PSO [ref] for the purpose of comparison, as both of them utilize social structures and a tribal approach. 
-
+\newline
+We compare the approaches on each function with 10 and 30 dimensions. For each function, an overall comparison is presented regarding mean, median, best, and standard deviation (StdDev). Then, average fitness values of 10 experiments with different random generator settings are presented.
 \section{Function 1: Bent Cigar Function}
-sAY HI...
+In table \ref{tbl1_10} and figure \ref{func1_10}, we can see that both of our approaches (ISFCA and CSFCA) and TPSO outperform the standard SFCA impressively with 98\% and 55\% for optimization of 10 dimensions. In the case of 30-dimension optimization, ISFCA and CSFCA perform with 60\% and 42\% improvement respectively. 
 \begin{table}[H]
 	\caption{function-1, dimension-10}
 	\begin{tabular}{|c|c|c|c|c|}
@@ -15,13 +16,13 @@ sAY HI...
 		\textbf{Best} & 5.711750E+06 & 9.279149E+05 & 9.908642E+08 & 5.415067E+05 \\ \hline
 		\textbf{StdDev} & 3.066335E+08 & 6.639431E+09 & 8.500530E+09 & 3.993037E+08 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl1_10}
 \end{table}
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{func1_10}
 	\centering
 	\caption{Average fitness values for Function 1 with 10 dimensions}
-	\label{ref:func1_10}
+	\label{func1_10}
 \end{figure}
 \begin{table}[H]
 	\caption{function-1, dimension-30}
@@ -33,18 +34,19 @@ sAY HI...
 		\textbf{Best} & 1.075684E+10 & 3.249525E+08 & 8.929425E+09 & 1.136511E+10 \\ \hline
 		\textbf{StdDev} & 6.549615E+09 & 2.551255E+10 & 2.853221E+10 & 7.102879E+09 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl1_30}
 \end{table}
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{func1_30}
 	\centering
 	\caption{Average fitness values for Function 1 with 30 dimensions}
-	\label{ref:func1_30}
+	\label{func1_30}
 \end{figure}
 
 %\newpage
 
 \section{Function 2: Discus Function}
+As we can see in the table \ref{tbl2_10} and \ref{func2_10}, for 10-dimension optimization, ISFCA and CSFCA improve by 99\% and 42\% on the function 2. As explained in table \ref{tbl2_30} and \ref{func2_30}, they outperform the standard algorithm by 99\% and 95\% for 30-diemension optimization. 
 \begin{table}[h]
 	\caption{function-2, dimension-10}
 	\begin{tabular}{|c|c|c|c|c|}
@@ -55,13 +57,13 @@ sAY HI...
 		\textbf{Best} & 1.690419E+04 & 1.426333E+04 & 2.467511E+04 & 1.722714E+04 \\ \hline
 		\textbf{StdDev} & 5.285568E+03 & 4.083561E+09 & 4.508859E+09 & 5.505069E+03 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl2_10}
 \end{table}
 \begin{figure}[h]
 	\includegraphics[scale=0.5]{func2_10}
 	\centering
 	\caption{Average fitness values for Function 2 with 10 dimensions}
-	\label{ref:func2_10}
+	\label{func2_10}
 \end{figure}
 \begin{table}[h]
 	\caption{function-2, dimension-30}
@@ -73,17 +75,17 @@ sAY HI...
 		\textbf{Best} & 6.816396E+04 & 5.556673E+04 & 7.322705E+04 & 1.112664E+05 \\ \hline
 		\textbf{StdDev} & 1.112414E+04 & 2.214664E+08 & 4.323029E+09 & 1.359207E+04 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl2_30}
 \end{table}
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{func2_30}
 	\centering
 	\caption{Average fitness values for Function 2 with 30 dimensions}
-	\label{ref:func2_30}
+	\label{func2_30}
 \end{figure}
 
 \section{Function 3: Weierstrass Function}
-sAY HI...
+As you can see in Tables \ref{tbl3_10} and \ref{tbl3_30} and Figures \ref{func3_10} and \ref{func3_30}, the improvement of our approaches is trivial. However, it is still better than SFCA.
 \begin{table}[h]
 	\caption{function-3, dimension-10}
 	\begin{tabular}{|c|c|c|c|c|}
@@ -94,14 +96,14 @@ sAY HI...
 		\textbf{Best} & 3.047026E+02 & 3.075572E+02 & 3.086619E+02 & 3.055813E+02 \\ \hline
 		\textbf{StdDev} & 9.238688E-01 & 2.153735E+00 & 2.160320E+00 & 9.113892E-01 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl3_10}
 \end{table}
 
 \begin{figure}[h]
 	\includegraphics[scale=0.5]{func3_10}
 	\centering
 	\caption{Average fitness values for Function 3 with 10 dimensions}
-	\label{ref:func3_10}
+	\label{func3_10}
 \end{figure}
 
 \begin{table}[h]
@@ -114,17 +116,17 @@ sAY HI...
 		\textbf{Best} & 3.274619E+02 & 3.352212E+02 & 3.360418E+02 & 3.275333E+02 \\ \hline
 		\textbf{StdDev} & 3.242337E+00 & 4.748334E+00 & 4.694844E+00 & 3.905358E+00 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl3_30}
 \end{table}
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{func3_30}
 	\centering
 	\caption{Average fitness values for Function 3 with 30 dimensions}
-	\label{ref:func3_30}
+	\label{func3_30}
 \end{figure}
 
 \section{Function 4: Modified Schwefel's Function}
-sAY HI...
+Table \ref{tbl4_10} and figure \ref{func4_10} show that in the case 10-dimension optimizatoin, ISFCA performs better by 18\% and CSFCA by 19\%. However, for the 30-dimension case, only CSFCA outperform SFCA by 21\% as shown in Table \ref{tbl4_30} and Figure \ref{func4_30}.
 \begin{table}[h]
 	\caption{function-4, dimension-10}
 	\begin{tabular}{|c|c|c|c|c|}
@@ -135,14 +137,14 @@ sAY HI...
 		\textbf{Best} & 1.249122E+03 & 6.135802E+02 & 8.405862E+02 & 1.201363E+03 \\ \hline
 		\textbf{StdDev} & 1.709634E+02 & 8.047924E+02 & 8.388958E+02 & 2.174364E+02 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl4_10}
 \end{table}
 
 \begin{figure}[h]
 	\includegraphics[scale=0.5]{func4_10}
 	\centering
 	\caption{Average fitness values for Function 4 with 10 dimensions}
-	\label{ref:func4_10}
+	\label{func4_10}
 \end{figure}
 
 \begin{table}[h]
@@ -155,18 +157,18 @@ sAY HI...
 		\textbf{Best} & 6.625647E+03 & 1.377132E+03 & 3.463489E+03 & 6.882440E+03 \\ \hline
 		\textbf{StdDev} & 4.205720E+02 & 3.054933E+03 & 2.436783E+03 & 4.387157E+02 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl4_30}
 \end{table}
 
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{func4_30}
 	\centering
 	\caption{Average fitness values for Function 4 with 30 dimensions}
-	\label{ref:func4_30}
+	\label{func4_30}
 \end{figure}
 
 \section{Function 5: Katsuura Function}
-sAY HI...
+As you can in Tables \ref{tbl5_10} and \ref{tbl5_30} and Figures \ref{func5_10} and \ref{func5_30}, the results of all the approaches are almost the same.
 \begin{table}[h]
 	\caption{function-5, dimension-10}
 	\begin{tabular}{|c|c|c|c|c|}
@@ -177,14 +179,14 @@ sAY HI...
 		\textbf{Best} & 5.010726E+02 & 5.007002E+02 & 5.011836E+02 & 5.011289E+02 \\ \hline
 		\textbf{StdDev} & 2.684750E-01 & 1.132619E+00 & 1.339239E+00 & 2.057213E-01 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl5_10}
 \end{table}
 
 \begin{figure}[h]
 	\includegraphics[scale=0.5]{func5_10}
 	\centering
 	\caption{Average fitness values for Function 5 with 10 dimensions}
-	\label{ref:func5_10}
+	\label{func5_10}
 \end{figure}
 
 \begin{table}[h]
@@ -197,19 +199,19 @@ sAY HI...
 		\textbf{Best} & 5.028153E+02 & 5.016618E+02 & 5.020560E+02 & 5.026209E+02 \\ \hline
 		\textbf{StdDev} & 3.548877E-01 & 1.669277E+00 & 1.678840E+00 & 3.015601E-01 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl5_30}
 \end{table}
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{func5_30}
 	\centering
 	\caption{Average fitness values for Function 5 with 30 dimensions}
-	\label{ref:func5_30}
+	\label{func5_30}
 \end{figure}
 
 \newpage
 
 \section{Function 6: HappyCat Function}
-sAY HI...
+As you can see in Tables \ref{tbl6_10} and \ref{tbl6_30} and Figures \ref{func6_10} and \ref{func6_10}, the improvement of our approaches is trivial.
 \begin{table}[h]
 	\caption{function-6, dimension-10}
 	\begin{tabular}{|c|c|c|c|c|}
@@ -220,14 +222,14 @@ sAY HI...
 		\textbf{Best} & 6.004334E+02 & 6.005685E+02 & 6.018524E+02 & 6.005062E+02 \\ \hline
 		\textbf{StdDev} & 3.200289E-01 & 2.304279E+00 & 1.898523E+00 & 6.229300E-01 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl6_10}
 \end{table}
 
 \begin{figure}[h]
 	\includegraphics[scale=0.5]{func6_10}
 	\centering
 	\caption{Average fitness values for Function 6 with 10 dimensions}
-	\label{ref:func6_10}
+	\label{func6_10}
 \end{figure}
 
 \begin{table}[h]
@@ -240,19 +242,19 @@ sAY HI...
 		\textbf{Best} & 6.024192E+02 & 6.010681E+02 & 6.041570E+02 & 6.010077E+02 \\ \hline
 		\textbf{StdDev} & 7.579661E-01 & 2.740738E+00 & 1.433152E+00 & 1.224478E+00 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl6_30}
 \end{table}
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{func6_30}
 	\centering
 	\caption{Average fitness values for Function 6 with 30 dimensions}
-	\label{ref:func6_30}
+	\label{func6_30}
 \end{figure}
 
 \newpage
 
 \section{Function 7: HGBat Function}
-sAY HI...
+As you can see in Tables \ref{tbl7_10} and \ref{tbl7_30} and Figures \ref{func7_10} and \ref{func7_10}, the improvement of our approaches is not so much. In the case of 10-dimension optimization, it is about 5\% and for the 30-dimension case, it is about 9\%. 
 \begin{table}[h]
 	\caption{function-7, dimension-10}
 	\begin{tabular}{|c|c|c|c|c|}
@@ -263,14 +265,14 @@ sAY HI...
 		\textbf{Best} & 7.006188E+02 & 7.007965E+02 & 7.100632E+02 & 7.004902E+02 \\ \hline
 		\textbf{StdDev} & 2.635216E+00 & 3.539268E+01 & 3.490056E+01 & 5.486938E+00 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl7_10}
 \end{table}
 
 \begin{figure}[h]
 	\includegraphics[scale=0.5]{func7_10}
 	\centering
 	\caption{Average fitness values for Function 7 with 10 dimensions}
-	\label{ref:func7_10}
+	\label{func7_10}
 \end{figure}
 
 \begin{table}[h]
@@ -283,17 +285,17 @@ sAY HI...
 		\textbf{Best} & 7.271223E+02 & 7.024000E+02 & 7.544377E+02 & 7.262179E+02 \\ \hline
 		\textbf{StdDev} & 1.569694E+01 & 5.981939E+01 & 5.740507E+01 & 2.791729E+01 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl7_30}
 \end{table}
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{func7_30}
 	\centering
 	\caption{Average fitness values for Function 7 with 30 dimensions}
-	\label{ref:func7_30}
+	\label{func7_30}
 \end{figure}
 
 \section{Function 8: Griewank's plus Rosenbrock's Function}
-sAY HI...
+In table \ref{tbl8_10} and figure \ref{func8_10}, we can see that both of our approaches (ISFCA and CSFCA) and TPSO outperform the standard SFCA impressively with 99\% and 77\% for optimization of 10 dimensions. In the case of 30-dimension optimization, ISFCA and CSFCA perform with 97\% and 52\% improvement respectively as shown in Table \ref{tbl8_30} and Figure \ref{func8_30}. 
 \begin{table}[h]
 	\caption{function-8, dimension-10}
 	\begin{tabular}{|c|c|c|c|c|}
@@ -304,14 +306,14 @@ sAY HI...
 		\textbf{Best} & 8.060488E+02 & 8.475602E+02 & 4.118304E+03 & 8.057399E+02 \\ \hline
 		\textbf{StdDev} & 1.428379E+02 & 5.970746E+05 & 1.940514E+06 & 7.254239E+01 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl8_10}
 \end{table}
 
 \begin{figure}[h]
 	\includegraphics[scale=0.5]{func8_10}
 	\centering
 	\caption{Average fitness values for Function 8 with 10 dimensions}
-	\label{ref:func8_10}
+	\label{func8_10}
 \end{figure}
 
 \begin{table}[h]
@@ -324,17 +326,17 @@ sAY HI...
 		\textbf{Best} & 5.240269E+04 & 1.095824E+03 & 8.508643E+04 & 4.126489E+05 \\ \hline
 		\textbf{StdDev} & 6.891847E+05 & 1.270040E+07 & 2.340250E+07 & 1.667678E+06 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl8_30}
 \end{table}
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{func8_30}
 	\centering
 	\caption{Average fitness values for Function 8 with 30 dimensions}
-	\label{ref:func8_30}
+	\label{func8_30}
 \end{figure}
 
 \section{Function 9: Expanded Scaffer's F6 Function}
-sAY HI...
+In Tables \ref{tbl9_10} and \ref{tbl9_30} and Figures \ref{func9_10} and \ref{func9_30}, we can see that there is not a considerable improvement and all the methods perform almost the same.
 \begin{table}[h]
 	\caption{function-9, dimension-10}
 	\begin{tabular}{|c|c|c|c|c|}
@@ -345,14 +347,14 @@ sAY HI...
 		\textbf{Best} & 9.035325E+02 & 9.032589E+02 & 9.033602E+02 & 9.035094E+02 \\ \hline
 		\textbf{StdDev} & 1.008688E-01 & 3.372815E-01 & 4.187602E-01 & 1.037992E-01 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl9_10}
 \end{table}
 
 \begin{figure}[h]
 	\includegraphics[scale=0.5]{func9_10}
 	\centering
 	\caption{Average fitness values for Function 9 with 10 dimensions}
-	\label{ref:func9_10}
+	\label{func9_10}
 \end{figure}
 
 \begin{table}[h]
@@ -365,17 +367,17 @@ sAY HI...
 		\textbf{Best} & 9.133757E+02 & 9.126562E+02 & 9.131192E+02 & 9.134243E+02 \\ \hline
 		\textbf{StdDev} & 1.312660E-01 & 5.882330E-01 & 4.913793E-01 & 1.390313E-01 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl9_30}
 \end{table}
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{func9_30}
 	\centering
 	\caption{Average fitness values for Function 9 with 30 dimensions}
-	\label{ref:func9_30}
+	\label{func9_30}
 \end{figure}
 
 \section{Function 10: Hybrid Function 1}
-sAY HI...
+In the 10-dimension case, Table \ref{tbl10_10} and Figure \ref{func10_10} show an impressive improvement for both ISFCA and CSFCA approaches by 99\% and 77\% respectively. For the 30-dimension case, ISFCA and CSFCA outperform SFCA by 97\% and 51\% respectively as shown in Table \ref{tbl10_30} and Figure \ref{func10_30}.
 \begin{table}[h]
 	\caption{function-10, dimension-10}
 	\begin{tabular}{|c|c|c|c|c|}
@@ -386,14 +388,14 @@ sAY HI...
 		\textbf{Best} & 2.148022E+04 & 2.365329E+03 & 6.578523E+03 & 1.417589E+04 \\ \hline
 		\textbf{StdDev} & 7.234730E+04 & 1.778552E+06 & 2.276703E+07 & 7.783437E+04 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl10_10}
 \end{table}
 
 \begin{figure}[h]
 	\includegraphics[scale=0.5]{func10_10}
 	\centering
 	\caption{Average fitness values for Function 10 with 10 dimensions}
-	\label{ref:func10_10}
+	\label{func10_10}
 \end{figure}
 
 \begin{table}[h]
@@ -406,17 +408,17 @@ sAY HI...
 		\textbf{Best} & 6.072906E+06 & 2.225892E+06 & 8.682100E+06 & 1.311979E+07 \\ \hline
 		\textbf{StdDev} & 7.703664E+06 & 5.803312E+07 & 5.952516E+07 & 8.464172E+06 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl10_30}
 \end{table}
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{func10_30}
 	\centering
 	\caption{Average fitness values for Function 10 with 30 dimensions}
-	\label{ref:func10_30}
+	\label{func10_30}
 \end{figure}
 
 \section{Function 11: Hybrid Function 2}
-sAY HI...
+ Table \ref{tbl11_10} and Figure \ref{func11_10} show a trivial improvement for the 10-dimension case. On the other hand, Table \ref{tbl11_30} and Figure \ref{func11_30} explain that ISFCA and CSFCA outperform the standard algorithm by 30\% and 15\% respectively.
 \begin{table}[h]
 	\caption{function-11, dimension-10}
 	\begin{tabular}{|c|c|c|c|c|}
@@ -427,14 +429,14 @@ sAY HI...
 		\textbf{Best} & 1.104062E+03 & 1.106581E+03 & 1.105492E+03 & 1.104723E+03 \\ \hline
 		\textbf{StdDev} & 1.339530E+00 & 5.229237E+01 & 4.994351E+01 & 9.340507E-01 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl11_10}
 \end{table}
 
 \begin{figure}[h]
 	\includegraphics[scale=0.5]{func11_10}
 	\centering
 	\caption{Average fitness values for Function 11 with 10 dimensions}
-	\label{ref:func11_10}
+	\label{func11_10}
 \end{figure}
 
 \begin{table}[h]
@@ -447,17 +449,17 @@ sAY HI...
 		\textbf{Best} & 1.153360E+03 & 1.155965E+03 & 1.290852E+03 & 1.134562E+03 \\ \hline
 		\textbf{StdDev} & 4.334944E+01 & 4.589486E+02 & 5.277303E+02 & 6.235017E+01 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl11_30}
 \end{table}
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{func11_30}
 	\centering
 	\caption{Average fitness values for Function 11 with 30 dimensions}
-	\label{ref:func11_30}
+	\label{func11_30}
 \end{figure}
 
 \section{Function 12: Hybrid Function 3}
-sAY HI...
+Both of ISFCA and CSFCA approaches perform much better than the standard algorithm in both 10-dimension and 30-dimension scenarios. Table \ref{tbl12_10} and Figure \ref{func12_10} show that ISFCA and CSFCA improve the performance by 93\% and 82\% for the 10-dimension case. Table \ref{tbl12_30} and Figure \ref{func12_30} indicate that ISFCA and CSFCA improve the peformance by 99\% and 68\% for the 30-dimension case.
 \begin{table}[h]
 	\caption{function-12, dimension-10}
 	\begin{tabular}{|c|c|c|c|c|}
@@ -468,14 +470,14 @@ sAY HI...
 		\textbf{Best} & 1.247398E+03 & 1.342194E+03 & 1.419410E+03 & 1.259420E+03 \\ \hline
 		\textbf{StdDev} & 4.080435E+01 & 4.569942E+03 & 3.705284E+04 & 4.016558E+01 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl12_10}
 \end{table}
 
 \begin{figure}[h]
 	\includegraphics[scale=0.5]{func12_10}
 	\centering
 	\caption{Average fitness values for Function 12 with 10 dimensions}
-	\label{ref:func12_10}
+	\label{func12_10}
 \end{figure}
 
 \begin{table}[h]
@@ -488,17 +490,17 @@ sAY HI...
 		\textbf{Best} & 2.100877E+03 & 1.748342E+03 & 2.153439E+03 & 2.280177E+03 \\ \hline
 		\textbf{StdDev} & 2.430944E+02 & 7.154759E+07 & 1.253791E+08 & 1.588321E+02 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl12_30}
 \end{table}
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{func12_30}
 	\centering
 	\caption{Average fitness values for Function 12 with 30 dimensions}
-	\label{ref:func12_30}
+	\label{func12_30}
 \end{figure}
 
 \section{Function 13: Composition Function 1}
-sAY HI...
+This function is improved moderately in both 10- and 30-diemnsion cases. Table \ref{tbl13_10} and Figure \ref{func13_10} show that ISFCA and CSFCA improve the average fitness values for the 10-dimension case by 31\% and 10\% respectively. For the 30-dimension case, in Table \ref{tbl13_30} and \ref{func13_30}, we can see that ISFCA and CSFCA improve the performance by 51\% and 6\% respectively.
 \begin{table}[h]
 	\caption{function-13, dimension-10}
 	\begin{tabular}{|c|c|c|c|c|}
@@ -509,14 +511,14 @@ sAY HI...
 		\textbf{Best} & 1.622335E+03 & 1.635087E+03 & 1.676418E+03 & 1.618919E+03 \\ \hline
 		\textbf{StdDev} & 7.106025E+00 & 6.591729E+02 & 7.972695E+02 & 1.445686E+01 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl13_10}
 \end{table}
 
 \begin{figure}[h]
 	\includegraphics[scale=0.5]{func13_10}
 	\centering
 	\caption{Average fitness values for Function 13 with 10 dimensions}
-	\label{ref:func13_10}
+	\label{func13_10}
 \end{figure}
 
 \begin{table}[h]
@@ -529,17 +531,17 @@ sAY HI...
 		\textbf{Best} & 1.723534E+03 & 1.740536E+03 & 2.380543E+03 & 1.732389E+03 \\ \hline
 		\textbf{StdDev} & 9.665278E+01 & 2.272010E+03 & 1.367277E+03 & 1.457157E+02 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl13_30}
 \end{table}
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{func13_30}
 	\centering
 	\caption{Average fitness values for Function 13 with 30 dimensions}
-	\label{ref:func13_30}
+	\label{func13_30}
 \end{figure}
 
 \section{Function 14: Composition Function 2}
-sAY HI...
+For this function, the improvement made by our approaches is trivial about 1\% in the 10-dimension case. For the 30-dimension optimization, ISFCA and CSFCA improve the performance by 10\% and 4\% respectively.
 \begin{table}[h]
 	\caption{function-14, dimension-10}
 	\begin{tabular}{|c|c|c|c|c|}
@@ -550,14 +552,14 @@ sAY HI...
 		\textbf{Best} & 1.601385E+03 & 1.591111E+03 & 1.597342E+03 & 1.604991E+03 \\ \hline
 		\textbf{StdDev} & 1.577398E+00 & 1.953208E+01 & 2.617243E+01 & 1.478468E+00 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl14_10}
 \end{table}
 
 \begin{figure}[h]
 	\includegraphics[scale=0.5]{func14_10}
 	\centering
 	\caption{Average fitness values for Function 14 with 10 dimensions}
-	\label{ref:func14_10}
+	\label{func14_10}
 \end{figure}
 
 \begin{table}[h]
@@ -570,17 +572,17 @@ sAY HI...
 		\textbf{Best} & 1.646723E+03 & 1.660532E+03 & 1.693461E+03 & 1.658174E+03 \\ \hline
 		\textbf{StdDev} & 2.842502E+01 & 1.553106E+02 & 1.760265E+02 & 3.566090E+01 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl14_30}
 \end{table}
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{func14_30}
 	\centering
 	\caption{Average fitness values for Function 14 with 30 dimensions}
-	\label{ref:func14_30}
+	\label{func14_30}
 \end{figure}
 
 \section{Function 15: Composition Function 3}
-sAY HI...
+For this function, ISFCA works better than CSFCA. ISFCA improves the average fitness value by 20\% and 29\% for 10- and 30-dimension cases respectively. On the other hand, CSFCA produces improvement only by 1\% and 16\% for 10- and 30-dimension cases respectively.
 \begin{table}[h]
 	\caption{function-15, dimension-10}
 	\begin{tabular}{|c|c|c|c|c|}
@@ -591,14 +593,14 @@ sAY HI...
 		\textbf{Best} & 1.525130E+03 & 1.871689E+03 & 1.855628E+03 & 1.772940E+03 \\ \hline
 		\textbf{StdDev} & 8.426385E+01 & 8.447839E+01 & 1.134500E+02 & 7.850262E+01 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl15_10}
 \end{table}
 
 \begin{figure}[h]
 	\includegraphics[scale=0.5]{func15_10}
 	\centering
 	\caption{Average fitness values for Function 15 with 10 dimensions}
-	\label{ref:func15_10}
+	\label{func15_10}
 \end{figure}
 
 \begin{table}[h]
@@ -611,15 +613,15 @@ sAY HI...
 		\textbf{Best} & 2.498940E+03 & 2.227419E+03 & 3.055342E+03 & 2.504910E+03 \\ \hline
 		\textbf{StdDev} & 9.012990E+01 & 1.040607E+03 & 1.152769E+03 & 8.765290E+01 \\ \hline
 	\end{tabular}
-	\label{}
+	\label{tbl15_30}
 \end{table}
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{func15_30}
 	\centering
 	\caption{Average fitness values for Function 15 with 30 dimensions}
-	\label{ref:func15_30}
+	\label{func15_30}
 \end{figure}
-
+\section{Summary of Results}
 
 %For a Master's research this chapter represents the critical part where \textbf{you} are truly evaluated to determine whether you should be given your degree. Even more so for a PhD. Consider carefully what the University calendar states regarding the expectations for a master's thesis, paraphrased here.
 %
