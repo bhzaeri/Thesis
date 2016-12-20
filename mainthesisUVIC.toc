@@ -78,7 +78,7 @@
 \contentsline {section}{\numberline {6.14}Function 14: Composition Function 2}{58}
 \contentsline {section}{\numberline {6.15}Function 15: Composition Function 3}{60}
 \contentsline {section}{\numberline {6.16}Summary of Results}{61}
-\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{62}
-\contentsline {section}{\numberline {7.1}Conclusion}{62}
-\contentsline {section}{\numberline {7.2}Future Work}{63}
-\contentsline {chapter}{Bibliography}{64}
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{63}
+\contentsline {section}{\numberline {7.1}Conclusion}{63}
+\contentsline {section}{\numberline {7.2}Future Work}{64}
+\contentsline {chapter}{Bibliography}{65}
