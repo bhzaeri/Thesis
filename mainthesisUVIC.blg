@@ -6,42 +6,53 @@ A level-1 auxiliary file: chapters/2/chapter_problem.aux
 A level-1 auxiliary file: chapters/3/chapter_new.aux
 A level-1 auxiliary file: chapters/4/chapter_experiments.aux
 A level-1 auxiliary file: chapters/5/chapter_evaluation.aux
-A level-1 auxiliary file: chapters/6/chapter_conclusion.aux
-A level-1 auxiliary file: chapters/appendix/chapter_app.aux
+A level-1 auxiliary file: chapters/6/chapter_evaluation.aux
+A level-1 auxiliary file: chapters/7/chapter_conclusion.aux
 The style file: plain.bst
 Database file #1: UvicThesis.bib
+Warning--I didn't find a database entry for "kobti2013heterogeneous"
+Warning--I didn't find a database entry for "gg"
+Warning--I didn't find a database entry for "che2010robust"
+Warning--I didn't find a database entry for "ali2012socio"
+Warning--I didn't find a database entry for "ali2016leveraged"
+Warning--I didn't find a database entry for "sterling2004aggregation"
+Warning--I didn't find a database entry for "bratton2007defining"
+Warning--I didn't find a database entry for "chen2006tribe"
+Warning--I didn't find a database entry for "wolpert1997no"
+Warning--I didn't find a database entry for "de2009heterogeneous"
+Warning--I didn't find a database entry for "proakis1985probability"
 You've used 2 entries,
             2118 wiz_defined-function locations,
-            514 strings with 4431 characters,
-and the built_in function-call counts, 452 in all, are:
-= -- 38
-> -- 14
+            525 strings with 4622 characters,
+and the built_in function-call counts, 612 in all, are:
+= -- 50
+> -- 41
 < -- 0
-+ -- 7
-- -- 4
-* -- 18
-:= -- 85
++ -- 16
+- -- 14
+* -- 39
+:= -- 115
 add.period$ -- 6
 call.type$ -- 2
-change.case$ -- 6
+change.case$ -- 10
 chr.to.int$ -- 0
 cite$ -- 2
 duplicate$ -- 24
 empty$ -- 45
-format.name$ -- 4
-if$ -- 93
+format.name$ -- 14
+if$ -- 122
 int.to.chr$ -- 0
 int.to.str$ -- 2
 missing$ -- 4
 newline$ -- 13
 num.names$ -- 4
-pop$ -- 16
+pop$ -- 20
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 10
 quote$ -- 0
-skip$ -- 12
+skip$ -- 13
 stack$ -- 0
-substring$ -- 11
+substring$ -- 10
 swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
@@ -51,3 +62,4 @@ warning$ -- 0
 while$ -- 4
 width$ -- 3
 write$ -- 22
+(There were 11 warnings)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  20 DEC 2016 13:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  20 DEC 2016 23:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -288,7 +288,7 @@ Package csquotes Info: ... configuration file loaded successfully.
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
-)))
+))
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count118
@@ -297,13 +297,71 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks31
 \@floatcapt=\box33
 )
+(/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+\c@AlgoLine=\count119
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip98
+
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+********************************************************
+Package `algorithm2e' Release 5.1 -- october 19 2015 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (christophe.fiorio@umontpellier.fr)
+********************************************************
+\skiptotal=\skip99
+\skiplinenumber=\skip100
+\skiprule=\skip101
+\skiphlne=\skip102
+\skiptext=\skip103
+\skiplength=\skip104
+\algomargin=\skip105
+\skipalgocfslide=\skip106
+\algowidth=\dimen125
+\inoutsize=\dimen126
+\inoutindent=\dimen127
+\interspacetitleruled=\dimen128
+\interspacealgoruled=\dimen129
+\interspacetitleboxruled=\dimen130
+\algocf@ruledwidth=\skip107
+\algocf@inoutbox=\box34
+\algocf@inputbox=\box35
+\AlCapSkip=\skip108
+\AlCapHSkip=\skip109
+\algoskipindent=\skip110
+\algocf@nlbox=\box36
+\algocf@hangingbox=\box37
+\algocf@untilbox=\box38
+\algocf@skipuntil=\skip111
+\algocf@capbox=\box39
+\algoheightruledefault=\skip112
+\algoheightrule=\skip113
+\algotitleheightruledefault=\skip114
+\algotitleheightrule=\skip115
+\c@algocfline=\count120
+\c@algocfproc=\count121
+\c@algocf=\count122
+\algocf@algoframe=\box40
+\algocf@algobox=\box41
+)) (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (./mainthesisUVIC.aux (./chapters/1/chapter_intro.aux) (./chapters/2/chapter_p
-roblem.aux)
-(./chapters/3/chapter_new.aux) (./chapters/4/chapter_experiments.aux)
-(./chapters/5/chapter_evaluation.aux) (./chapters/6/chapter_evaluation.aux)
-(./chapters/7/chapter_conclusion.aux))
+
+(./mainthesisUVIC.aux (./chapters/1/chapter_intro.aux)
+(./chapters/2/chapter_problem.aux) (./chapters/3/chapter_new.aux)
+(./chapters/4/chapter_experiments.aux) (./chapters/5/chapter_evaluation.aux)
+(./chapters/6/chapter_evaluation.aux) (./chapters/7/chapter_conclusion.aux))
 \openout1 = `mainthesisUVIC.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -355,16 +413,16 @@ LaTeX Font Info:    ... okay on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count119
-\scratchdimen=\dimen125
-\scratchbox=\box34
-\nofMPsegments=\count120
-\nofMParguments=\count121
+\scratchcounter=\count123
+\scratchdimen=\dimen131
+\scratchbox=\box42
+\nofMPsegments=\count124
+\nofMParguments=\count125
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count122
-\MPscratchDim=\dimen126
-\MPnumerator=\count123
-\makeMPintoPDFobject=\count124
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen132
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
 \everyMPtoPDFconversion=\toks33
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -465,12 +523,40 @@ ng in In-
 \tf@lot=\write4
 \openout4 = `mainthesisUVIC.lot'.
 
- [9] (./mainthesisUVIC.lof [10])
+ [9] (./mainthesisUVIC.lof
+
+LaTeX Warning: Citation `kobti2013heterogeneous' on page x undefined on input l
+ine 3.
+
+
+LaTeX Warning: Citation `kobti2013heterogeneous' on page x undefined on input l
+ine 4.
+
+
+LaTeX Warning: Citation `kobti2013heterogeneous' on page x undefined on input l
+ine 5.
+
+
+LaTeX Warning: Citation `kobti2013heterogeneous' on page x undefined on input l
+ine 6.
+
+
+LaTeX Warning: Citation `gg' on page x undefined on input line 8.
+
+
+LaTeX Warning: Citation `gg' on page x undefined on input line 9.
+
+
+LaTeX Warning: Citation `gg' on page x undefined on input line 10.
+
+
+LaTeX Warning: Citation `gg' on page x undefined on input line 11.
+
+[10])
 \tf@lof=\write5
 \openout5 = `mainthesisUVIC.lof'.
 
-
-(./frontmatter/ack.tex [11]) (./frontmatter/ded.tex [12]) [13])
+ (./frontmatter/ack.tex [11]) (./frontmatter/ded.tex [12]) [13])
 \openout2 = `chapters/1/chapter_intro.aux'.
 
 
@@ -489,90 +575,179 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  (./chapters/2/chapter_problem.tex
 Chapter 2.
-\savedunitlength=\skip98
+\savedunitlength=\skip116
+<Figures/HMPCA.jpeg, id=60, 2423.0525pt x 989.6975pt>
+File: Figures/HMPCA.jpeg Graphic file (type jpg)
+ <use Figures/HMPCA.jpeg>
+Package pdftex.def Info: Figures/HMPCA.jpeg used on input line 12.
+(pdftex.def)             Requested size: 436.13065pt x 178.13786pt.
+
+Overfull \hbox (2.51064pt too wide) in paragraph at lines 12--14
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `kobti2013heterogeneous' on page 5 undefined on input l
+ine 14.
+
 [5
 
 
 
-] [6] [7]
-Overfull \hbox (0.20197pt too wide) in paragraph at lines 18--21
+] <Figures/SFAPP.png, id=64, 335.2525pt x 230.8625pt>
+File: Figures/SFAPP.png Graphic file (type png)
+
+<use Figures/SFAPP.png>
+Package pdftex.def Info: Figures/SFAPP.png used on input line 22.
+(pdftex.def)             Requested size: 301.72446pt x 207.7743pt.
+
+
+LaTeX Warning: Citation `kobti2013heterogeneous' on page 6 undefined on input l
+ine 24.
+
+[6 <./Figures/HMPCA.jpeg>] [7 <./Figures/SFAPP.png>]
+Overfull \hbox (0.20197pt too wide) in paragraph at lines 30--33
 \OT1/cmr/m/n/12 The au-thors of [] aimed at com-mer-cial-iz-ing Cul-tural Al-go
 -rithm Toolkit (CAT) thourgh
  []
 
-[8]
-Overfull \hbox (22.45273pt too wide) in paragraph at lines 27--27
+[8] [9]
+Overfull \hbox (22.45273pt too wide) in paragraph at lines 39--39
 []\OT1/cmr/bx/n/14.4 Socio-Cultural Evo-lu-tion via Neighborhood-Restructuring
  []
 
-[9] [10] [11] [12] [13] [14] [15]) [16]
+[10] <Figures/MultiLayer.jpeg, id=83, 773.89125pt x 457.71pt>
+File: Figures/MultiLayer.jpeg Graphic file (type jpg)
+
+<use Figures/MultiLayer.jpeg>
+Package pdftex.def Info: Figures/MultiLayer.jpeg used on input line 46.
+(pdftex.def)             Requested size: 270.866pt x 160.2009pt.
+
+
+LaTeX Warning: Citation `kobti2013heterogeneous' on page 11 undefined on input 
+line 48.
+
+[11 <./Figures/MultiLayer.jpeg>]
+<Figures/TwoLayerSF.jpeg, id=87, 991.705pt x 715.67375pt>
+File: Figures/TwoLayerSF.jpeg Graphic file (type jpg)
+
+<use Figures/TwoLayerSF.jpeg>
+Package pdftex.def Info: Figures/TwoLayerSF.jpeg used on input line 63.
+(pdftex.def)             Requested size: 247.92564pt x 178.918pt.
+
+
+LaTeX Warning: Citation `kobti2013heterogeneous' on page 12 undefined on input 
+line 65.
+
+[12] [13] [14 <./Figures/TwoLayerSF.jpeg>] [15] [16] [17]) [18]
 \openout2 = `chapters/3/chapter_new.aux'.
 
- (./chapters/3/chapter_new.tex
+
+(./chapters/3/chapter_new.tex
 Chapter 3.
-(./chapters/3/sec_latexhelp.tex [17
+(./chapters/3/sec_latexhelp.tex [19
 
 
 
-] [18] [19]
+] [20] [21]
+<Figures/StandardCA.jpeg, id=123, 2929.94624pt x 1916.15875pt>
+File: Figures/StandardCA.jpeg Graphic file (type jpg)
+
+<use Figures/StandardCA.jpeg>
+Package pdftex.def Info: Figures/StandardCA.jpeg used on input line 39.
+(pdftex.def)             Requested size: 263.68379pt x 172.44684pt.
+
+
+LaTeX Warning: Citation `gg' on page 22 undefined on input line 41.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [20] [21]
+[22] [23 <./Figures/StandardCA.jpeg>]
+<Figures/StandardNR.jpeg, id=130, 610.28pt x 393.47pt>
+File: Figures/StandardNR.jpeg Graphic file (type jpg)
 
-LaTeX Warning: Citation `che2010robust' on page 22 undefined on input line 43.
-
-
-LaTeX Warning: Citation `ali2012socio' on page 22 undefined on input line 43.
-
-
-LaTeX Warning: Citation `ali2016leveraged' on page 22 undefined on input line 4
-3.
+<use Figures/StandardNR.jpeg>
+Package pdftex.def Info: Figures/StandardNR.jpeg used on input line 50.
+(pdftex.def)             Requested size: 244.10767pt x 157.38521pt.
 
 
-LaTeX Warning: Citation `sterling2004aggregation' on page 22 undefined on input
- line 43.
+LaTeX Warning: Citation `gg' on page 24 undefined on input line 52.
 
+
+LaTeX Warning: Citation `che2010robust' on page 24 undefined on input line 55.
+
+
+LaTeX Warning: Citation `ali2012socio' on page 24 undefined on input line 55.
+
+
+LaTeX Warning: Citation `ali2016leveraged' on page 24 undefined on input line 5
+5.
+
+
+LaTeX Warning: Citation `sterling2004aggregation' on page 24 undefined on input
+ line 55.
+
+[24 <./Figures/StandardNR.jpeg>]
 Missing character: There is no ‹ in font cmr12!
 Missing character: There is no µ in font cmr12!
-[22]
 
-LaTeX Warning: Citation `bratton2007defining' on page 23 undefined on input lin
-e 60.
+<Figures/SFNetworkModel.jpeg, id=135, 583.17876pt x 613.29124pt>
+File: Figures/SFNetworkModel.jpeg Graphic file (type jpg)
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
-
- []
+<use Figures/SFNetworkModel.jpeg>
+Package pdftex.def Info: Figures/SFNetworkModel.jpeg used on input line 70.
+(pdftex.def)             Requested size: 233.26736pt x 245.31215pt.
 
 
-LaTeX Warning: Citation `chen2006tribe' on page 23 undefined on input line 70.
+LaTeX Warning: Citation `gg' on page 25 undefined on input line 72.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.71 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.71 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23])) [24]
+
+LaTeX Warning: Citation `bratton2007defining' on page 25 undefined on input lin
+e 78.
+
+[25] <Figures/PSOModel.jpeg, id=141, 786.94pt x 290.08376pt>
+File: Figures/PSOModel.jpeg Graphic file (type jpg)
+
+<use Figures/PSOModel.jpeg>
+Package pdftex.def Info: Figures/PSOModel.jpeg used on input line 87.
+(pdftex.def)             Requested size: 314.77042pt x 116.03143pt.
+
+
+LaTeX Warning: Citation `gg' on page 26 undefined on input line 89.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `chen2006tribe' on page 26 undefined on input line 93.
+
+<Figures/TribePSO.png, id=142, 280.04625pt x 238.8925pt>
+File: Figures/TribePSO.png Graphic file (type png)
+
+<use Figures/TribePSO.png>
+Package pdftex.def Info: Figures/TribePSO.png used on input line 95.
+(pdftex.def)             Requested size: 168.02904pt x 143.3366pt.
+ [26 <./Figures/SFNetworkModel.jpeg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[27 <./Figures/PSOModel.jpeg>])) [28 <./Figures/TribePSO.png>]
 \openout2 = `chapters/4/chapter_experiments.aux'.
 
- (./chapters/4/chapter_experiments.tex
+
+(./chapters/4/chapter_experiments.tex
 Chapter 4.
 
-LaTeX Warning: Citation `wolpert1997no' on page 25 undefined on input line 3.
+LaTeX Warning: Citation `wolpert1997no' on page 29 undefined on input line 3.
 
-[25
+[29
 
 
 
@@ -589,24 +764,20 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [26]
+ [30]
 
-LaTeX Warning: Citation `ali2016leveraged' on page 27 undefined on input line 2
+LaTeX Warning: Citation `ali2016leveraged' on page 31 undefined on input line 2
 3.
 
 
-LaTeX Warning: Reference `ref:RNR' on page 27 undefined on input line 23.
+LaTeX Warning: Reference `ref:RNR' on page 31 undefined on input line 23.
 
 
-LaTeX Warning: Citation `de2009heterogeneous' on page 27 undefined on input lin
+LaTeX Warning: Citation `de2009heterogeneous' on page 31 undefined on input lin
 e 23.
 
 
-LaTeX Warning: Citation `kennedy2001swarm' on page 27 undefined on input line 2
-3.
-
-
-Overfull \hbox (0.80542pt too wide) in paragraph at lines 23--24
+Overfull \hbox (0.80542pt too wide) in paragraph at lines 23--45
 \OT1/cmr/m/n/12 gbest$\OMS/cmsy/m/n/12 !$\OT1/cmr/m/n/12 tree$\OMS/cmsy/m/n/12 
 !$\OT1/cmr/m/n/12 mesh$\OMS/cmsy/m/n/12 !$\OT1/cmr/m/n/12 lbest and Up-grad-ing
  oc-curs in the di-rec-tion of lbest$\OMS/cmsy/m/n/12 !$\OT1/cmr/m/n/12 mesh$\O
@@ -614,130 +785,56 @@ MS/cmsy/m/n/12 !$\OT1/cmr/m/n/12 tree
  []
 
 
-Overfull \hbox (8.59772pt too wide) in paragraph at lines 25--25
+Overfull \hbox (8.59772pt too wide) in paragraph at lines 45--45
 []\OT1/cmr/bx/n/17.28 Confidence based Nor-ma-tive Knowl-edge Source 
  []
 
-[27]
+[31] [32]
 
-LaTeX Warning: Citation `proakis1985probability' on page 28 undefined on input 
-line 34.
+LaTeX Warning: Citation `proakis1985probability' on page 33 undefined on input 
+line 54.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--47
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--47
-
- []
-
-) [28]
+) [33]
 \openout2 = `chapters/5/chapter_evaluation.aux'.
 
  (./chapters/5/chapter_evaluation.tex
 Chapter 5.
-[29
+[34
 
 
 
-] [30] [31] [32] [33] [34]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.182 N= 5, \sigma
-                   = [10, 20, 30, 40, 50], \lambda = [1, 1e-6, 1e-26, 1e-6, ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.183 $g_
-         {1}$ : Rotated Rosenbrock's Function $f_{10}$\newline
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (27.3013pt too wide) in paragraph at lines 181--189
-\OT1/cmr/m/n/12 N= 5, $\OML/cmm/m/it/12 ^^[ \OT1/cmr/m/n/12 = [10\OML/cmm/m/it/
-12 ; \OT1/cmr/m/n/12 20\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 30\OML/cmm/m/it/12 ; 
-\OT1/cmr/m/n/12 40\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 50]\OML/cmm/m/it/12 ; ^^U 
-\OT1/cmr/m/n/12 = [1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1\OML/cmm/m/it/12 e \OMS
-/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 6\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1\OML/cmm/
-m/it/12 e \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 26\OML/cmm/m/it/12 ; \OT1/cmr/m/
-n/12 1\OML/cmm/m/it/12 e \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 6\OML/cmm/m/it/12
- ; \OT1/cmr/m/n/12 1\OML/cmm/m/it/12 e \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 6]\
-OML/cmm/m/it/12 ; bias \OT1/cmr/m/n/12 = [0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1
-00\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 200\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 300\
-OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 400][] 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.197 N = 3, \sigma
-                    = [10, 30, 50], \lambda = [0.25, 1, 1e-7], bias = [0, 10...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.198 $g_
-         {1}$ : Rotated Schwefel's function $f_{4}$ \newline
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[35]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.211 N = 5, \sigma
-                    = [10, 10, 10, 20, 20], \lambda = [10, 10, 2.5, 25, 1e-6...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.212 $g_
-         {1}$ : Rotated HGBat Function $f_{7}$\newline
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[36]) [37]
+] [35] [36] [37] [38] [39] [40] [41]) [42]
 \openout2 = `chapters/6/chapter_evaluation.aux'.
 
- (./chapters/6/chapter_evaluation.tex
+
+(./chapters/6/chapter_evaluation.tex
 Chapter 6.
-<Figures/func1_10.jpeg, id=173, 626.34pt x 432.11438pt>
+<Figures/func1_10.jpeg, id=203, 626.34pt x 432.11438pt>
 File: Figures/func1_10.jpeg Graphic file (type jpg)
 
 <use Figures/func1_10.jpeg>
 Package pdftex.def Info: Figures/func1_10.jpeg used on input line 22.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [38
+ [43
 
 
 
 ]
-<Figures/func1_30.jpeg, id=178, 626.34pt x 432.11438pt>
+<Figures/func1_30.jpeg, id=207, 626.34pt x 432.11438pt>
 File: Figures/func1_30.jpeg Graphic file (type jpg)
 
 <use Figures/func1_30.jpeg>
 Package pdftex.def Info: Figures/func1_30.jpeg used on input line 40.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [39 <./Figures/func1_10.jpeg>]
-<Figures/func2_10.jpeg, id=182, 626.34pt x 432.11438pt>
+ [44 <./Figures/func1_10.jpeg>]
+<Figures/func2_10.jpeg, id=211, 626.34pt x 432.11438pt>
 File: Figures/func2_10.jpeg Graphic file (type jpg)
 
 <use Figures/func2_10.jpeg>
 Package pdftex.def Info: Figures/func2_10.jpeg used on input line 63.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func2_30.jpeg, id=183, 626.34pt x 432.11438pt>
+<Figures/func2_30.jpeg, id=212, 626.34pt x 432.11438pt>
 File: Figures/func2_30.jpeg Graphic file (type jpg)
 
 <use Figures/func2_30.jpeg>
@@ -750,22 +847,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[40 <./Figures/func1_30.jpeg>] [41 <./Figures/func2_10.jpeg> <./Figures/func2_3
-0.jpeg>] <Figures/func3_10.jpeg, id=190, 626.34pt x 432.11438pt>
+[45 <./Figures/func1_30.jpeg>] [46 <./Figures/func2_10.jpeg> <./Figures/func2_3
+0.jpeg>] <Figures/func3_10.jpeg, id=219, 626.34pt x 432.11438pt>
 File: Figures/func3_10.jpeg Graphic file (type jpg)
 
 <use Figures/func3_10.jpeg>
 Package pdftex.def Info: Figures/func3_10.jpeg used on input line 103.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func3_30.jpeg, id=191, 626.34pt x 432.11438pt>
+<Figures/func3_30.jpeg, id=220, 626.34pt x 432.11438pt>
 File: Figures/func3_30.jpeg Graphic file (type jpg)
 
 <use Figures/func3_30.jpeg>
 Package pdftex.def Info: Figures/func3_30.jpeg used on input line 122.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [42 <./Figures/func3_10.jpeg>]
-<Figures/func4_10.jpeg, id=196, 626.34pt x 432.11438pt>
+ [47 <./Figures/func3_10.jpeg>]
+<Figures/func4_10.jpeg, id=224, 626.34pt x 432.11438pt>
 File: Figures/func4_10.jpeg Graphic file (type jpg)
 
 <use Figures/func4_10.jpeg>
@@ -775,17 +872,17 @@ Package pdftex.def Info: Figures/func4_10.jpeg used on input line 144.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func4_30.jpeg, id=197, 626.34pt x 432.11438pt>
+<Figures/func4_30.jpeg, id=225, 626.34pt x 432.11438pt>
 File: Figures/func4_30.jpeg Graphic file (type jpg)
 
 <use Figures/func4_30.jpeg>
 Package pdftex.def Info: Figures/func4_30.jpeg used on input line 164.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [43 <./Figures/func3_30.jpeg>]
+ [48 <./Figures/func3_30.jpeg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func5_10.jpeg, id=201, 626.34pt x 432.11438pt>
+<Figures/func5_10.jpeg, id=230, 626.34pt x 432.11438pt>
 File: Figures/func5_10.jpeg Graphic file (type jpg)
 
 <use Figures/func5_10.jpeg>
@@ -798,15 +895,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func5_30.jpeg, id=202, 626.34pt x 432.11438pt>
+<Figures/func5_30.jpeg, id=231, 626.34pt x 432.11438pt>
 File: Figures/func5_30.jpeg Graphic file (type jpg)
 
 <use Figures/func5_30.jpeg>
 Package pdftex.def Info: Figures/func5_30.jpeg used on input line 205.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [44 <./Figures/func4_10.jpeg> <./Figures/func4_30.jpeg>] [45 <./Figures/func5_
+ [49 <./Figures/func4_10.jpeg> <./Figures/func4_30.jpeg>] [50 <./Figures/func5_
 10.jpeg> <./Figures/func5_30.jpeg>]
-<Figures/func6_10.jpeg, id=209, 626.34pt x 432.11438pt>
+<Figures/func6_10.jpeg, id=238, 626.34pt x 432.11438pt>
 File: Figures/func6_10.jpeg Graphic file (type jpg)
 
 <use Figures/func6_10.jpeg>
@@ -816,32 +913,32 @@ Package pdftex.def Info: Figures/func6_10.jpeg used on input line 229.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func6_30.jpeg, id=210, 626.34pt x 432.11438pt>
+<Figures/func6_30.jpeg, id=239, 626.34pt x 432.11438pt>
 File: Figures/func6_30.jpeg Graphic file (type jpg)
 
 <use Figures/func6_30.jpeg>
 Package pdftex.def Info: Figures/func6_30.jpeg used on input line 248.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [46 <./Figures/func6_10.jpeg>] [47 <./Figures/func6_30.jpeg>] <Figures/func7_1
-0.jpeg, id=217, 626.34pt x 432.11438pt>
+ [51 <./Figures/func6_10.jpeg>] [52 <./Figures/func6_30.jpeg>] <Figures/func7_1
+0.jpeg, id=246, 626.34pt x 432.11438pt>
 File: Figures/func7_10.jpeg Graphic file (type jpg)
 
 <use Figures/func7_10.jpeg>
 Package pdftex.def Info: Figures/func7_10.jpeg used on input line 272.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func7_30.jpeg, id=218, 626.34pt x 432.11438pt>
+<Figures/func7_30.jpeg, id=247, 626.34pt x 432.11438pt>
 File: Figures/func7_30.jpeg Graphic file (type jpg)
 
 <use Figures/func7_30.jpeg>
 Package pdftex.def Info: Figures/func7_30.jpeg used on input line 291.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [48 <./Figures/func7_10.jpeg>]
+ [53 <./Figures/func7_10.jpeg>]
 Overfull \hbox (12.94173pt too wide) in paragraph at lines 297--297
 []\OT1/cmr/bx/n/17.28 Function 8: Griewank's plus Rosen-brock's Func-
  []
 
-<Figures/func8_10.jpeg, id=223, 626.34pt x 432.11438pt>
+<Figures/func8_10.jpeg, id=251, 626.34pt x 432.11438pt>
 File: Figures/func8_10.jpeg Graphic file (type jpg)
 
 <use Figures/func8_10.jpeg>
@@ -854,29 +951,29 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func8_30.jpeg, id=224, 626.34pt x 432.11438pt>
+<Figures/func8_30.jpeg, id=252, 626.34pt x 432.11438pt>
 File: Figures/func8_30.jpeg Graphic file (type jpg)
 
 <use Figures/func8_30.jpeg>
 Package pdftex.def Info: Figures/func8_30.jpeg used on input line 332.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [49 <./Figures/func7_30.jpeg>] [50 <./Figures/func8_10.jpeg> <./Figures/func8_
+ [54 <./Figures/func7_30.jpeg>] [55 <./Figures/func8_10.jpeg> <./Figures/func8_
 30.jpeg>]
-<Figures/func9_10.jpeg, id=231, 626.34pt x 432.11438pt>
+<Figures/func9_10.jpeg, id=260, 626.34pt x 432.11438pt>
 File: Figures/func9_10.jpeg Graphic file (type jpg)
 
 <use Figures/func9_10.jpeg>
 Package pdftex.def Info: Figures/func9_10.jpeg used on input line 354.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func9_30.jpeg, id=232, 626.34pt x 432.11438pt>
+<Figures/func9_30.jpeg, id=261, 626.34pt x 432.11438pt>
 File: Figures/func9_30.jpeg Graphic file (type jpg)
 
 <use Figures/func9_30.jpeg>
 Package pdftex.def Info: Figures/func9_30.jpeg used on input line 373.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [51 <./Figures/func9_10.jpeg>]
-<Figures/func10_10.jpeg, id=236, 626.34pt x 432.11438pt>
+ [56 <./Figures/func9_10.jpeg>]
+<Figures/func10_10.jpeg, id=265, 626.34pt x 432.11438pt>
 File: Figures/func10_10.jpeg Graphic file (type jpg)
 
 <use Figures/func10_10.jpeg>
@@ -889,29 +986,29 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func10_30.jpeg, id=237, 626.34pt x 432.11438pt>
+<Figures/func10_30.jpeg, id=266, 626.34pt x 432.11438pt>
 File: Figures/func10_30.jpeg Graphic file (type jpg)
 
 <use Figures/func10_30.jpeg>
 Package pdftex.def Info: Figures/func10_30.jpeg used on input line 414.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [52 <./Figures/func9_30.jpeg>] [53 <./Figures/func10_10.jpeg> <./Figures/func1
+ [57 <./Figures/func9_30.jpeg>] [58 <./Figures/func10_10.jpeg> <./Figures/func1
 0_30.jpeg>]
-<Figures/func11_10.jpeg, id=244, 626.34pt x 432.11438pt>
+<Figures/func11_10.jpeg, id=273, 626.34pt x 432.11438pt>
 File: Figures/func11_10.jpeg Graphic file (type jpg)
 
 <use Figures/func11_10.jpeg>
 Package pdftex.def Info: Figures/func11_10.jpeg used on input line 436.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func11_30.jpeg, id=245, 626.34pt x 432.11438pt>
+<Figures/func11_30.jpeg, id=274, 626.34pt x 432.11438pt>
 File: Figures/func11_30.jpeg Graphic file (type jpg)
 
 <use Figures/func11_30.jpeg>
 Package pdftex.def Info: Figures/func11_30.jpeg used on input line 455.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [54 <./Figures/func11_10.jpeg>]
-<Figures/func12_10.jpeg, id=250, 626.34pt x 432.11438pt>
+ [59 <./Figures/func11_10.jpeg>]
+<Figures/func12_10.jpeg, id=278, 626.34pt x 432.11438pt>
 File: Figures/func12_10.jpeg Graphic file (type jpg)
 
 <use Figures/func12_10.jpeg>
@@ -924,15 +1021,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func12_30.jpeg, id=251, 626.34pt x 432.11438pt>
+<Figures/func12_30.jpeg, id=279, 626.34pt x 432.11438pt>
 File: Figures/func12_30.jpeg Graphic file (type jpg)
 
 <use Figures/func12_30.jpeg>
 Package pdftex.def Info: Figures/func12_30.jpeg used on input line 496.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [55 <./Figures/func11_30.jpeg>] [56 <./Figures/func12_10.jpeg> <./Figures/func
+ [60 <./Figures/func11_30.jpeg>] [61 <./Figures/func12_10.jpeg> <./Figures/func
 12_30.jpeg>]
-<Figures/func13_10.jpeg, id=258, 626.34pt x 432.11438pt>
+<Figures/func13_10.jpeg, id=287, 626.34pt x 432.11438pt>
 File: Figures/func13_10.jpeg Graphic file (type jpg)
 
 <use Figures/func13_10.jpeg>
@@ -942,14 +1039,14 @@ Package pdftex.def Info: Figures/func13_10.jpeg used on input line 518.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func13_30.jpeg, id=259, 626.34pt x 432.11438pt>
+<Figures/func13_30.jpeg, id=288, 626.34pt x 432.11438pt>
 File: Figures/func13_30.jpeg Graphic file (type jpg)
 
 <use Figures/func13_30.jpeg>
 Package pdftex.def Info: Figures/func13_30.jpeg used on input line 537.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [57 <./Figures/func13_10.jpeg>]
-<Figures/func14_10.jpeg, id=263, 626.34pt x 432.11438pt>
+ [62 <./Figures/func13_10.jpeg>]
+<Figures/func14_10.jpeg, id=292, 626.34pt x 432.11438pt>
 File: Figures/func14_10.jpeg Graphic file (type jpg)
 
 <use Figures/func14_10.jpeg>
@@ -962,28 +1059,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func14_30.jpeg, id=264, 626.34pt x 432.11438pt>
+<Figures/func14_30.jpeg, id=293, 626.34pt x 432.11438pt>
 File: Figures/func14_30.jpeg Graphic file (type jpg)
 
 <use Figures/func14_30.jpeg>
 Package pdftex.def Info: Figures/func14_30.jpeg used on input line 578.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [58 <./Figures/func13_30.jpeg>] [59 <./Figures/func14_10.jpeg> <./Figures/func
+ [63 <./Figures/func13_30.jpeg>] [64 <./Figures/func14_10.jpeg> <./Figures/func
 14_30.jpeg>]
-<Figures/func15_10.jpeg, id=271, 626.34pt x 432.11438pt>
+<Figures/func15_10.jpeg, id=300, 626.34pt x 432.11438pt>
 File: Figures/func15_10.jpeg Graphic file (type jpg)
 
 <use Figures/func15_10.jpeg>
 Package pdftex.def Info: Figures/func15_10.jpeg used on input line 600.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func15_30.jpeg, id=272, 626.34pt x 432.11438pt>
+<Figures/func15_30.jpeg, id=301, 626.34pt x 432.11438pt>
 File: Figures/func15_30.jpeg Graphic file (type jpg)
 
 <use Figures/func15_30.jpeg>
 Package pdftex.def Info: Figures/func15_30.jpeg used on input line 619.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [60 <./Figures/func15_10.jpeg>]) [61 <./Figures/func15_30.jpeg>] [62]
+ [65 <./Figures/func15_10.jpeg>]) [66 <./Figures/func15_30.jpeg>] [67]
 \openout2 = `chapters/7/chapter_conclusion.aux'.
 
  (./chapters/7/chapter_conclusion.tex
@@ -994,14 +1091,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
  []
 
 
-LaTeX Warning: Citation `ali2016leveraged' on page 63 undefined on input line 7
+LaTeX Warning: Citation `ali2016leveraged' on page 68 undefined on input line 7
 .
 
-[63
+[68
 
 
 
-]) [64] (./mainthesisUVIC.bbl) [65
+]) [69] (./mainthesisUVIC.bbl) [70
 
 
 ] (./mainthesisUVIC.aux
@@ -1014,13 +1111,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5004 strings out of 493029
- 69852 string characters out of 6136234
- 153493 words of memory out of 5000000
- 8309 multiletter control sequences out of 15000+600000
- 12370 words of font info for 46 fonts, out of 8000000 for 9000
+ 6089 strings out of 493029
+ 87078 string characters out of 6136234
+ 180540 words of memory out of 5000000
+ 9371 multiletter control sequences out of 15000+600000
+ 12722 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,45p,1715b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,20n,45p,1812b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
@@ -1032,11 +1129,11 @@ blic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-
-Output written on mainthesisUVIC.pdf (78 pages, 4072914 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on mainthesisUVIC.pdf (83 pages, 4615319 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 210 compressed objects within 3 object streams
+ 367 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 

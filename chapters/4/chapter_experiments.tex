@@ -20,8 +20,28 @@ Some of the primary attributes of self-organizing systems are listed below:
 \end{enumerate}
 In the section, we will propose a new approach to improve the robustness of cultural algorithms regarding self-organization.
 \section{Irregular Neighborhood Restructuring}
-As proposed by \cite{ali2016leveraged}, when the agents of a tribe get stuck in a local optimum, then they choose a topology with fewer connections such as ring topology to motivate exploration. When the agents lack information, the topology is changed to a denser topology like Mesh, and ultimately Global. Whenever a tribe does not make progress for $M_{thresh}$ iterations, then the algorithm decides on upgrading/downgrading the current topology to other topologies. Downgrading happens by moving in the direction of gbest$\rightarrow$tree$\rightarrow$mesh$\rightarrow$lbest and Upgrading occurs in the direction of lbest$\rightarrow$mesh$\rightarrow$tree $\rightarrow$gbest. In our proposed approach, the restructuring process occurs at a microscopic level. There is no daemon process for inspecting stagnation. Every agent checks its performance for stagnation. If it gets stuck in a local optimum, it decides to upgrade/downgrade its neighborhood. The proposed strategy is described in the algorithm \ref{ref:RNR}. If the particle is the best in its neighborhood, it starts to decrease the number of connections to motivate exploration. However, if it is not the best, it needs to increase the neighborhood size to facilitate exploitation. Here, the topology is dynamic and irregular and the neighborhood size is different for each agent. So, it could be considered as a heterogeneous variant of CAs \cite{de2009heterogeneous}. The ultimate topology of the fabric is formed through local interactions of the agents. In this way, it improves the robustness of CAs regarding self-organization concept \cite{kennedy2001swarm}.
-
+As proposed by \cite{ali2016leveraged}, when the agents of a tribe get stuck in a local optimum, then they choose a topology with fewer connections such as ring topology to motivate exploration. When the agents lack information, the topology is changed to a denser topology like Mesh, and ultimately Global. Whenever a tribe does not make progress for $M_{thresh}$ iterations, then the algorithm decides on upgrading/downgrading the current topology to other topologies. Downgrading happens by moving in the direction of gbest$\rightarrow$tree$\rightarrow$mesh$\rightarrow$lbest and Upgrading occurs in the direction of lbest$\rightarrow$mesh$\rightarrow$tree $\rightarrow$gbest. In our proposed approach, the restructuring process occurs at a microscopic level. There is no daemon process for inspecting stagnation. Every agent checks its performance for stagnation. If it gets stuck in a local optimum, it decides to upgrade/downgrade its neighborhood. The proposed strategy is described in the algorithm \ref{ref:RNR}. If the particle is the best in its neighborhood, it starts to decrease the number of connections to motivate exploration. However, if it is not the best, it needs to increase the neighborhood size to facilitate exploitation. Here, the topology is dynamic and irregular and the neighborhood size is different for each agent. So, it could be considered as a heterogeneous variant of CAs \cite{de2009heterogeneous}. The ultimate topology of the fabric is formed through local interactions of the agents. In this way, it improves the robustness of CAs regarding self-organization concept \cite{kennedy2001swarm}. Psudo-code \ref{ref:INR} describes the irregular neighborhood restructuring algorithm in detail.
+\begin{algorithm}{	}
+	\caption{Irregular Neighborhood Restructuring}			
+	\eIf{$fitness(x\textsubscript{i}) > bestSoFar\textsubscript{i} $}{
+		\eIf{$stagnationCounter \ge TiggerThreshold$}{
+			\uIf{$x\textsubscript{i} = x\textsubscript{best}$}{
+				index = selected randomly from $x\textsubscript{i}$'s neighborhood\newline
+				remove $x\textsubscript{index}$ from $x\textsubscript{i}$'s neighborhood
+			}
+			\Else{
+				index = selected from $\{S - x\textsubscript{i}'s neighborhood\}$\newline
+				add $x\textsubscript{index}$ to $x\textsubscript{i}$'s neighborhood
+			}
+			$stagnationCounter = 0$
+		}{
+		$stagnationCounter = stagnationCounter+1$
+	}
+}{
+$stagnationCounter = 0$
+}
+\label{ref:INR}
+\end{algorithm}
 \section{Confidence based Normative Knowledge Source}
 The current version of Normative KS is quite vulnerable to temporary fluctuations in the pattern of input data. The size of Normative ranges is subject to change dramatically with any temporal fluctuations. In this section, we are going to replace the ranges in the standard Normative KS with Confidence Interval from Inferential Statistics. Confidence-based changes are more robust against instantaneous changes in the input pattern. The update process of standard normative ranges is as follows:
 \begin{equation}
@@ -42,9 +62,7 @@ lb_{j}=\bar{x}_{j}-q\cdot\dfrac{\sigma_{j}}{\sqrt{n}}
 ub_{j}=\bar{x}_{j}+q\cdot\dfrac{\sigma_{j}}{\sqrt{n}}
 \end{equation}
 where 
-$\bar{x}_{j}$ is the mean of $j$th dimension, $\sigma_{j}$ is the standard deviation of $j$th dimension and $q$ is the confidence coefficient \newline
-\newline ----------------------- \newline
-
+$\bar{x}_{j}$ is the mean of $j$th dimension, $\sigma_{j}$ is the standard deviation of $j$th dimension and $q$ is the confidence coefficient.
 
 
 

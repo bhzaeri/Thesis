@@ -32,15 +32,27 @@ After each iteration, the best performing individuals are chosen and sent to the
 	\item Temporal Knowledge: Knowledge about the past changes in a dynamic environment
 \end{enumerate}
 \subsection{Population Space}
-In the population space, any population-based algorithm could be used. In the earlier variants of cultural algorithms, only GA was used. However, researchers utilized other population-based algorithms such as PSO and EP in the population component. In each generation, the best individuals are sent to the belief space to update the knowledge sources. Then, the belief space influences the population through the search process. Figure [] ....
+In the population space, any population-based algorithm could be used. In the earlier variants of cultural algorithms, only GA was used. However, researchers utilized other population-based algorithms such as PSO and EP in the population component. In each generation, the best individuals are sent to the belief space to update the knowledge sources. Then, the belief space influences the population through the search process. Figure \ref{fig:StandardCA} describes the components of cultural algorithms.
 \subsection{Communication Protocol}
 In cultural algorithms, the belief space and the population communicate together through a two-way protocol. The population space sends the best individuals to the belief space using the acceptance function to update the knowledge sources. Then, the belief space bias the search direction of the population space through the influence function.
+\begin{figure}[h]
+	\includegraphics[scale=0.09]{StandardCA}
+	\centering
+	\caption{Cultural Algorithms \cite{gg}}
+	\label{fig:StandardCA}
+\end{figure}
 \section{Social Fabric-based Cultural Algorithms}
 Social Fabric is a dynamic grid of information flow in which the individuals’ interactions happen. The fabrics (networks) are created by the connectivity of each agent with other agents in a dynamic structure. The topology of the network controls the rate and type of interactions. Like a multi-population model, there are multiple independent subpopulations (tribes) which are networked together.\newline
-In the Social Fabric idea, the influence of the belief space is propagated through the population using a multi-layered network of connections. There are Z tribes comprised of H individuals which form two layers: rudimentary and advanced. The members of each tribe are connected in a regular topology independent from other tribes. At this level, they form the rudimentary layer. From each tribe, the best performing individuals (elites) are connected. These connections create the advanced layer which is responsible for mediating the flow of information between different tribes. Figures 2 and 3 describe the network model.
+In the Social Fabric idea, the influence of the belief space is propagated through the population using a multi-layered network of connections. There are Z tribes comprised of H individuals which form two layers: rudimentary and advanced. The members of each tribe are connected in a regular topology independent from other tribes. At this level, they form the rudimentary layer. From each tribe, the best performing individuals (elites) are connected. These connections create the advanced layer which is responsible for mediating the flow of information between different tribes.
 \subsection{Evolution Phases}The whole evolution process is split into three phases: seclusion, rapport, and cohesive. In the first stage, each tribe evolves as an independent basic CA model with no communication between tribes. In the second step, the advanced layer is formed by connecting elites of each tribe. Then, tribes start to exchange information during their evolution process. Ultimately, in the third step, all the tribes are merged into one CA model. Then the search process continues until meeting some stopping criteria.
-\subsection{Strategic Neighborhood Restructuring}In Social Fabric literature, Strategic Restructuring is a technique to help individuals to get rid of stagnation where there are copious local optima in the search landscape. Each tribe maintains a particular topology until it gets stagnated in a local optimum for a certain number of iterations. Then, the topology is reinitialized to motivate the individuals for a new search. Here, four types of topologies are utilized: Ring, Mesh, Hybrid-Tree, and Global.
-\subsection{Social fabric based influence function} In this model, the individuals might decide to change their controller KS using the majority of KSs which they receive from their neighborhood. Here, Majority Voting is used to find the controller KS of an individual \cite{che2010robust}. In the case of a tie, some tie-breaking rules are deployed such as MFU (most frequently used), LFU (least frequently used), Direct (the direct influencing KS), Random (a random choice), Last-used (the KS which controlled the KS in the last iteration) \cite{ali2012socio}. In the equation \ref{eq:4} the sum denotes the counts of KSs in $i$th node neighborhood and $\psi_{i}$ is its contoller KS. $\tau_{i}$ is the net affecting KS for the next iteration \cite{ali2016leveraged} \cite{sterling2004aggregation}. 
+\subsection{Strategic Neighborhood Restructuring}In Social Fabric literature, Strategic Restructuring is a technique to help individuals to get rid of stagnation where there are copious local optima in the search landscape. Each tribe maintains a particular topology until it gets stagnated in a local optimum for a certain number of iterations. Then, the topology is reinitialized to motivate the individuals for a new search. Here, four types of topologies are utilized: Ring, Mesh, Hybrid-Tree, and Global. Figure \ref{fig:StandardNR} describes how the process of neighborhood restructuring occurs.
+\begin{figure}[h]
+	\includegraphics[scale=0.4]{StandardNR}
+	\centering
+	\caption{Standard Neighborhood Restructuring Process\cite{gg}}
+	\label{fig:StandardNR}
+\end{figure}
+\subsection{Social fabric based influence function} In this model, the individuals might decide to change their controller KS using the majority of KSs which they receive from their neighborhood. Here, Majority Voting is used to find the controller KS of an individual \cite{che2010robust}. Figures \ref{fig:SFNetworkModel} describes the social fabric influence function. In the case of a tie, some tie-breaking rules are deployed such as MFU (most frequently used), LFU (least frequently used), Direct (the direct influencing KS), Random (a random choice), Last-used (the KS which controlled the KS in the last iteration) \cite{ali2012socio}. In the equation \ref{eq:4} the sum denotes the counts of KSs in $i$th node neighborhood and $\psi_{i}$ is its contoller KS. $\tau_{i}$ is the net affecting KS for the next iteration \cite{ali2016leveraged} \cite{sterling2004aggregation}. 
 \begin{equation}
 \label{eq:4}
 \tau_{i}=\sum_{j \in Nbr(i)}m_{ij} + \psi_{i}
@@ -54,6 +66,12 @@ The Social Fabric approach can be generalized on different topologies as follows
 		\end{cases}
 \end{equation}
 Where $KS$ is the set of all knowledge sources, $KS_{i}, KS_{j}\in KS$. $weight(ܵKS_{i})$ is the number of neighbors that belong to the knowledge source $KS_{i}$. $KS_{cr}$ denotes the knowledge source chosen by a tie-breaking rule.
+\begin{figure}[h]
+	\includegraphics[scale=0.4]{SFNetworkModel}
+	\centering
+	\caption{Social Fabric Network Model \cite{gg}}
+	\label{fig:SFNetworkModel}
+\end{figure}
 \section{Particle Swarm Optimization}
 The initial idea for particle swarm optimization of Kennedy and Eberhart were essentially aimed at producing computational intelligence by utilizing simple models of social interaction, rather than purely single-agent cognitive capabilities.\newline
 In PSO, some simple-structured individuals (the particles) moving around in the search space of a function, and each particle evaluates the objective function based on its current location. Then, each particle determines its movement direction and velocity through the search space by combining its historical best experience and the best (best-fitness) particle in its visible neighborhood in the swarm, with some random fluctuations for keeping diversity. This process repeats at each iteration. Eventually, the swarm as a whole, like a flock of birds collectively searching for food sources, is similar to move around for finding an extremum of the fitness function.\newline
@@ -64,10 +82,21 @@ v\textsubscript{id}\textsuperscript{(t+1)}=w\cdot v\textsubscript{id}\textsupers
 \begin{equation}
 x\textsubscript{id}\textsuperscript{(t+1)}=x\textsubscript{id}\textsuperscript{(t)}+v\textsubscript{id}\textsuperscript{(t+1)}
 \end{equation}
-Where $v\textsubscript{id}$ and $x\textsubscript{id}$ are the velocity and position of $i$th particle. $c1$ and $c2$ are two positive constants. $r1$ and $r2$ are randomly generated numbers in [0,1] range. $w$ is the inertia weight of which restricts the velocity of a particle. $p\textsubscript{id}$ is the best experience of the particle and $p\textsubscript{gd}$ is the best solution in its neighborhood.\newline
-
+Where $v\textsubscript{id}$ and $x\textsubscript{id}$ are the velocity and position of $i$th particle. $c1$ and $c2$ are two positive constants. $r1$ and $r2$ are randomly generated numbers in [0,1] range. $w$ is the inertia weight of which restricts the velocity of a particle. $p\textsubscript{id}$ is the best experience of the particle and $p\textsubscript{gd}$ is the best solution in its neighborhood. Figure \ref{fig:PSOModel} describes how the particle interact together in PSO.
+\begin{figure}[h]
+	\includegraphics[scale=0.4]{PSOModel}
+	\centering
+	\caption{Social interaction model of PSO \cite{gg}}
+	\label{fig:PSOModel}
+\end{figure}
 \subsection{Tribe-PSO}
-Similar to Social Fabric model, the whole population is divided into some tribes.  The tribes form a two-layer structure of networks, and the whole process consists of three phases. The individuals in each tribe are completely isolated from other tribes. So, they form the basic layer. On the other hand, the best members of each tribe can see the other tribes and exchange information with their best members as well. The problem-solving process is divided into three phases: isolated, communing, and united. In the first phase, the tribes are completely isolated and there is no exchange of information. In the second phase, the two-layered model is formed and the tribes begin to exchange information through their best performing individuals. In the third phase, all the tribes are merged into a single population. Then, it operates as basic PSO model until meeting some stopping criteria. In fact, the idea of Social Fabric originates from Tribe-PSO. But the network structure is utilized to propagate the influence of knowledge sources in the belief space \cite{chen2006tribe}. In the thesis, we use the social fabric for both PSO interactions and knowledge propagation of the belief space. Figure ?? describes \cdots 
+Similar to Social Fabric model, the whole population is divided into some tribes.  The tribes form a two-layer structure of networks, and the whole process consists of three phases. The individuals in each tribe are completely isolated from other tribes. So, they form the basic layer. On the other hand, the best members of each tribe can see the other tribes and exchange information with their best members as well. The problem-solving process is divided into three phases: isolated, communing, and united. In the first phase, the tribes are completely isolated and there is no exchange of information. In the second phase, the two-layered model is formed and the tribes begin to exchange information through their best performing individuals. In the third phase, all the tribes are merged into a single population. Then, it operates as basic PSO model until meeting some stopping criteria. In fact, the idea of Social Fabric originates from Tribe-PSO. But the network structure is utilized to propagate the influence of knowledge sources in the belief space \cite{chen2006tribe}. In the thesis, we use the social fabric for both PSO interactions and knowledge propagation of the belief space. Figure ?? describes the architecture of Tribe-PSO.
+\begin{figure}[h]
+	\includegraphics[scale=0.6]{TribePSO}
+	\centering
+	\caption{Tribal-PSO}
+	\label{fig:TribePSO}
+\end{figure}
 
 \section{Chapter Conclusion}
 This chapter presents a detailed description of evolutionary and social methods such as cultural algorithms, social fabrics, and PSO. The chapter was focused on Tribal variants of before mentioned approaches and how to deploy social relationships among the tribes' members. 
