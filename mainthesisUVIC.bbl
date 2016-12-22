@@ -10,4 +10,10 @@ James Kennedy, James~F Kennedy, Russell~C Eberhart, and Yuhui Shi.
 \newblock {\em Swarm intelligence}.
 \newblock Morgan Kaufmann, 2001.
 
+\bibitem{wolpert1997no}
+David~H Wolpert and William~G Macready.
+\newblock No free lunch theorems for optimization.
+\newblock {\em IEEE transactions on evolutionary computation}, 1(1):67--82,
+  1997.
+
 \end{thebibliography}

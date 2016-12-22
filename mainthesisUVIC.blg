@@ -18,48 +18,47 @@ Warning--I didn't find a database entry for "ali2016leveraged"
 Warning--I didn't find a database entry for "sterling2004aggregation"
 Warning--I didn't find a database entry for "bratton2007defining"
 Warning--I didn't find a database entry for "chen2006tribe"
-Warning--I didn't find a database entry for "wolpert1997no"
 Warning--I didn't find a database entry for "de2009heterogeneous"
 Warning--I didn't find a database entry for "proakis1985probability"
-You've used 2 entries,
+You've used 3 entries,
             2118 wiz_defined-function locations,
-            525 strings with 4622 characters,
-and the built_in function-call counts, 612 in all, are:
-= -- 50
-> -- 41
+            531 strings with 4760 characters,
+and the built_in function-call counts, 927 in all, are:
+= -- 83
+> -- 54
 < -- 0
-+ -- 16
-- -- 14
-* -- 39
-:= -- 115
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 10
++ -- 21
+- -- 18
+* -- 63
+:= -- 168
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 24
-empty$ -- 45
-format.name$ -- 14
-if$ -- 122
+cite$ -- 3
+duplicate$ -- 35
+empty$ -- 70
+format.name$ -- 18
+if$ -- 186
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 4
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 20
+int.to.str$ -- 3
+missing$ -- 5
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 23
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 14
 quote$ -- 0
-skip$ -- 13
+skip$ -- 21
 stack$ -- 0
-substring$ -- 10
-swap$ -- 2
+substring$ -- 34
+swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
+type$ -- 8
 warning$ -- 0
-while$ -- 4
-width$ -- 3
-write$ -- 22
-(There were 11 warnings)
+while$ -- 8
+width$ -- 4
+write$ -- 33
+(There were 10 warnings)

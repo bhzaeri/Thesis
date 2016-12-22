@@ -1,85 +1,84 @@
-\contentsline {chapter}{Supervisory Committee}{ii}
-\contentsline {chapter}{Abstract}{iii}
-\contentsline {chapter}{Table of Contents}{iv}
-\contentsline {chapter}{List of Tables}{viii}
-\contentsline {chapter}{List of Figures}{x}
-\contentsline {chapter}{Acknowledgements}{xii}
-\contentsline {chapter}{Dedication}{xiii}
+\contentsline {chapter}{Abstract}{ii}
+\contentsline {chapter}{Dedication}{iii}
+\contentsline {chapter}{Acknowledgements}{iv}
+\contentsline {chapter}{Table of Contents}{v}
+\contentsline {chapter}{List of Tables}{ix}
+\contentsline {chapter}{List of Figures}{xi}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Evolutionary Algorithms}{1}
 \contentsline {section}{\numberline {1.2}Robustness in Evolutionary Algorithms}{2}
-\contentsline {section}{\numberline {1.3}Research Motivation}{2}
+\contentsline {section}{\numberline {1.3}Research Motivation}{3}
 \contentsline {section}{\numberline {1.4}Thesis Contribution}{3}
 \contentsline {section}{\numberline {1.5}Thesis Outline}{4}
-\contentsline {chapter}{\numberline {2}Related Works}{5}
-\contentsline {section}{\numberline {2.1}Cultural Algoithms}{5}
-\contentsline {subsection}{\numberline {2.1.1}Heterogeneous Multi-Population Cultural Algorithm}{5}
-\contentsline {subsection}{\numberline {2.1.2}The Social Fabric Approach as an Approach to Knowledge Integration in Cultural Algorithms}{7}
-\contentsline {subsection}{\numberline {2.1.3}Robust Evolution Optimization at the Edge of Chaos: Commercialization of Culture Algorithms}{9}
-\contentsline {subsection}{\numberline {2.1.4}Socio-Cultural Evolution via Neighborhood-Restructuring in Intricate Multi-Layered Networks}{10}
-\contentsline {subsection}{\numberline {2.1.5}Leveraged Neighborhood Restructuring in Cultural Algorithms for Solving Real-World Numerical Optimization Problems}{13}
-\contentsline {section}{\numberline {2.2}Particle Swar Optimization}{15}
-\contentsline {subsection}{\numberline {2.2.1}Tribe-PSO: A novel global optimization algorithm and its application in molecular docking}{15}
-\contentsline {subsection}{\numberline {2.2.2}Heterogeneous Particle Swarm Optimizers}{16}
-\contentsline {section}{\numberline {2.3}Chapter Conclusion}{18}
-\contentsline {chapter}{\numberline {3}Evolutionary Algorithms}{19}
-\contentsline {section}{\numberline {3.1}Evolutionary Algorithms}{19}
-\contentsline {section}{\numberline {3.2}Cultural Algorithms}{21}
-\contentsline {subsection}{\numberline {3.2.1}Belief Space}{21}
-\contentsline {subsection}{\numberline {3.2.2}Population Space}{22}
-\contentsline {subsection}{\numberline {3.2.3}Communication Protocol}{22}
-\contentsline {section}{\numberline {3.3}Social Fabric-based Cultural Algorithms}{23}
-\contentsline {subsection}{\numberline {3.3.1}Evolution Phases}{23}
-\contentsline {subsection}{\numberline {3.3.2}Strategic Neighborhood Restructuring}{24}
-\contentsline {subsection}{\numberline {3.3.3}Social fabric based influence function}{24}
-\contentsline {section}{\numberline {3.4}Particle Swarm Optimization}{25}
-\contentsline {subsection}{\numberline {3.4.1}Tribe-PSO}{27}
-\contentsline {section}{\numberline {3.5}Chapter Conclusion}{28}
-\contentsline {chapter}{\numberline {4}Proposed Approaches: Improving Robustness in Social Fabric}{29}
-\contentsline {section}{\numberline {4.1}Self-organization}{30}
-\contentsline {section}{\numberline {4.2}Irregular Neighborhood Restructuring}{31}
-\contentsline {section}{\numberline {4.3}Confidence based Normative Knowledge Source}{33}
-\contentsline {chapter}{\numberline {5}Experimental Setup}{34}
-\contentsline {section}{\numberline {5.1}Description}{34}
-\contentsline {section}{\numberline {5.2}Benchmark Functions}{35}
-\contentsline {subsection}{\numberline {5.2.1}Unimodal Functions}{35}
-\contentsline {subsubsection}{Rotated Bent Cigar Function}{35}
-\contentsline {subsubsection}{Rotated Discus Function}{35}
-\contentsline {subsection}{\numberline {5.2.2}Simple Multimodal Functions}{36}
-\contentsline {subsubsection}{Shifted and Rotated Weierstrass Function}{36}
-\contentsline {subsubsection}{Shifted and Rotated Schwefel's Function}{36}
-\contentsline {subsubsection}{Shifted and Rotated Katsuura Function}{36}
-\contentsline {subsubsection}{Shifted and Rotated HappyCat Function}{37}
-\contentsline {subsubsection}{Shifted and Rotated HGBat Function}{37}
-\contentsline {subsubsection}{Shifted and Rotated Expanded Griewank's plus Rosenbrock's Function}{38}
-\contentsline {subsubsection}{Shifted and Rotated Expanded Scaffer's F6 Function}{38}
-\contentsline {subsection}{\numberline {5.2.3}Hybrid Functions}{38}
-\contentsline {subsubsection}{Hybrid Function 1}{38}
-\contentsline {subsubsection}{Hybrid Function 2}{39}
-\contentsline {subsubsection}{Hybrid Function 3}{39}
-\contentsline {subsection}{\numberline {5.2.4}Composite Functions}{39}
-\contentsline {subsubsection}{Composition Function 1}{40}
-\contentsline {subsubsection}{Composition Function 2}{40}
-\contentsline {subsubsection}{Composition Function 3}{41}
-\contentsline {section}{\numberline {5.3}Parameters Settings}{42}
-\contentsline {chapter}{\numberline {6}Evaluation, Analysis and Comparisons}{43}
-\contentsline {section}{\numberline {6.1}Function 1: Bent Cigar Function}{43}
-\contentsline {section}{\numberline {6.2}Function 2: Discus Function}{45}
-\contentsline {section}{\numberline {6.3}Function 3: Weierstrass Function}{47}
-\contentsline {section}{\numberline {6.4}Function 4: Modified Schwefel's Function}{48}
-\contentsline {section}{\numberline {6.5}Function 5: Katsuura Function}{49}
-\contentsline {section}{\numberline {6.6}Function 6: HappyCat Function}{51}
-\contentsline {section}{\numberline {6.7}Function 7: HGBat Function}{53}
-\contentsline {section}{\numberline {6.8}Function 8: Griewank's plus Rosenbrock's Function}{54}
-\contentsline {section}{\numberline {6.9}Function 9: Expanded Scaffer's F6 Function}{56}
-\contentsline {section}{\numberline {6.10}Function 10: Hybrid Function 1}{57}
-\contentsline {section}{\numberline {6.11}Function 11: Hybrid Function 2}{59}
-\contentsline {section}{\numberline {6.12}Function 12: Hybrid Function 3}{60}
-\contentsline {section}{\numberline {6.13}Function 13: Composition Function 1}{62}
-\contentsline {section}{\numberline {6.14}Function 14: Composition Function 2}{63}
-\contentsline {section}{\numberline {6.15}Function 15: Composition Function 3}{65}
-\contentsline {section}{\numberline {6.16}Summary of Results}{66}
-\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{68}
-\contentsline {section}{\numberline {7.1}Conclusion}{68}
-\contentsline {section}{\numberline {7.2}Future Work}{69}
-\contentsline {chapter}{Bibliography}{70}
+\contentsline {chapter}{\numberline {2}Related Works}{6}
+\contentsline {section}{\numberline {2.1}Cultural Algoithms}{6}
+\contentsline {subsection}{\numberline {2.1.1}Heterogeneous Multi-Population Cultural Algorithm}{6}
+\contentsline {subsection}{\numberline {2.1.2}The Social Fabric Approach as an Approach to Knowledge Integration in Cultural Algorithms}{8}
+\contentsline {subsection}{\numberline {2.1.3}Robust Evolution Optimization at the Edge of Chaos: Commercialization of Culture Algorithms}{10}
+\contentsline {subsection}{\numberline {2.1.4}Socio-Cultural Evolution via Neighborhood-Restructuring in Intricate Multi-Layered Networks}{11}
+\contentsline {subsection}{\numberline {2.1.5}Leveraged Neighborhood Restructuring in Cultural Algorithms for Solving Real-World Numerical Optimization Problems}{14}
+\contentsline {section}{\numberline {2.2}Particle Swar Optimization}{16}
+\contentsline {subsection}{\numberline {2.2.1}Tribe-PSO: A novel global optimization algorithm and its application in molecular docking}{16}
+\contentsline {subsection}{\numberline {2.2.2}Heterogeneous Particle Swarm Optimizers}{17}
+\contentsline {section}{\numberline {2.3}Chapter Conclusion}{19}
+\contentsline {chapter}{\numberline {3}Evolutionary Algorithms}{20}
+\contentsline {section}{\numberline {3.1}Evolutionary Algorithms}{20}
+\contentsline {section}{\numberline {3.2}Cultural Algorithms}{22}
+\contentsline {subsection}{\numberline {3.2.1}Belief Space}{22}
+\contentsline {subsection}{\numberline {3.2.2}Population Space}{23}
+\contentsline {subsection}{\numberline {3.2.3}Communication Protocol}{23}
+\contentsline {section}{\numberline {3.3}Social Fabric-based Cultural Algorithms}{24}
+\contentsline {subsection}{\numberline {3.3.1}Evolution Phases}{24}
+\contentsline {subsection}{\numberline {3.3.2}Strategic Neighborhood Restructuring}{25}
+\contentsline {subsection}{\numberline {3.3.3}Social fabric based influence function}{25}
+\contentsline {section}{\numberline {3.4}Particle Swarm Optimization}{26}
+\contentsline {subsection}{\numberline {3.4.1}Tribe-PSO}{28}
+\contentsline {section}{\numberline {3.5}Chapter Conclusion}{29}
+\contentsline {chapter}{\numberline {4}Proposed Approaches: Improving Robustness in Social Fabric}{30}
+\contentsline {section}{\numberline {4.1}Self-organization}{31}
+\contentsline {section}{\numberline {4.2}Irregular Neighborhood Restructuring}{32}
+\contentsline {section}{\numberline {4.3}Confidence based Normative Knowledge Source}{34}
+\contentsline {chapter}{\numberline {5}Experimental Setup}{35}
+\contentsline {section}{\numberline {5.1}Description}{35}
+\contentsline {section}{\numberline {5.2}Benchmark Functions}{36}
+\contentsline {subsection}{\numberline {5.2.1}Unimodal Functions}{36}
+\contentsline {subsubsection}{Rotated Bent Cigar Function}{36}
+\contentsline {subsubsection}{Rotated Discus Function}{36}
+\contentsline {subsection}{\numberline {5.2.2}Simple Multimodal Functions}{37}
+\contentsline {subsubsection}{Shifted and Rotated Weierstrass Function}{37}
+\contentsline {subsubsection}{Shifted and Rotated Schwefel's Function}{37}
+\contentsline {subsubsection}{Shifted and Rotated Katsuura Function}{37}
+\contentsline {subsubsection}{Shifted and Rotated HappyCat Function}{38}
+\contentsline {subsubsection}{Shifted and Rotated HGBat Function}{38}
+\contentsline {subsubsection}{Shifted and Rotated Expanded Griewank's plus Rosenbrock's Function}{39}
+\contentsline {subsubsection}{Shifted and Rotated Expanded Scaffer's F6 Function}{39}
+\contentsline {subsection}{\numberline {5.2.3}Hybrid Functions}{39}
+\contentsline {subsubsection}{Hybrid Function 1}{39}
+\contentsline {subsubsection}{Hybrid Function 2}{40}
+\contentsline {subsubsection}{Hybrid Function 3}{40}
+\contentsline {subsection}{\numberline {5.2.4}Composite Functions}{40}
+\contentsline {subsubsection}{Composition Function 1}{41}
+\contentsline {subsubsection}{Composition Function 2}{41}
+\contentsline {subsubsection}{Composition Function 3}{42}
+\contentsline {section}{\numberline {5.3}Parameters Settings}{43}
+\contentsline {chapter}{\numberline {6}Evaluation, Analysis and Comparisons}{44}
+\contentsline {section}{\numberline {6.1}Function 1: Bent Cigar Function}{44}
+\contentsline {section}{\numberline {6.2}Function 2: Discus Function}{46}
+\contentsline {section}{\numberline {6.3}Function 3: Weierstrass Function}{48}
+\contentsline {section}{\numberline {6.4}Function 4: Modified Schwefel's Function}{49}
+\contentsline {section}{\numberline {6.5}Function 5: Katsuura Function}{50}
+\contentsline {section}{\numberline {6.6}Function 6: HappyCat Function}{52}
+\contentsline {section}{\numberline {6.7}Function 7: HGBat Function}{54}
+\contentsline {section}{\numberline {6.8}Function 8: Griewank's plus Rosenbrock's Function}{55}
+\contentsline {section}{\numberline {6.9}Function 9: Expanded Scaffer's F6 Function}{57}
+\contentsline {section}{\numberline {6.10}Function 10: Hybrid Function 1}{58}
+\contentsline {section}{\numberline {6.11}Function 11: Hybrid Function 2}{60}
+\contentsline {section}{\numberline {6.12}Function 12: Hybrid Function 3}{61}
+\contentsline {section}{\numberline {6.13}Function 13: Composition Function 1}{63}
+\contentsline {section}{\numberline {6.14}Function 14: Composition Function 2}{64}
+\contentsline {section}{\numberline {6.15}Function 15: Composition Function 3}{66}
+\contentsline {section}{\numberline {6.16}Summary of Results}{67}
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{69}
+\contentsline {section}{\numberline {7.1}Conclusion}{69}
+\contentsline {section}{\numberline {7.2}Future Work}{70}
+\contentsline {chapter}{Bibliography}{71}
