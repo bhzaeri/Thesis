@@ -10,55 +10,59 @@ A level-1 auxiliary file: chapters/6/chapter_evaluation.aux
 A level-1 auxiliary file: chapters/7/chapter_conclusion.aux
 The style file: plain.bst
 Database file #1: UvicThesis.bib
-Warning--I didn't find a database entry for "kobti2013heterogeneous"
+Repeated entry---line 220 of file UvicThesis.bib
+ : @article{peng2005knowledge
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 226 of file UvicThesis.bib
+ : @article{chen2006tribe
+ :                       ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "gg"
-Warning--I didn't find a database entry for "che2010robust"
-Warning--I didn't find a database entry for "ali2012socio"
-Warning--I didn't find a database entry for "ali2016leveraged"
 Warning--I didn't find a database entry for "sterling2004aggregation"
 Warning--I didn't find a database entry for "bratton2007defining"
-Warning--I didn't find a database entry for "chen2006tribe"
-Warning--I didn't find a database entry for "de2009heterogeneous"
 Warning--I didn't find a database entry for "proakis1985probability"
-You've used 3 entries,
+Warning--empty journal in peng2005knowledge
+Warning--empty journal in zhang2003adaptive
+You've used 34 entries,
             2118 wiz_defined-function locations,
-            531 strings with 4760 characters,
-and the built_in function-call counts, 927 in all, are:
-= -- 83
-> -- 54
-< -- 0
-+ -- 21
-- -- 18
-* -- 63
-:= -- 168
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 15
+            694 strings with 10746 characters,
+and the built_in function-call counts, 13609 in all, are:
+= -- 1403
+> -- 587
+< -- 19
++ -- 239
+- -- 196
+* -- 886
+:= -- 2105
+add.period$ -- 117
+call.type$ -- 34
+change.case$ -- 195
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 35
-empty$ -- 70
-format.name$ -- 18
-if$ -- 186
+cite$ -- 36
+duplicate$ -- 578
+empty$ -- 1076
+format.name$ -- 196
+if$ -- 2992
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 5
-newline$ -- 18
-num.names$ -- 6
-pop$ -- 23
+int.to.str$ -- 34
+missing$ -- 37
+newline$ -- 173
+num.names$ -- 68
+pop$ -- 247
 preamble$ -- 1
-purify$ -- 14
+purify$ -- 164
 quote$ -- 0
-skip$ -- 21
+skip$ -- 432
 stack$ -- 0
-substring$ -- 34
-swap$ -- 3
-text.length$ -- 0
+substring$ -- 889
+swap$ -- 201
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
-warning$ -- 0
-while$ -- 8
-width$ -- 4
-write$ -- 33
-(There were 10 warnings)
+type$ -- 128
+warning$ -- 2
+while$ -- 134
+width$ -- 36
+write$ -- 385
+(There were 2 error messages)
