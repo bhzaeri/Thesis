@@ -1,9 +1,10 @@
-\contentsline {chapter}{Abstract}{ii}
-\contentsline {chapter}{Dedication}{iii}
-\contentsline {chapter}{Acknowledgements}{iv}
-\contentsline {chapter}{Table of Contents}{v}
-\contentsline {chapter}{List of Tables}{ix}
-\contentsline {chapter}{List of Figures}{xi}
+\contentsline {chapter}{Declaration of Originality}{iii}
+\contentsline {chapter}{Abstract}{iv}
+\contentsline {chapter}{Dedication}{v}
+\contentsline {chapter}{Acknowledgements}{vi}
+\contentsline {chapter}{List of Tables}{xi}
+\contentsline {chapter}{List of Figures}{xiii}
+\contentsline {chapter}{List of Acronyms}{xv}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Evolutionary Algorithms}{1}
 \contentsline {section}{\numberline {1.2}Robustness in Evolutionary Algorithms}{2}
