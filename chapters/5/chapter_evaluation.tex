@@ -2,12 +2,12 @@
 \label{chapter:eval1}
 In this chapter, we explain the experimental setup, how to set the parameters and the optimization functions as the benchmark to evaluate the efficiency of our proposed approaches. 
 \section{Description}
-In this section, we describe IEEE-CEC2015 as the function set which we have chosen for our benchmark optimization purpose. IEEE-CEC2015 is a set of 15 functions with different properties such as multi-modality, copious local optima, and non-separability. All test functions are minimization problems defined as follows:
+In this section, we describe IEEE-CEC2015 as the function set which we have chosen for our benchmark optimization purpose \cite{chen2014problem}. IEEE-CEC2015 is a set of 15 functions with different properties such as multi-modality, copious local optima, and non-separability. All test functions are minimization problems defined as follows:
 \begin{equation}
 Y=f(x_{1}, x_{2}, x_{3}, \cdots, x_{D})
 \end{equation}
 where $D$ is the number of dimensions.\newline
-Before evaluation, all the vectors are shifted and rotated as described in [].$\mathbf{o}_{i}=[o_{i}{1}, o_{i}{2},\cdots, o_{i}{D}]$ is the shifted global optimum, which is randomly distributed in [-80,80] D For convenience, the same search ranges are defined for all test functions as $[-100, 100]^{D}$
+Before evaluation, all the vectors are shifted and rotated as described in \cite{chen2014problem}.$\mathbf{o}_{i}=[o_{i}{1}, o_{i}{2},\cdots, o_{i}{D}]$ is the shifted global optimum, which is randomly distributed in [-80,80] D For convenience, the same search ranges are defined for all test functions as $[-100, 100]^{D}$
 \section{Benchmark Functions}
 In this section, we describe the IEEE-CEC2015 functions and their properties as a well-known benchmark adopted by many researchers to evaluate innovative ideas in solving complex optimization problems. 
 \subsection{Unimodal Functions}
@@ -210,7 +210,7 @@ Properties:
 Five types of basic functions are combined to construct this function:\newline
 N = 5, $\sigma$ = [10, 10, 10, 20, 20], $\lambda$ = [10, 10, 2.5, 25, 1e-6], bias = [0, 100, 200, 300, 400]\newline
 $g_{1}$ : Rotated HGBat Function $f_{7}$\newline
-$g_{2}$ : Rotated Rastrigin?s Function $f_{12}$\newline
+$g_{2}$ : Rotated Rastrigin's Function $f_{12}$\newline
 $g_{3}$ : Rotated Schwefel's Function $f_{4}$\newline
 $g_{4}$ : Rotated Weierstrass Function $f_{3}$\newline
 $g_{5}$ : Rotated High Conditioned Elliptic Function $f_{13}$\newline
@@ -223,7 +223,7 @@ Properties:
 \end{enumerate}
 
 \section{Parameters Settings}
-We used the same initial values for the parameters as presented in []:
+We used the same initial values for the parameters as presented in \cite{ali2016leveraged}:
 \begin{itemize}
 \item Population Size: 90
 \item Number of tribes: 10

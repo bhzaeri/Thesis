@@ -1,5 +1,13 @@
 \begin{thebibliography}{10}
 
+\bibitem{5284844}
+M.~Z. Ali and R.~G. Reynolds.
+\newblock An intelligent social fabric influence component in cultural
+  algorithms for knowledge learning in dynamic environments.
+\newblock In {\em 2009 IEEE/WIC/ACM International Joint Conference on Web
+  Intelligence and Intelligent Agent Technology}, volume~2, pages 161--168,
+  Sept 2009.
+
 \bibitem{ali2008using}
 Mostafa~Z Ali.
 \newblock {\em Using cultural algorithms to solve optimization problems with a
@@ -41,6 +49,17 @@ Christian Blum and Roderich Gro{\ss}.
 \newblock Swarm intelligence in optimization and robotics.
 \newblock In {\em Springer Handbook of Computational Intelligence}, pages
   1291--1309. Springer, 2015.
+
+\bibitem{bonabeau1999swarm}
+Eric Bonabeau, Marco Dorigo, and Guy Theraulaz.
+\newblock {\em Swarm intelligence: from natural to artificial systems}.
+\newblock Number~1. Oxford university press, 1999.
+
+\bibitem{bratton2007defining}
+Daniel Bratton and James Kennedy.
+\newblock Defining a standard for particle swarm optimization.
+\newblock In {\em 2007 IEEE swarm intelligence symposium}, pages 120--127.
+  IEEE, 2007.
 
 \bibitem{burke2005search}
 Edmund~K Burke, Graham Kendall, et~al.
@@ -88,6 +107,16 @@ Marco A~Montes De~Oca, Jorge Pe{\~n}a, Thomas Stutzle, Carlo Pinciroli, and
 \newblock Heterogeneous particle swarm optimizers.
 \newblock In {\em 2009 IEEE Congress on Evolutionary Computation}, pages
   698--705. IEEE, 2009.
+
+\bibitem{durham1991coevolution}
+William~H Durham.
+\newblock {\em Coevolution: Genes, culture, and human diversity}.
+\newblock Stanford University Press, 1991.
+
+\bibitem{eiben2003introduction}
+Agoston~E Eiben and James~E Smith.
+\newblock {\em Introduction to evolutionary computing}, volume~53.
+\newblock Springer, 2003.
 
 \bibitem{elsayed2011differential}
 Saber~M Elsayed, Ruhul~A Sarker, and Daryl~L Essam.
@@ -150,11 +179,24 @@ Roger Lewin.
 \newblock {\em Complexity: Life at the edge of chaos}.
 \newblock University of Chicago Press, 1999.
 
+\bibitem{mendes2004population}
+Rui Mendes.
+\newblock {\em Population topologies and their influence in particle swarm
+  performance}.
+\newblock PhD thesis, Citeseer, 2004.
+
 \bibitem{mendes2004fully}
 Rui Mendes, James Kennedy, and Jos{\'e} Neves.
 \newblock The fully informed particle swarm: simpler, maybe better.
 \newblock {\em IEEE transactions on evolutionary computation}, 8(3):204--210,
   2004.
+
+\bibitem{montes2008convergence}
+Marco~A Montes~de Oca and Thomas St{\"u}tzle.
+\newblock Convergence behavior of the fully informed particle swarm
+  optimization algorithm.
+\newblock In {\em Proceedings of the 10th annual conference on Genetic and
+  evolutionary computation}, pages 71--78. ACM, 2008.
 
 \bibitem{morrison1999test}
 Ronald~W Morrison and Kenneth~Alan De~Jong.
@@ -167,6 +209,18 @@ Bin Peng.
 \newblock Knowledge and population swarms in cultural algorithms for dynamic
   environments.
 \newblock 2005.
+
+\bibitem{proakis1985probability}
+J~Proakis.
+\newblock Probability, random variables and stochastic processes.
+\newblock {\em IEEE Transactions on Acoustics, Speech, and Signal Processing},
+  33(6):1637--1637, 1985.
+
+\bibitem{reynolds1994introduction}
+Robert~G Reynolds.
+\newblock An introduction to cultural algorithms.
+\newblock In {\em Proceedings of the third annual conference on evolutionary
+  programming}, volume 131139. Singapore, 1994.
 
 \bibitem{reynolds2008mining}
 Robert~G Reynolds, Mostafa Ali, and Thaer Jayyousi.
@@ -194,6 +248,17 @@ Manisha Sharma, Manjaree Pandit, and Laxmi Srivastava.
   differential evolution with time-varying mutation.
 \newblock {\em International journal of electrical power \& energy systems},
   33(3):753--766, 2011.
+
+\bibitem{sterling2004aggregation}
+Sara~E Sterling.
+\newblock Aggregation techniques to characterize social networks.
+\newblock Technical report, DTIC Document, 2004.
+
+\bibitem{stutzle2009ant}
+Thomas St{\"u}tzle.
+\newblock Ant colony optimization.
+\newblock In {\em International Conference on Evolutionary Multi-Criterion
+  Optimization}, pages 2--2. Springer, 2009.
 
 \bibitem{vasile2011inflationary}
 Massimiliano Vasile, Edmondo Minisci, and Marco Locatelli.

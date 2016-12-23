@@ -18,51 +18,48 @@ Repeated entry---line 226 of file UvicThesis.bib
  : @article{chen2006tribe
  :                       ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "gg"
-Warning--I didn't find a database entry for "sterling2004aggregation"
-Warning--I didn't find a database entry for "bratton2007defining"
-Warning--I didn't find a database entry for "proakis1985probability"
+Warning--there's a number but no series in bonabeau1999swarm
 Warning--empty journal in peng2005knowledge
 Warning--empty journal in zhang2003adaptive
-You've used 34 entries,
+You've used 45 entries,
             2118 wiz_defined-function locations,
-            694 strings with 10746 characters,
-and the built_in function-call counts, 13609 in all, are:
-= -- 1403
-> -- 587
-< -- 19
-+ -- 239
-- -- 196
-* -- 886
-:= -- 2105
-add.period$ -- 117
-call.type$ -- 34
-change.case$ -- 195
+            745 strings with 12360 characters,
+and the built_in function-call counts, 17062 in all, are:
+= -- 1759
+> -- 699
+< -- 27
++ -- 286
+- -- 230
+* -- 1076
+:= -- 2653
+add.period$ -- 155
+call.type$ -- 45
+change.case$ -- 242
 chr.to.int$ -- 0
-cite$ -- 36
-duplicate$ -- 578
-empty$ -- 1076
-format.name$ -- 196
-if$ -- 2992
+cite$ -- 48
+duplicate$ -- 742
+empty$ -- 1383
+format.name$ -- 230
+if$ -- 3762
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 37
-newline$ -- 173
-num.names$ -- 68
-pop$ -- 247
+int.to.str$ -- 45
+missing$ -- 49
+newline$ -- 228
+num.names$ -- 90
+pop$ -- 316
 preamble$ -- 1
-purify$ -- 164
+purify$ -- 203
 quote$ -- 0
-skip$ -- 432
+skip$ -- 544
 stack$ -- 0
-substring$ -- 889
-swap$ -- 201
-text.length$ -- 19
+substring$ -- 1077
+swap$ -- 250
+text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 128
-warning$ -- 2
-while$ -- 134
-width$ -- 36
-write$ -- 385
+type$ -- 166
+warning$ -- 3
+while$ -- 169
+width$ -- 47
+write$ -- 510
 (There were 2 error messages)

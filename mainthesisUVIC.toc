@@ -29,9 +29,9 @@
 \contentsline {subsection}{\numberline {3.2.2}Population Space}{23}
 \contentsline {subsection}{\numberline {3.2.3}Communication Protocol}{23}
 \contentsline {section}{\numberline {3.3}Social Fabric-based Cultural Algorithms}{24}
-\contentsline {subsection}{\numberline {3.3.1}Evolution Phases}{24}
+\contentsline {subsection}{\numberline {3.3.1}Evolution Phases}{25}
 \contentsline {subsection}{\numberline {3.3.2}Strategic Neighborhood Restructuring}{25}
-\contentsline {subsection}{\numberline {3.3.3}Social fabric based influence function}{25}
+\contentsline {subsection}{\numberline {3.3.3}Social fabric based influence function}{26}
 \contentsline {section}{\numberline {3.4}Particle Swarm Optimization}{26}
 \contentsline {subsection}{\numberline {3.4.1}Tribe-PSO}{28}
 \contentsline {section}{\numberline {3.5}Chapter Conclusion}{29}
