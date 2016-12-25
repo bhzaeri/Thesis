@@ -81,5 +81,5 @@
 \contentsline {section}{\numberline {6.16}Summary of Results}{67}
 \contentsline {chapter}{\numberline {7}Conclusion and Future Work}{69}
 \contentsline {section}{\numberline {7.1}Conclusion}{69}
-\contentsline {section}{\numberline {7.2}Future Work}{70}
+\contentsline {section}{\numberline {7.2}Future Work and Applications}{70}
 \contentsline {chapter}{Bibliography}{71}

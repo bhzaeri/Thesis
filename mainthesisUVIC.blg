@@ -8,58 +8,50 @@ A level-1 auxiliary file: chapters/4/chapter_experiments.aux
 A level-1 auxiliary file: chapters/5/chapter_evaluation.aux
 A level-1 auxiliary file: chapters/6/chapter_evaluation.aux
 A level-1 auxiliary file: chapters/7/chapter_conclusion.aux
-The style file: plain.bst
+The style file: plainnat.bst
 Database file #1: UvicThesis.bib
-Repeated entry---line 220 of file UvicThesis.bib
- : @article{peng2005knowledge
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 226 of file UvicThesis.bib
- : @article{chen2006tribe
- :                       ,
-I'm skipping whatever remains of this entry
 Warning--there's a number but no series in bonabeau1999swarm
 Warning--empty journal in peng2005knowledge
 Warning--empty journal in zhang2003adaptive
 You've used 45 entries,
-            2118 wiz_defined-function locations,
-            745 strings with 12360 characters,
-and the built_in function-call counts, 17062 in all, are:
-= -- 1759
-> -- 699
-< -- 27
-+ -- 286
-- -- 230
-* -- 1076
-:= -- 2653
-add.period$ -- 155
+            2773 wiz_defined-function locations,
+            844 strings with 13280 characters,
+and the built_in function-call counts, 22762 in all, are:
+= -- 2123
+> -- 1147
+< -- 49
++ -- 390
+- -- 345
+* -- 1697
+:= -- 3317
+add.period$ -- 157
 call.type$ -- 45
-change.case$ -- 242
-chr.to.int$ -- 0
-cite$ -- 48
-duplicate$ -- 742
-empty$ -- 1383
-format.name$ -- 230
-if$ -- 3762
-int.to.chr$ -- 0
-int.to.str$ -- 45
+change.case$ -- 243
+chr.to.int$ -- 45
+cite$ -- 93
+duplicate$ -- 1157
+empty$ -- 1933
+format.name$ -- 412
+if$ -- 4989
+int.to.chr$ -- 1
+int.to.str$ -- 1
 missing$ -- 49
-newline$ -- 228
-num.names$ -- 90
-pop$ -- 316
+newline$ -- 236
+num.names$ -- 180
+pop$ -- 561
 preamble$ -- 1
-purify$ -- 203
+purify$ -- 204
 quote$ -- 0
-skip$ -- 544
+skip$ -- 895
 stack$ -- 0
-substring$ -- 1077
-swap$ -- 250
+substring$ -- 927
+swap$ -- 252
 text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 166
+type$ -- 460
 warning$ -- 3
-while$ -- 169
-width$ -- 47
-write$ -- 510
-(There were 2 error messages)
+while$ -- 213
+width$ -- 0
+write$ -- 610
+(There were 3 warnings)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  23 DEC 2016 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  25 DEC 2016 00:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -350,12 +350,24 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \c@algocf=\count122
 \algocf@algoframe=\box40
 \algocf@algobox=\box41
-)) (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-)
-(/usr/share/texmf/tex/latex/lm/lmodern.sty
+))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+
+
+Package natbib Warning: The `cite' package should not be used
+(natbib)                with natbib. Use option `sort' instead.
+
+\bibhang=\skip116
+\bibsep=\skip117
+LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \citenum on input line 708.
+\c@NAT@ctr=\count123
+) (/usr/share/texmf/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -406,19 +418,19 @@ roblem.aux)
 (./chapters/7/chapter_conclusion.aux))
 \openout1 = `mainthesisUVIC.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 23.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -458,16 +470,16 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count123
+\scratchcounter=\count124
 \scratchdimen=\dimen131
 \scratchbox=\box42
-\nofMPsegments=\count124
-\nofMParguments=\count125
+\nofMPsegments=\count125
+\nofMParguments=\count126
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count126
+\MPscratchCnt=\count127
 \MPscratchDim=\dimen132
-\MPnumerator=\count127
-\makeMPintoPDFobject=\count128
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
 \everyMPtoPDFconversion=\toks33
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -620,67 +632,67 @@ g in In-
 
 
 (./frontmatter/acr.tex [14])
-Underfull \hbox (badness 10000) in paragraph at lines 6--46
+Underfull \hbox (badness 10000) in paragraph at lines 6--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--46
+Underfull \hbox (badness 10000) in paragraph at lines 6--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--46
+Underfull \hbox (badness 10000) in paragraph at lines 6--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--46
+Underfull \hbox (badness 10000) in paragraph at lines 6--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--46
+Underfull \hbox (badness 10000) in paragraph at lines 6--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--46
+Underfull \hbox (badness 10000) in paragraph at lines 6--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--46
+Underfull \hbox (badness 10000) in paragraph at lines 6--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--46
+Underfull \hbox (badness 10000) in paragraph at lines 6--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--46
+Underfull \hbox (badness 10000) in paragraph at lines 6--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--46
+Underfull \hbox (badness 10000) in paragraph at lines 6--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--46
+Underfull \hbox (badness 10000) in paragraph at lines 6--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--46
+Underfull \hbox (badness 10000) in paragraph at lines 6--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--46
+Underfull \hbox (badness 10000) in paragraph at lines 6--48
 
  []
 
@@ -702,7 +714,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  (./chapters/2/chapter_problem.tex
 Chapter 2.
-\savedunitlength=\skip116
+\savedunitlength=\skip118
 <Figures/HMPCA.jpeg, id=70, 2423.0525pt x 989.6975pt>
 File: Figures/HMPCA.jpeg Graphic file (type jpg)
  <use Figures/HMPCA.jpeg>
@@ -717,26 +729,25 @@ Overfull \hbox (2.51064pt too wide) in paragraph at lines 12--14
 
 
 
-] <Figures/SFAPP.png, id=74, 335.2525pt x 230.8625pt>
-File: Figures/SFAPP.png Graphic file (type png)
+] <Figures/SocialScale.jpg, id=74, 457.71pt x 325.215pt>
+File: Figures/SocialScale.jpg Graphic file (type jpg)
 
-<use Figures/SFAPP.png>
-Package pdftex.def Info: Figures/SFAPP.png used on input line 22.
-(pdftex.def)             Requested size: 301.72446pt x 207.7743pt.
- [7 <./Figures/HMPCA.jpeg>] [8 <./Figures/SFAPP.png>]
-[9] [10]
+<use Figures/SocialScale.jpg>
+Package pdftex.def Info: Figures/SocialScale.jpg used on input line 22.
+(pdftex.def)             Requested size: 228.85445pt x 162.6071pt.
+ [7 <./Figures/HMPCA.jpeg>] [8 <./Figures/SocialScale.jpg>] [9] [10]
 Overfull \hbox (22.45363pt too wide) in paragraph at lines 39--39
 []\T1/lmr/bx/n/14.4 Socio-Cultural Evo-lu-tion via Neighborhood-Restructuring
  []
 
-[11] <Figures/MultiLayer.jpeg, id=93, 773.89125pt x 457.71pt>
+[11] <Figures/MultiLayer.jpeg, id=91, 773.89125pt x 457.71pt>
 File: Figures/MultiLayer.jpeg Graphic file (type jpg)
 
 <use Figures/MultiLayer.jpeg>
 Package pdftex.def Info: Figures/MultiLayer.jpeg used on input line 46.
 (pdftex.def)             Requested size: 270.866pt x 160.2009pt.
  [12 <./Figures/MultiLayer.jpeg>]
-<Figures/TwoLayerSF.jpeg, id=97, 991.705pt x 715.67375pt>
+<Figures/TwoLayerSF.jpeg, id=95, 991.705pt x 715.67375pt>
 File: Figures/TwoLayerSF.jpeg Graphic file (type jpg)
 
 <use Figures/TwoLayerSF.jpeg>
@@ -753,7 +764,7 @@ Chapter 3.
 
 
 ] [21] [22]
-<Figures/StandardCA.jpeg, id=133, 2929.94624pt x 1916.15875pt>
+<Figures/StandardCA.jpeg, id=131, 2929.94624pt x 1916.15875pt>
 File: Figures/StandardCA.jpeg Graphic file (type jpg)
 
 <use Figures/StandardCA.jpeg>
@@ -764,14 +775,14 @@ Package pdftex.def Info: Figures/StandardCA.jpeg used on input line 39.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [23] [24 <./Figures/StandardCA.jpeg>]
-<Figures/StandardNR.jpeg, id=140, 610.28pt x 393.47pt>
+<Figures/StandardNR.jpeg, id=138, 610.28pt x 393.47pt>
 File: Figures/StandardNR.jpeg Graphic file (type jpg)
 
 <use Figures/StandardNR.jpeg>
 Package pdftex.def Info: Figures/StandardNR.jpeg used on input line 50.
 (pdftex.def)             Requested size: 244.10767pt x 157.38521pt.
  [25 <./Figures/StandardNR.jpeg>]
-<Figures/SFNetworkModel.jpeg, id=144, 583.17876pt x 613.29124pt>
+<Figures/SFNetworkModel.jpeg, id=142, 583.17876pt x 613.29124pt>
 File: Figures/SFNetworkModel.jpeg Graphic file (type jpg)
 
 <use Figures/SFNetworkModel.jpeg>
@@ -781,14 +792,14 @@ Package pdftex.def Info: Figures/SFNetworkModel.jpeg used on input line 70.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26] <Figures/PSOModel.jpeg, id=151, 786.94pt x 290.08376pt>
+[26] <Figures/PSOModel.jpeg, id=149, 786.94pt x 290.08376pt>
 File: Figures/PSOModel.jpeg Graphic file (type jpg)
 
 <use Figures/PSOModel.jpeg>
 Package pdftex.def Info: Figures/PSOModel.jpeg used on input line 87.
 (pdftex.def)             Requested size: 314.77042pt x 116.03143pt.
  [27 <./Figures/SFNetworkModel.jpeg>]
-<Figures/TribePSO.png, id=156, 280.04625pt x 238.8925pt>
+<Figures/TribePSO.png, id=154, 280.04625pt x 238.8925pt>
 File: Figures/TribePSO.png Graphic file (type png)
 
 <use Figures/TribePSO.png>
@@ -809,14 +820,6 @@ Chapter 4.
 
 
 ] [31]
-Overfull \hbox (0.80795pt too wide) in paragraph at lines 23--45
-\T1/lmr/m/n/12 gbest$\OMS/lmsy/m/n/12 !$\T1/lmr/m/n/12 tree$\OMS/lmsy/m/n/12 !$
-\T1/lmr/m/n/12 mesh$\OMS/lmsy/m/n/12 !$\T1/lmr/m/n/12 lbest and Up-grad-ing oc-
-curs in the di-rec-tion of lbest$\OMS/lmsy/m/n/12 !$\T1/lmr/m/n/12 mesh$\OMS/lm
-sy/m/n/12 !$\T1/lmr/m/n/12 tree
- []
-
-
 Overfull \hbox (8.59927pt too wide) in paragraph at lines 45--45
 []\T1/lmr/bx/n/17.28 Confidence based Nor-ma-tive Knowl-edge Source 
  []
@@ -836,7 +839,7 @@ Chapter 5.
 
 (./chapters/6/chapter_evaluation.tex
 Chapter 6.
-<Figures/func1_10.jpeg, id=215, 626.34pt x 432.11438pt>
+<Figures/func1_10.jpeg, id=214, 626.34pt x 432.11438pt>
 File: Figures/func1_10.jpeg Graphic file (type jpg)
 
 <use Figures/func1_10.jpeg>
@@ -847,21 +850,21 @@ Package pdftex.def Info: Figures/func1_10.jpeg used on input line 22.
 
 
 ]
-<Figures/func1_30.jpeg, id=219, 626.34pt x 432.11438pt>
+<Figures/func1_30.jpeg, id=218, 626.34pt x 432.11438pt>
 File: Figures/func1_30.jpeg Graphic file (type jpg)
 
 <use Figures/func1_30.jpeg>
 Package pdftex.def Info: Figures/func1_30.jpeg used on input line 40.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [45 <./Figures/func1_10.jpeg>]
-<Figures/func2_10.jpeg, id=223, 626.34pt x 432.11438pt>
+<Figures/func2_10.jpeg, id=222, 626.34pt x 432.11438pt>
 File: Figures/func2_10.jpeg Graphic file (type jpg)
 
 <use Figures/func2_10.jpeg>
 Package pdftex.def Info: Figures/func2_10.jpeg used on input line 63.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func2_30.jpeg, id=224, 626.34pt x 432.11438pt>
+<Figures/func2_30.jpeg, id=223, 626.34pt x 432.11438pt>
 File: Figures/func2_30.jpeg Graphic file (type jpg)
 
 <use Figures/func2_30.jpeg>
@@ -875,21 +878,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [46 <./Figures/func1_30.jpeg>] [47 <./Figures/func2_10.jpeg> <./Figures/func2_3
-0.jpeg>] <Figures/func3_10.jpeg, id=232, 626.34pt x 432.11438pt>
+0.jpeg>] <Figures/func3_10.jpeg, id=231, 626.34pt x 432.11438pt>
 File: Figures/func3_10.jpeg Graphic file (type jpg)
 
 <use Figures/func3_10.jpeg>
 Package pdftex.def Info: Figures/func3_10.jpeg used on input line 103.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func3_30.jpeg, id=233, 626.34pt x 432.11438pt>
+<Figures/func3_30.jpeg, id=232, 626.34pt x 432.11438pt>
 File: Figures/func3_30.jpeg Graphic file (type jpg)
 
 <use Figures/func3_30.jpeg>
 Package pdftex.def Info: Figures/func3_30.jpeg used on input line 122.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [48 <./Figures/func3_10.jpeg>]
-<Figures/func4_10.jpeg, id=237, 626.34pt x 432.11438pt>
+<Figures/func4_10.jpeg, id=236, 626.34pt x 432.11438pt>
 File: Figures/func4_10.jpeg Graphic file (type jpg)
 
 <use Figures/func4_10.jpeg>
@@ -899,7 +902,7 @@ Package pdftex.def Info: Figures/func4_10.jpeg used on input line 144.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func4_30.jpeg, id=238, 626.34pt x 432.11438pt>
+<Figures/func4_30.jpeg, id=237, 626.34pt x 432.11438pt>
 File: Figures/func4_30.jpeg Graphic file (type jpg)
 
 <use Figures/func4_30.jpeg>
@@ -909,7 +912,7 @@ Package pdftex.def Info: Figures/func4_30.jpeg used on input line 164.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func5_10.jpeg, id=242, 626.34pt x 432.11438pt>
+<Figures/func5_10.jpeg, id=241, 626.34pt x 432.11438pt>
 File: Figures/func5_10.jpeg Graphic file (type jpg)
 
 <use Figures/func5_10.jpeg>
@@ -922,7 +925,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func5_30.jpeg, id=243, 626.34pt x 432.11438pt>
+<Figures/func5_30.jpeg, id=242, 626.34pt x 432.11438pt>
 File: Figures/func5_30.jpeg Graphic file (type jpg)
 
 <use Figures/func5_30.jpeg>
@@ -930,7 +933,7 @@ Package pdftex.def Info: Figures/func5_30.jpeg used on input line 205.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [50 <./Figures/func4_10.jpeg> <./Figures/func4_30.jpeg>] [51 <./Figures/func5_
 10.jpeg> <./Figures/func5_30.jpeg>]
-<Figures/func6_10.jpeg, id=250, 626.34pt x 432.11438pt>
+<Figures/func6_10.jpeg, id=249, 626.34pt x 432.11438pt>
 File: Figures/func6_10.jpeg Graphic file (type jpg)
 
 <use Figures/func6_10.jpeg>
@@ -940,21 +943,21 @@ Package pdftex.def Info: Figures/func6_10.jpeg used on input line 229.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func6_30.jpeg, id=251, 626.34pt x 432.11438pt>
+<Figures/func6_30.jpeg, id=250, 626.34pt x 432.11438pt>
 File: Figures/func6_30.jpeg Graphic file (type jpg)
 
 <use Figures/func6_30.jpeg>
 Package pdftex.def Info: Figures/func6_30.jpeg used on input line 248.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [52 <./Figures/func6_10.jpeg>] [53 <./Figures/func6_30.jpeg>] <Figures/func7_1
-0.jpeg, id=259, 626.34pt x 432.11438pt>
+0.jpeg, id=258, 626.34pt x 432.11438pt>
 File: Figures/func7_10.jpeg Graphic file (type jpg)
 
 <use Figures/func7_10.jpeg>
 Package pdftex.def Info: Figures/func7_10.jpeg used on input line 272.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func7_30.jpeg, id=260, 626.34pt x 432.11438pt>
+<Figures/func7_30.jpeg, id=259, 626.34pt x 432.11438pt>
 File: Figures/func7_30.jpeg Graphic file (type jpg)
 
 <use Figures/func7_30.jpeg>
@@ -965,7 +968,7 @@ Overfull \hbox (12.94298pt too wide) in paragraph at lines 297--297
 []\T1/lmr/bx/n/17.28 Function 8: Griewank's plus Rosen-brock's Func-
  []
 
-<Figures/func8_10.jpeg, id=264, 626.34pt x 432.11438pt>
+<Figures/func8_10.jpeg, id=263, 626.34pt x 432.11438pt>
 File: Figures/func8_10.jpeg Graphic file (type jpg)
 
 <use Figures/func8_10.jpeg>
@@ -978,7 +981,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func8_30.jpeg, id=265, 626.34pt x 432.11438pt>
+<Figures/func8_30.jpeg, id=264, 626.34pt x 432.11438pt>
 File: Figures/func8_30.jpeg Graphic file (type jpg)
 
 <use Figures/func8_30.jpeg>
@@ -986,21 +989,21 @@ Package pdftex.def Info: Figures/func8_30.jpeg used on input line 332.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [55 <./Figures/func7_30.jpeg>] [56 <./Figures/func8_10.jpeg> <./Figures/func8_
 30.jpeg>]
-<Figures/func9_10.jpeg, id=272, 626.34pt x 432.11438pt>
+<Figures/func9_10.jpeg, id=271, 626.34pt x 432.11438pt>
 File: Figures/func9_10.jpeg Graphic file (type jpg)
 
 <use Figures/func9_10.jpeg>
 Package pdftex.def Info: Figures/func9_10.jpeg used on input line 354.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func9_30.jpeg, id=273, 626.34pt x 432.11438pt>
+<Figures/func9_30.jpeg, id=272, 626.34pt x 432.11438pt>
 File: Figures/func9_30.jpeg Graphic file (type jpg)
 
 <use Figures/func9_30.jpeg>
 Package pdftex.def Info: Figures/func9_30.jpeg used on input line 373.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [57 <./Figures/func9_10.jpeg>]
-<Figures/func10_10.jpeg, id=277, 626.34pt x 432.11438pt>
+<Figures/func10_10.jpeg, id=276, 626.34pt x 432.11438pt>
 File: Figures/func10_10.jpeg Graphic file (type jpg)
 
 <use Figures/func10_10.jpeg>
@@ -1013,7 +1016,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func10_30.jpeg, id=278, 626.34pt x 432.11438pt>
+<Figures/func10_30.jpeg, id=277, 626.34pt x 432.11438pt>
 File: Figures/func10_30.jpeg Graphic file (type jpg)
 
 <use Figures/func10_30.jpeg>
@@ -1021,21 +1024,21 @@ Package pdftex.def Info: Figures/func10_30.jpeg used on input line 414.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [58 <./Figures/func9_30.jpeg>] [59 <./Figures/func10_10.jpeg> <./Figures/func1
 0_30.jpeg>]
-<Figures/func11_10.jpeg, id=286, 626.34pt x 432.11438pt>
+<Figures/func11_10.jpeg, id=285, 626.34pt x 432.11438pt>
 File: Figures/func11_10.jpeg Graphic file (type jpg)
 
 <use Figures/func11_10.jpeg>
 Package pdftex.def Info: Figures/func11_10.jpeg used on input line 436.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func11_30.jpeg, id=287, 626.34pt x 432.11438pt>
+<Figures/func11_30.jpeg, id=286, 626.34pt x 432.11438pt>
 File: Figures/func11_30.jpeg Graphic file (type jpg)
 
 <use Figures/func11_30.jpeg>
 Package pdftex.def Info: Figures/func11_30.jpeg used on input line 455.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [60 <./Figures/func11_10.jpeg>]
-<Figures/func12_10.jpeg, id=291, 626.34pt x 432.11438pt>
+<Figures/func12_10.jpeg, id=290, 626.34pt x 432.11438pt>
 File: Figures/func12_10.jpeg Graphic file (type jpg)
 
 <use Figures/func12_10.jpeg>
@@ -1048,7 +1051,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func12_30.jpeg, id=292, 626.34pt x 432.11438pt>
+<Figures/func12_30.jpeg, id=291, 626.34pt x 432.11438pt>
 File: Figures/func12_30.jpeg Graphic file (type jpg)
 
 <use Figures/func12_30.jpeg>
@@ -1056,7 +1059,7 @@ Package pdftex.def Info: Figures/func12_30.jpeg used on input line 496.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [61 <./Figures/func11_30.jpeg>] [62 <./Figures/func12_10.jpeg> <./Figures/func
 12_30.jpeg>]
-<Figures/func13_10.jpeg, id=299, 626.34pt x 432.11438pt>
+<Figures/func13_10.jpeg, id=298, 626.34pt x 432.11438pt>
 File: Figures/func13_10.jpeg Graphic file (type jpg)
 
 <use Figures/func13_10.jpeg>
@@ -1066,14 +1069,14 @@ Package pdftex.def Info: Figures/func13_10.jpeg used on input line 518.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func13_30.jpeg, id=300, 626.34pt x 432.11438pt>
+<Figures/func13_30.jpeg, id=299, 626.34pt x 432.11438pt>
 File: Figures/func13_30.jpeg Graphic file (type jpg)
 
 <use Figures/func13_30.jpeg>
 Package pdftex.def Info: Figures/func13_30.jpeg used on input line 537.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [63 <./Figures/func13_10.jpeg>]
-<Figures/func14_10.jpeg, id=304, 626.34pt x 432.11438pt>
+<Figures/func14_10.jpeg, id=303, 626.34pt x 432.11438pt>
 File: Figures/func14_10.jpeg Graphic file (type jpg)
 
 <use Figures/func14_10.jpeg>
@@ -1086,7 +1089,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func14_30.jpeg, id=305, 626.34pt x 432.11438pt>
+<Figures/func14_30.jpeg, id=304, 626.34pt x 432.11438pt>
 File: Figures/func14_30.jpeg Graphic file (type jpg)
 
 <use Figures/func14_30.jpeg>
@@ -1094,14 +1097,14 @@ Package pdftex.def Info: Figures/func14_30.jpeg used on input line 578.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [64 <./Figures/func13_30.jpeg>] [65 <./Figures/func14_10.jpeg> <./Figures/func
 14_30.jpeg>]
-<Figures/func15_10.jpeg, id=313, 626.34pt x 432.11438pt>
+<Figures/func15_10.jpeg, id=312, 626.34pt x 432.11438pt>
 File: Figures/func15_10.jpeg Graphic file (type jpg)
 
 <use Figures/func15_10.jpeg>
 Package pdftex.def Info: Figures/func15_10.jpeg used on input line 600.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func15_30.jpeg, id=314, 626.34pt x 432.11438pt>
+<Figures/func15_30.jpeg, id=313, 626.34pt x 432.11438pt>
 File: Figures/func15_30.jpeg Graphic file (type jpg)
 
 <use Figures/func15_30.jpeg>
@@ -1112,11 +1115,6 @@ Package pdftex.def Info: Figures/func15_30.jpeg used on input line 619.
 
  (./chapters/7/chapter_conclusion.tex
 Chapter 7.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-
- []
-
 [69
 
 
@@ -1130,13 +1128,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 (./chapters/4/chapter_experiments.aux) (./chapters/5/chapter_evaluation.aux)
 (./chapters/6/chapter_evaluation.aux) (./chapters/7/chapter_conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 6444 strings out of 493029
- 91831 string characters out of 6136234
- 180991 words of memory out of 5000000
- 9691 multiletter control sequences out of 15000+600000
+ 6858 strings out of 493029
+ 98201 string characters out of 6136234
+ 188889 words of memory out of 5000000
+ 10101 multiletter control sequences out of 15000+600000
  64999 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,20n,45p,1812b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,20n,45p,1815b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
 {
 /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/d
 vips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/shar
@@ -1150,9 +1148,9 @@ ic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 sy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmsy8.pfb>
-Output written on mainthesisUVIC.pdf (91 pages, 4662005 bytes).
+Output written on mainthesisUVIC.pdf (91 pages, 4725098 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
+ 403 PDF objects out of 1000 (max. 8388607)
  254 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  196 words of extra memory for PDF output out of 10000 (max. 10000000)

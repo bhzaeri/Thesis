@@ -1,13 +1,13 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces H-MPCA Architecture \cite {kobti2013heterogeneous}}}{7}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Scale of social interactions\cite {kobti2013heterogeneous}}}{8}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Multi-Layered Social Network with CA \cite {kobti2013heterogeneous}}}{12}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Two-class taxonomy of the tribal CA \cite {kobti2013heterogeneous}}}{15}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces H-MPCA Architecture \citet {kobti2013heterogeneous}}}{7}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Scale of social interactions \citet {reynolds2008social}}}{8}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Multi-Layered Social Network with CA \citet {ali2012socio}}}{12}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Two-class taxonomy of the tribal CA \citet {ali2016leveraged}}}{15}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Cultural Algorithms \cite {kobti2013heterogeneous}}}{24}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Cultural Algorithms \citet {kobti2013heterogeneous}}}{24}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Standard Neighborhood Restructuring Process}}{25}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Social Fabric Influence Function\cite {5284844}}}{27}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Social Fabric Influence Function\citet {5284844}}}{27}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Social interaction model of PSO}}{28}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Tribal-PSO}}{29}
 \addvspace {10\p@ }

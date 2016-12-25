@@ -1,86 +1,96 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{45}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem{5284844}
+\bibitem[Ali and Reynolds(2009)]{5284844}
 M.~Z. Ali and R.~G. Reynolds.
 \newblock An intelligent social fabric influence component in cultural
   algorithms for knowledge learning in dynamic environments.
-\newblock In {\em 2009 IEEE/WIC/ACM International Joint Conference on Web
+\newblock In \emph{2009 IEEE/WIC/ACM International Joint Conference on Web
   Intelligence and Intelligent Agent Technology}, volume~2, pages 161--168,
   Sept 2009.
+\newblock \doi{10.1109/WI-IAT.2009.146}.
 
-\bibitem{ali2008using}
+\bibitem[Ali(2008)]{ali2008using}
 Mostafa~Z Ali.
-\newblock {\em Using cultural algorithms to solve optimization problems with a
+\newblock \emph{Using cultural algorithms to solve optimization problems with a
   social fabric approach}.
 \newblock ProQuest, 2008.
 
-\bibitem{ali2010enhancing}
+\bibitem[Ali et~al.(2010)Ali, Reynolds, and Ali]{ali2010enhancing}
 Mostafa~Z Ali, Robert~G Reynolds, and Rose Ali.
 \newblock Enhancing cultural learning under environmental variability using
   layered heterogeneous sociometry-based networks.
-\newblock In {\em Web Intelligence and Intelligent Agent Technology (WI-IAT),
+\newblock In \emph{Web Intelligence and Intelligent Agent Technology (WI-IAT),
   2010 IEEE/WIC/ACM International Conference on}, volume~2, pages 69--74. IEEE,
   2010.
 
-\bibitem{ali2012socio}
+\bibitem[Ali et~al.(2012)Ali, Salhieh, and Reynolds]{ali2012socio}
 Mostafa~Z Ali, Ayad~M Salhieh, and Robert~G Reynolds.
 \newblock Socio-cultural evolution via neighborhood-restructuring in intricate
   multi-layered networks.
-\newblock In {\em 2012 IEEE Congress on Evolutionary Computation}, pages 1--8.
+\newblock In \emph{2012 IEEE Congress on Evolutionary Computation}, pages 1--8.
   IEEE, 2012.
 
-\bibitem{ali2016leveraged}
+\bibitem[Ali et~al.(2016)Ali, Suganthan, Reynolds, and
+  Al-Badarneh]{ali2016leveraged}
 Mostafa~Z Ali, Ponnuthurai~N Suganthan, Robert~G Reynolds, and Amer~F
   Al-Badarneh.
 \newblock Leveraged neighborhood restructuring in cultural algorithms for
   solving real-world numerical optimization problems.
-\newblock {\em IEEE transactions on evolutionary computation}, 20(2):218--231,
-  2016.
+\newblock \emph{IEEE transactions on evolutionary computation}, 20\penalty0
+  (2):\penalty0 218--231, 2016.
 
-\bibitem{asafuddoula2011adaptive}
+\bibitem[Asafuddoula et~al.(2011)Asafuddoula, Ray, and
+  Sarker]{asafuddoula2011adaptive}
 Md~Asafuddoula, Tapabrata Ray, and Ruhul Sarker.
 \newblock An adaptive differential evolution algorithm and its performance on
   real world optimization problems.
-\newblock In {\em 2011 IEEE Congress of Evolutionary Computation (CEC)}, pages
+\newblock In \emph{2011 IEEE Congress of Evolutionary Computation (CEC)}, pages
   1057--1062. IEEE, 2011.
 
-\bibitem{blum2015swarm}
+\bibitem[Blum and Gro{\ss}(2015)]{blum2015swarm}
 Christian Blum and Roderich Gro{\ss}.
 \newblock Swarm intelligence in optimization and robotics.
-\newblock In {\em Springer Handbook of Computational Intelligence}, pages
+\newblock In \emph{Springer Handbook of Computational Intelligence}, pages
   1291--1309. Springer, 2015.
 
-\bibitem{bonabeau1999swarm}
+\bibitem[Bonabeau et~al.(1999)Bonabeau, Dorigo, and
+  Theraulaz]{bonabeau1999swarm}
 Eric Bonabeau, Marco Dorigo, and Guy Theraulaz.
-\newblock {\em Swarm intelligence: from natural to artificial systems}.
+\newblock \emph{Swarm intelligence: from natural to artificial systems}.
 \newblock Number~1. Oxford university press, 1999.
 
-\bibitem{bratton2007defining}
+\bibitem[Bratton and Kennedy(2007)]{bratton2007defining}
 Daniel Bratton and James Kennedy.
 \newblock Defining a standard for particle swarm optimization.
-\newblock In {\em 2007 IEEE swarm intelligence symposium}, pages 120--127.
+\newblock In \emph{2007 IEEE swarm intelligence symposium}, pages 120--127.
   IEEE, 2007.
 
-\bibitem{burke2005search}
+\bibitem[Burke et~al.(2005)Burke, Kendall, et~al.]{burke2005search}
 Edmund~K Burke, Graham Kendall, et~al.
-\newblock {\em Search methodologies}.
+\newblock \emph{Search methodologies}.
 \newblock Springer, 2005.
 
-\bibitem{che2010robust}
+\bibitem[Che et~al.(2010)Che, Ali, and Reynolds]{che2010robust}
 Xiangdong Che, Mostafa Ali, and Robert~G Reynolds.
 \newblock Robust evolution optimization at the edge of chaos: Commercialization
   of culture algorithms.
-\newblock In {\em IEEE Congress on Evolutionary Computation}, pages 1--8. IEEE,
-  2010.
+\newblock In \emph{IEEE Congress on Evolutionary Computation}, pages 1--8.
+  IEEE, 2010.
 
-\bibitem{chen2006tribe}
+\bibitem[Chen et~al.(2006)Chen, Li, and Cao]{chen2006tribe}
 Kai Chen, Tonghua Li, and Tongcheng Cao.
 \newblock Tribe-pso: A novel global optimization algorithm and its application
   in molecular docking.
-\newblock {\em Chemometrics and intelligent laboratory systems},
-  82(1):248--259, 2006.
+\newblock \emph{Chemometrics and intelligent laboratory systems}, 82\penalty0
+  (1):\penalty0 248--259, 2006.
 
-\bibitem{chen2014problem}
+\bibitem[Chen et~al.(2014)Chen, Liu, Zhang, Liang, Suganthan, and
+  Qu]{chen2014problem}
 Q~Chen, B~Liu, Q~Zhang, JJ~Liang, PN~Suganthan, and BY~Qu.
 \newblock Problem definitions and evaluation criteria for cec 2015 special
   session on bound constrained single-objective computationally expensive
@@ -88,199 +98,209 @@ Q~Chen, B~Liu, Q~Zhang, JJ~Liang, PN~Suganthan, and BY~Qu.
 \newblock Technical report, Technical Report, Computational Intelligence
   Laboratory, Zhengzhou University, Zhengzhou, 2014.
 
-\bibitem{cheng2005weaving}
+\bibitem[Cheng et~al.(2005)Cheng, Patterson, Rohall, Hupfer, and
+  Ross]{cheng2005weaving}
 Li-Te Cheng, John Patterson, Steven~L Rohall, Susanne Hupfer, and Steven Ross.
 \newblock Weaving a social fabric into existing software.
-\newblock In {\em Proceedings of the 4th international conference on
+\newblock In \emph{Proceedings of the 4th international conference on
   Aspect-oriented software development}, pages 147--158. ACM, 2005.
 
-\bibitem{clerc2002particle}
+\bibitem[Clerc and Kennedy(2002)]{clerc2002particle}
 Maurice Clerc and James Kennedy.
 \newblock The particle swarm-explosion, stability, and convergence in a
   multidimensional complex space.
-\newblock {\em IEEE transactions on Evolutionary Computation}, 6(1):58--73,
-  2002.
+\newblock \emph{IEEE transactions on Evolutionary Computation}, 6\penalty0
+  (1):\penalty0 58--73, 2002.
 
-\bibitem{de2009heterogeneous}
+\bibitem[De~Oca et~al.(2009)De~Oca, Pe{\~n}a, Stutzle, Pinciroli, and
+  Dorigo]{de2009heterogeneous}
 Marco A~Montes De~Oca, Jorge Pe{\~n}a, Thomas Stutzle, Carlo Pinciroli, and
   Marco Dorigo.
 \newblock Heterogeneous particle swarm optimizers.
-\newblock In {\em 2009 IEEE Congress on Evolutionary Computation}, pages
+\newblock In \emph{2009 IEEE Congress on Evolutionary Computation}, pages
   698--705. IEEE, 2009.
 
-\bibitem{durham1991coevolution}
+\bibitem[Durham(1991)]{durham1991coevolution}
 William~H Durham.
-\newblock {\em Coevolution: Genes, culture, and human diversity}.
+\newblock \emph{Coevolution: Genes, culture, and human diversity}.
 \newblock Stanford University Press, 1991.
 
-\bibitem{eiben2003introduction}
+\bibitem[Eiben and Smith(2003)]{eiben2003introduction}
 Agoston~E Eiben and James~E Smith.
-\newblock {\em Introduction to evolutionary computing}, volume~53.
+\newblock \emph{Introduction to evolutionary computing}, volume~53.
 \newblock Springer, 2003.
 
-\bibitem{elsayed2011differential}
+\bibitem[Elsayed et~al.(2011)Elsayed, Sarker, and
+  Essam]{elsayed2011differential}
 Saber~M Elsayed, Ruhul~A Sarker, and Daryl~L Essam.
 \newblock Differential evolution with multiple strategies for solving cec2011
   real-world numerical optimization problems.
-\newblock In {\em 2011 IEEE Congress of Evolutionary Computation (CEC)}, pages
+\newblock In \emph{2011 IEEE Congress of Evolutionary Computation (CEC)}, pages
   1041--1048. IEEE, 2011.
 
-\bibitem{guo2011novel}
+\bibitem[Guo et~al.(2011)Guo, Cheng, Cao, and Lin]{guo2011novel}
 Yi-nan Guo, Jian Cheng, Yuan-yuan Cao, and Yong Lin.
 \newblock A novel multi-population cultural algorithm adopting knowledge
   migration.
-\newblock {\em Soft computing}, 15(5):897--905, 2011.
+\newblock \emph{Soft computing}, 15\penalty0 (5):\penalty0 897--905, 2011.
 
-\bibitem{hu2003engineering}
+\bibitem[Hu et~al.(2003)Hu, Eberhart, and Shi]{hu2003engineering}
 Xiaohui Hu, Russell~C Eberhart, and Yuhui Shi.
 \newblock Engineering optimization with particle swarm.
-\newblock In {\em Swarm Intelligence Symposium, 2003. SIS'03. Proceedings of
+\newblock In \emph{Swarm Intelligence Symposium, 2003. SIS'03. Proceedings of
   the 2003 IEEE}, pages 53--57. IEEE, 2003.
 
-\bibitem{jianjun2002adaptive}
+\bibitem[Jianjun et~al.(2002)Jianjun, Goodman, Seo, and
+  Pei]{jianjun2002adaptive}
 Hu~Jianjun, Erik~D Goodman, Kisung Seo, and Min Pei.
 \newblock Adaptive hierarchical fair competition (ahfc) model for parallel
   evolutionary algorithms.
-\newblock In {\em Proceedings of the Genetic and Evolutionary Computation
+\newblock In \emph{Proceedings of the Genetic and Evolutionary Computation
   Conference, New York}, pages 772--779, 2002.
 
-\bibitem{jones1997development}
+\bibitem[Jones et~al.(1997)Jones, Willett, Glen, Leach, and
+  Taylor]{jones1997development}
 Gareth Jones, Peter Willett, Robert~C Glen, Andrew~R Leach, and Robin Taylor.
 \newblock Development and validation of a genetic algorithm for flexible
   docking.
-\newblock {\em Journal of molecular biology}, 267(3):727--748, 1997.
+\newblock \emph{Journal of molecular biology}, 267\penalty0 (3):\penalty0
+  727--748, 1997.
 
-\bibitem{785509}
+\bibitem[Kennedy(1999)]{785509}
 J.~Kennedy.
 \newblock Small worlds and mega-minds: effects of neighborhood topology on
   particle swarm performance.
-\newblock In {\em Proceedings of the 1999 Congress on Evolutionary
+\newblock In \emph{Proceedings of the 1999 Congress on Evolutionary
   Computation-CEC99 (Cat. No. 99TH8406)}, volume~3, page 1938 Vol. 3, 1999.
+\newblock \doi{10.1109/CEC.1999.785509}.
 
-\bibitem{kennedy2003bare}
+\bibitem[Kennedy(2003)]{kennedy2003bare}
 James Kennedy.
 \newblock Bare bones particle swarms.
-\newblock In {\em Swarm Intelligence Symposium, 2003. SIS'03. Proceedings of
+\newblock In \emph{Swarm Intelligence Symposium, 2003. SIS'03. Proceedings of
   the 2003 IEEE}, pages 80--87. IEEE, 2003.
 
-\bibitem{kennedy2001swarm}
+\bibitem[Kennedy et~al.(2001)Kennedy, Kennedy, Eberhart, and
+  Shi]{kennedy2001swarm}
 James Kennedy, James~F Kennedy, Russell~C Eberhart, and Yuhui Shi.
-\newblock {\em Swarm intelligence}.
+\newblock \emph{Swarm intelligence}.
 \newblock Morgan Kaufmann, 2001.
 
-\bibitem{kobti2013heterogeneous}
-Ziad Kobti et~al.
-\newblock Heterogeneous multi-population cultural algorithm.
-\newblock In {\em 2013 IEEE Congress on Evolutionary Computation}, pages
-  292--299. IEEE, 2013.
-
-\bibitem{lewin1999complexity}
+\bibitem[Lewin(1999)]{lewin1999complexity}
 Roger Lewin.
-\newblock {\em Complexity: Life at the edge of chaos}.
+\newblock \emph{Complexity: Life at the edge of chaos}.
 \newblock University of Chicago Press, 1999.
 
-\bibitem{mendes2004population}
+\bibitem[Mendes(2004)]{mendes2004population}
 Rui Mendes.
-\newblock {\em Population topologies and their influence in particle swarm
+\newblock \emph{Population topologies and their influence in particle swarm
   performance}.
 \newblock PhD thesis, Citeseer, 2004.
 
-\bibitem{mendes2004fully}
+\bibitem[Mendes et~al.(2004)Mendes, Kennedy, and Neves]{mendes2004fully}
 Rui Mendes, James Kennedy, and Jos{\'e} Neves.
 \newblock The fully informed particle swarm: simpler, maybe better.
-\newblock {\em IEEE transactions on evolutionary computation}, 8(3):204--210,
-  2004.
+\newblock \emph{IEEE transactions on evolutionary computation}, 8\penalty0
+  (3):\penalty0 204--210, 2004.
 
-\bibitem{montes2008convergence}
+\bibitem[Montes~de Oca and St{\"u}tzle(2008)]{montes2008convergence}
 Marco~A Montes~de Oca and Thomas St{\"u}tzle.
 \newblock Convergence behavior of the fully informed particle swarm
   optimization algorithm.
-\newblock In {\em Proceedings of the 10th annual conference on Genetic and
+\newblock In \emph{Proceedings of the 10th annual conference on Genetic and
   evolutionary computation}, pages 71--78. ACM, 2008.
 
-\bibitem{morrison1999test}
+\bibitem[Morrison and De~Jong(1999)]{morrison1999test}
 Ronald~W Morrison and Kenneth~Alan De~Jong.
 \newblock A test problem generator for non-stationary environments.
-\newblock In {\em Evolutionary Computation, 1999. CEC 99. Proceedings of the
+\newblock In \emph{Evolutionary Computation, 1999. CEC 99. Proceedings of the
   1999 Congress on}, volume~3. IEEE, 1999.
 
-\bibitem{peng2005knowledge}
+\bibitem[Peng(2005)]{peng2005knowledge}
 Bin Peng.
 \newblock Knowledge and population swarms in cultural algorithms for dynamic
   environments.
 \newblock 2005.
 
-\bibitem{proakis1985probability}
+\bibitem[Proakis(1985)]{proakis1985probability}
 J~Proakis.
 \newblock Probability, random variables and stochastic processes.
-\newblock {\em IEEE Transactions on Acoustics, Speech, and Signal Processing},
-  33(6):1637--1637, 1985.
+\newblock \emph{IEEE Transactions on Acoustics, Speech, and Signal Processing},
+  33\penalty0 (6):\penalty0 1637--1637, 1985.
 
-\bibitem{reynolds1994introduction}
+\bibitem[Raeesi and Kobti(2013)]{kobti2013heterogeneous}
+M.~R. Raeesi and Z.~Kobti.
+\newblock Heterogeneous multi-population cultural algorithm.
+\newblock In \emph{2013 IEEE Congress on Evolutionary Computation}, pages
+  292--299, June 2013.
+\newblock \doi{10.1109/CEC.2013.6557583}.
+
+\bibitem[Reynolds(1994)]{reynolds1994introduction}
 Robert~G Reynolds.
 \newblock An introduction to cultural algorithms.
-\newblock In {\em Proceedings of the third annual conference on evolutionary
+\newblock In \emph{Proceedings of the third annual conference on evolutionary
   programming}, volume 131139. Singapore, 1994.
 
-\bibitem{reynolds2008mining}
-Robert~G Reynolds, Mostafa Ali, and Thaer Jayyousi.
-\newblock Mining the social fabric of archaic urban centers with cultural
-  algorithms.
-\newblock {\em Computer}, 41(1):64--72, 2008.
-
-\bibitem{reynolds2007exploring}
+\bibitem[Reynolds and Ali(2007)]{reynolds2007exploring}
 Robert~G Reynolds and Mostafa~Z Ali.
 \newblock Exploring knowledge and population swarms via an agent-based cultural
   algorithms simulation toolkit (cat).
-\newblock In {\em 2007 IEEE Congress on Evolutionary Computation}, pages
+\newblock In \emph{2007 IEEE Congress on Evolutionary Computation}, pages
   2711--2718. IEEE, 2007.
 
-\bibitem{reynolds2008social}
+\bibitem[Reynolds and Ali(2008)]{reynolds2008social}
 Robert~G Reynolds and Mostafa~Z Ali.
 \newblock The social fabric approach as an approach to knowledge integration in
   cultural algorithms.
-\newblock In {\em 2008 IEEE Congress on Evolutionary Computation (IEEE World
+\newblock In \emph{2008 IEEE Congress on Evolutionary Computation (IEEE World
   Congress on Computational Intelligence)}, pages 4200--4207. IEEE, 2008.
 
-\bibitem{sharma2011reserve}
+\bibitem[Reynolds et~al.(2008)Reynolds, Ali, and Jayyousi]{reynolds2008mining}
+Robert~G Reynolds, Mostafa Ali, and Thaer Jayyousi.
+\newblock Mining the social fabric of archaic urban centers with cultural
+  algorithms.
+\newblock \emph{Computer}, 41\penalty0 (1):\penalty0 64--72, 2008.
+
+\bibitem[Sharma et~al.(2011)Sharma, Pandit, and Srivastava]{sharma2011reserve}
 Manisha Sharma, Manjaree Pandit, and Laxmi Srivastava.
 \newblock Reserve constrained multi-area economic dispatch employing
   differential evolution with time-varying mutation.
-\newblock {\em International journal of electrical power \& energy systems},
-  33(3):753--766, 2011.
+\newblock \emph{International journal of electrical power \& energy systems},
+  33\penalty0 (3):\penalty0 753--766, 2011.
 
-\bibitem{sterling2004aggregation}
+\bibitem[Sterling(2004)]{sterling2004aggregation}
 Sara~E Sterling.
 \newblock Aggregation techniques to characterize social networks.
 \newblock Technical report, DTIC Document, 2004.
 
-\bibitem{stutzle2009ant}
+\bibitem[St{\"u}tzle(2009)]{stutzle2009ant}
 Thomas St{\"u}tzle.
 \newblock Ant colony optimization.
-\newblock In {\em International Conference on Evolutionary Multi-Criterion
+\newblock In \emph{International Conference on Evolutionary Multi-Criterion
   Optimization}, pages 2--2. Springer, 2009.
 
-\bibitem{vasile2011inflationary}
+\bibitem[Vasile et~al.(2011)Vasile, Minisci, and
+  Locatelli]{vasile2011inflationary}
 Massimiliano Vasile, Edmondo Minisci, and Marco Locatelli.
 \newblock An inflationary differential evolution algorithm for space trajectory
   optimization.
-\newblock {\em IEEE Transactions on Evolutionary Computation}, 15(2):267--281,
-  2011.
+\newblock \emph{IEEE Transactions on Evolutionary Computation}, 15\penalty0
+  (2):\penalty0 267--281, 2011.
 
-\bibitem{wolpert1997no}
+\bibitem[Wolpert and Macready(1997)]{wolpert1997no}
 David~H Wolpert and William~G Macready.
 \newblock No free lunch theorems for optimization.
-\newblock {\em IEEE transactions on evolutionary computation}, 1(1):67--82,
-  1997.
+\newblock \emph{IEEE transactions on evolutionary computation}, 1\penalty0
+  (1):\penalty0 67--82, 1997.
 
-\bibitem{xu2010novel}
+\bibitem[Xu et~al.(2010)Xu, Zhang, and Gu]{xu2010novel}
 Wei Xu, Lingbo Zhang, and Xingsheng Gu.
 \newblock A novel cultural algorithm and its application to the constrained
   optimization in ammonia synthesis.
-\newblock In {\em Life System Modeling and Intelligent Computing}, pages
+\newblock In \emph{Life System Modeling and Intelligent Computing}, pages
   52--58. Springer, 2010.
 
-\bibitem{zhang2003adaptive}
+\bibitem[Zhang et~al.(2003)Zhang, Liu, and Clerc]{zhang2003adaptive}
 Wen Zhang, Yutian Liu, and Maurice Clerc.
 \newblock An adaptive pso algorithm for reactive power optimization.
 \newblock 2003.
