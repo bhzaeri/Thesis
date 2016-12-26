@@ -1,10 +1,10 @@
-\contentsline {chapter}{Declaration of Originality}{iii}
-\contentsline {chapter}{Abstract}{iv}
-\contentsline {chapter}{Dedication}{v}
-\contentsline {chapter}{Acknowledgements}{vi}
-\contentsline {chapter}{List of Tables}{xi}
-\contentsline {chapter}{List of Figures}{xiii}
-\contentsline {chapter}{List of Acronyms}{xv}
+\contentsline {chapter}{DECLARATION OF ORIGINALITY}{iii}
+\contentsline {chapter}{ABSTRACT}{iv}
+\contentsline {chapter}{DEDICATION}{v}
+\contentsline {chapter}{ACKNOWLEDGEMENTS}{vi}
+\contentsline {chapter}{LIST OF TABLES}{xi}
+\contentsline {chapter}{LIST OF FIGURES}{xiii}
+\contentsline {chapter}{LIST OF ABBREVIATIONS/SYMBOLS}{xv}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Evolutionary Algorithms}{1}
 \contentsline {section}{\numberline {1.2}Robustness in Evolutionary Algorithms}{2}
@@ -82,4 +82,4 @@
 \contentsline {chapter}{\numberline {7}Conclusion and Future Work}{69}
 \contentsline {section}{\numberline {7.1}Conclusion}{69}
 \contentsline {section}{\numberline {7.2}Future Work and Applications}{70}
-\contentsline {chapter}{Bibliography}{71}
+\contentsline {chapter}{Bibliography}{72}

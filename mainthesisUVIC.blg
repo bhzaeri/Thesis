@@ -13,45 +13,45 @@ Database file #1: UvicThesis.bib
 Warning--there's a number but no series in bonabeau1999swarm
 Warning--empty journal in peng2005knowledge
 Warning--empty journal in zhang2003adaptive
-You've used 45 entries,
+You've used 50 entries,
             2773 wiz_defined-function locations,
-            844 strings with 13280 characters,
-and the built_in function-call counts, 22762 in all, are:
-= -- 2123
-> -- 1147
-< -- 49
-+ -- 390
-- -- 345
-* -- 1697
-:= -- 3317
-add.period$ -- 157
-call.type$ -- 45
-change.case$ -- 243
-chr.to.int$ -- 45
-cite$ -- 93
-duplicate$ -- 1157
-empty$ -- 1933
-format.name$ -- 412
-if$ -- 4989
+            872 strings with 14155 characters,
+and the built_in function-call counts, 25558 in all, are:
+= -- 2392
+> -- 1286
+< -- 52
++ -- 437
+- -- 387
+* -- 1923
+:= -- 3717
+add.period$ -- 174
+call.type$ -- 50
+change.case$ -- 272
+chr.to.int$ -- 50
+cite$ -- 103
+duplicate$ -- 1289
+empty$ -- 2168
+format.name$ -- 459
+if$ -- 5599
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 49
-newline$ -- 236
-num.names$ -- 180
-pop$ -- 561
+missing$ -- 54
+newline$ -- 261
+num.names$ -- 200
+pop$ -- 620
 preamble$ -- 1
-purify$ -- 204
+purify$ -- 228
 quote$ -- 0
-skip$ -- 895
+skip$ -- 997
 stack$ -- 0
-substring$ -- 927
-swap$ -- 252
-text.length$ -- 27
+substring$ -- 1092
+swap$ -- 281
+text.length$ -- 29
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 460
+type$ -- 515
 warning$ -- 3
-while$ -- 213
+while$ -- 240
 width$ -- 0
-write$ -- 610
+write$ -- 677
 (There were 3 warnings)

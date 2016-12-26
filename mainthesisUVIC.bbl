@@ -1,4 +1,4 @@
-\begin{thebibliography}{45}
+\begin{thebibliography}{50}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -216,11 +216,24 @@ Ronald~W Morrison and Kenneth~Alan De~Jong.
 \newblock In \emph{Evolutionary Computation, 1999. CEC 99. Proceedings of the
   1999 Congress on}, volume~3. IEEE, 1999.
 
+\bibitem[Otero et~al.(2012)Otero, Freitas, and Johnson]{otero2012inducing}
+Fernando~EB Otero, Alex~A Freitas, and Colin~G Johnson.
+\newblock Inducing decision trees with an ant colony optimization algorithm.
+\newblock \emph{Applied Soft Computing}, 12\penalty0 (11):\penalty0 3615--3626,
+  2012.
+
 \bibitem[Peng(2005)]{peng2005knowledge}
 Bin Peng.
 \newblock Knowledge and population swarms in cultural algorithms for dynamic
   environments.
 \newblock 2005.
+
+\bibitem[Pizzuti(2008)]{pizzuti2008ga}
+Clara Pizzuti.
+\newblock Ga-net: A genetic algorithm for community detection in social
+  networks.
+\newblock In \emph{International Conference on Parallel Problem Solving from
+  Nature}, pages 1081--1090. Springer, 2008.
 
 \bibitem[Proakis(1985)]{proakis1985probability}
 J~Proakis.
@@ -268,6 +281,19 @@ Manisha Sharma, Manjaree Pandit, and Laxmi Srivastava.
 \newblock \emph{International journal of electrical power \& energy systems},
   33\penalty0 (3):\penalty0 753--766, 2011.
 
+\bibitem[Sherkat et~al.(2015)Sherkat, Rahgozar, and
+  Asadpour]{sherkat2015structural}
+Ehsan Sherkat, Maseud Rahgozar, and Masoud Asadpour.
+\newblock Structural link prediction based on ant colony approach in social
+  networks.
+\newblock \emph{Physica A: Statistical Mechanics and its Applications},
+  419:\penalty0 80--94, 2015.
+
+\bibitem[Sousa et~al.(2004)Sousa, Silva, and Neves]{sousa2004particle}
+Tiago Sousa, Arlindo Silva, and Ana Neves.
+\newblock Particle swarm based data mining algorithms for classification tasks.
+\newblock \emph{Parallel Computing}, 30\penalty0 (5):\penalty0 767--783, 2004.
+
 \bibitem[Sterling(2004)]{sterling2004aggregation}
 Sara~E Sterling.
 \newblock Aggregation techniques to characterize social networks.
@@ -292,6 +318,13 @@ David~H Wolpert and William~G Macready.
 \newblock No free lunch theorems for optimization.
 \newblock \emph{IEEE transactions on evolutionary computation}, 1\penalty0
   (1):\penalty0 67--82, 1997.
+
+\bibitem[Xiaodong et~al.(2008)Xiaodong, Cunrui, Xiangdong, and
+  Yanping]{xiaodong2008web}
+Duan Xiaodong, Wang Cunrui, Liu Xiangdong, and Lin Yanping.
+\newblock Web community detection model using particle swarm optimization.
+\newblock In \emph{2008 IEEE Congress on Evolutionary Computation (IEEE World
+  Congress on Computational Intelligence)}, pages 1074--1079. IEEE, 2008.
 
 \bibitem[Xu et~al.(2010)Xu, Zhang, and Gu]{xu2010novel}
 Wei Xu, Lingbo Zhang, and Xingsheng Gu.

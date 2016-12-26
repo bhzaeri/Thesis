@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  25 DEC 2016 00:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  26 DEC 2016 11:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,68 +526,64 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 (./frontmatter/fm.tex (./frontmatter/tp.tex
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 18.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 27.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 18.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 27.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 18.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 27.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 18.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 27.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 18.
+(Font)              <12> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 18.
-LaTeX Font Info:    Try loading font information for U+msa on input line 18.
+(Font)              <6> on input line 27.
+LaTeX Font Info:    Try loading font information for U+msa on input line 27.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 18.
+LaTeX Font Info:    Try loading font information for U+msb on input line 27.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 18.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 27.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 19.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 28.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 19.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 28.
 ) (./frontmatter/sc.tex [1
 
 
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 16--19
-
- []
-
-) [2] (./frontmatter/dorig.tex
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2] (./frontmatter/dorig.
+tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -632,67 +628,62 @@ g in In-
 
 
 (./frontmatter/acr.tex [14])
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
+Underfull \hbox (badness 10000) in paragraph at lines 6--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
+Underfull \hbox (badness 10000) in paragraph at lines 6--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
+Underfull \hbox (badness 10000) in paragraph at lines 6--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
+Underfull \hbox (badness 10000) in paragraph at lines 6--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
+Underfull \hbox (badness 10000) in paragraph at lines 6--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
+Underfull \hbox (badness 10000) in paragraph at lines 6--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
+Underfull \hbox (badness 10000) in paragraph at lines 6--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
+Underfull \hbox (badness 10000) in paragraph at lines 6--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
+Underfull \hbox (badness 10000) in paragraph at lines 6--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
+Underfull \hbox (badness 10000) in paragraph at lines 6--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
+Underfull \hbox (badness 10000) in paragraph at lines 6--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--48
+Underfull \hbox (badness 10000) in paragraph at lines 6--45
 
  []
 
@@ -735,7 +726,13 @@ File: Figures/SocialScale.jpg Graphic file (type jpg)
 <use Figures/SocialScale.jpg>
 Package pdftex.def Info: Figures/SocialScale.jpg used on input line 22.
 (pdftex.def)             Requested size: 228.85445pt x 162.6071pt.
- [7 <./Figures/HMPCA.jpeg>] [8 <./Figures/SocialScale.jpg>] [9] [10]
+ [7 <./Figures/HMPCA.jpeg>] [8 <./Figures/SocialScale.jpg>]
+Overfull \hbox (1.38145pt too wide) in paragraph at lines 30--33
+\T1/lmr/m/n/12 [Che et al.[], 2010[]] aimed at com-mer-cial-iz-ing Cul-tural Al
+-go-rithm Toolkit (CAT) thourgh
+ []
+
+[9] [10]
 Overfull \hbox (22.45363pt too wide) in paragraph at lines 39--39
 []\T1/lmr/bx/n/14.4 Socio-Cultural Evo-lu-tion via Neighborhood-Restructuring
  []
@@ -746,7 +743,13 @@ File: Figures/MultiLayer.jpeg Graphic file (type jpg)
 <use Figures/MultiLayer.jpeg>
 Package pdftex.def Info: Figures/MultiLayer.jpeg used on input line 46.
 (pdftex.def)             Requested size: 270.866pt x 160.2009pt.
- [12 <./Figures/MultiLayer.jpeg>]
+
+Overfull \hbox (2.00938pt too wide) in paragraph at lines 57--59
+\T1/lmr/m/n/12 They stated that their pro-posed ap-proach is in-spired from a p
+re-vi-ous work of [Reynolds
+ []
+
+[12 <./Figures/MultiLayer.jpeg>]
 <Figures/TwoLayerSF.jpeg, id=95, 991.705pt x 715.67375pt>
 File: Figures/TwoLayerSF.jpeg Graphic file (type jpg)
 
@@ -1119,22 +1122,22 @@ Chapter 7.
 
 
 
-]) [70] (./mainthesisUVIC.bbl [71
+] [70]) [71] (./mainthesisUVIC.bbl [72
 
 
-] [72] [73] [74] [75]) [76]
+] [73] [74] [75] [76] [77]) [78]
 (./mainthesisUVIC.aux (./chapters/1/chapter_intro.aux)
 (./chapters/2/chapter_problem.aux) (./chapters/3/chapter_new.aux)
 (./chapters/4/chapter_experiments.aux) (./chapters/5/chapter_evaluation.aux)
 (./chapters/6/chapter_evaluation.aux) (./chapters/7/chapter_conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 6858 strings out of 493029
- 98201 string characters out of 6136234
- 188889 words of memory out of 5000000
- 10101 multiletter control sequences out of 15000+600000
+ 6874 strings out of 493029
+ 98582 string characters out of 6136234
+ 190188 words of memory out of 5000000
+ 10117 multiletter control sequences out of 15000+600000
  64999 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,20n,45p,1815b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,20n,45p,1815b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
 {
 /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/d
 vips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/shar
@@ -1148,10 +1151,10 @@ ic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 sy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmsy8.pfb>
-Output written on mainthesisUVIC.pdf (91 pages, 4725098 bytes).
+Output written on mainthesisUVIC.pdf (93 pages, 4728764 bytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
- 254 compressed objects within 3 object streams
+ 409 PDF objects out of 1000 (max. 8388607)
+ 258 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  196 words of extra memory for PDF output out of 10000 (max. 10000000)
 
