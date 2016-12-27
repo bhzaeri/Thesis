@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  26 DEC 2016 11:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  26 DEC 2016 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -24,95 +24,6 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-\@input{macros/style.aux}
-\openout2 = `macros/style.aux'.
-
-(./macros/style.tex
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count88
-\Gm@cntv=\count89
-\c@Gm@tempcnt=\count90
-\Gm@bindingoffset=\dimen103
-\Gm@wd@mp=\dimen104
-\Gm@odd@mp=\dimen105
-\Gm@even@mp=\dimen106
-\Gm@layoutwidth=\dimen107
-\Gm@layoutheight=\dimen108
-\Gm@layouthoffset=\dimen109
-\Gm@layoutvoffset=\dimen110
-\Gm@dimlist=\toks15
-)
-(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
-)
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip43
-\f@ncyO@elh=\skip44
-\f@ncyO@erh=\skip45
-\f@ncyO@olh=\skip46
-\f@ncyO@orh=\skip47
-\f@ncyO@elf=\skip48
-\f@ncyO@erf=\skip49
-\f@ncyO@olf=\skip50
-\f@ncyO@orf=\skip51
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
-Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
-Package tocloft Info: The document has chapter divisions on input line 44.
-\cftparskip=\skip52
-\cftbeforetoctitleskip=\skip53
-\cftaftertoctitleskip=\skip54
-\cftbeforepartskip=\skip55
-\cftpartnumwidth=\skip56
-\cftpartindent=\skip57
-\cftbeforechapskip=\skip58
-\cftchapindent=\skip59
-\cftchapnumwidth=\skip60
-\cftbeforesecskip=\skip61
-\cftsecindent=\skip62
-\cftsecnumwidth=\skip63
-\cftbeforesubsecskip=\skip64
-\cftsubsecindent=\skip65
-\cftsubsecnumwidth=\skip66
-\cftbeforesubsubsecskip=\skip67
-\cftsubsubsecindent=\skip68
-\cftsubsubsecnumwidth=\skip69
-\cftbeforeparaskip=\skip70
-\cftparaindent=\skip71
-\cftparanumwidth=\skip72
-\cftbeforesubparaskip=\skip73
-\cftsubparaindent=\skip74
-\cftsubparanumwidth=\skip75
-\cftbeforeloftitleskip=\skip76
-\cftafterloftitleskip=\skip77
-\cftbeforefigskip=\skip78
-\cftfigindent=\skip79
-\cftfignumwidth=\skip80
-\c@lofdepth=\count91
-\c@lotdepth=\count92
-\cftbeforelottitleskip=\skip81
-\cftafterlottitleskip=\skip82
-\cftbeforetabskip=\skip83
-\cfttabindent=\skip84
-\cfttabnumwidth=\skip85
-))
 \@input{macros/use_packages.aux}
 \openout2 = `macros/use_packages.aux'.
 
@@ -122,33 +33,33 @@ Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen111
-\extrarowheight=\dimen112
-\NC@list=\toks16
-\extratabsurround=\skip86
-\backup@length=\skip87
+\col@sep=\dimen103
+\extrarowheight=\dimen104
+\NC@list=\toks14
+\extratabsurround=\skip43
+\backup@length=\skip44
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip88
-\LTright=\skip89
-\LTpre=\skip90
-\LTpost=\skip91
-\LTchunksize=\count93
-\LTcapwidth=\dimen113
+\LTleft=\skip45
+\LTright=\skip46
+\LTpre=\skip47
+\LTpost=\skip48
+\LTchunksize=\count88
+\LTcapwidth=\dimen105
 \LT@head=\box26
 \LT@firsthead=\box27
 \LT@foot=\box28
 \LT@lastfoot=\box29
-\LT@cols=\count94
-\LT@rows=\count95
-\c@LT@tables=\count96
-\c@LT@chunks=\count97
-\LT@p@ftn=\toks17
+\LT@cols=\count89
+\LT@rows=\count90
+\c@LT@tables=\count91
+\c@LT@chunks=\count92
+\LT@p@ftn=\toks15
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/03 v2.15a AMS math features
-\@mathmargin=\skip92
+\@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -156,65 +67,65 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
-\ex@=\dimen114
+\@emptytoks=\toks16
+\ex@=\dimen106
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen115
+\pmbraise@=\dimen107
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count98
+\inf@bad=\count93
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count99
-\leftroot@=\count100
+\uproot@=\count94
+\leftroot@=\count95
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count101
-\DOTSCASE@=\count102
+\classnum@=\count96
+\DOTSCASE@=\count97
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box30
 \strutbox@=\box31
-\big@size=\dimen116
+\big@size=\dimen108
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count103
-\c@MaxMatrixCols=\count104
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
 \dotsspace@=\muskip10
-\c@parentequation=\count105
-\dspbrk@lvl=\count106
-\tag@help=\toks19
-\row@=\count107
-\column@=\count108
-\maxfields@=\count109
-\andhelp@=\toks20
-\eqnshift@=\dimen117
-\alignsep@=\dimen118
-\tagshift@=\dimen119
-\tagwidth@=\dimen120
-\totwidth@=\dimen121
-\lineht@=\dimen122
-\@envbody=\toks21
-\multlinegap=\skip93
-\multlinetaggap=\skip94
-\mathdisplay@stack=\toks22
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks17
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks18
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2015/03/04 v2.20.2
-\thm@style=\toks23
-\thm@bodyfont=\toks24
-\thm@headfont=\toks25
-\thm@notefont=\toks26
-\thm@headpunct=\toks27
-\thm@preskip=\skip95
-\thm@postskip=\skip96
-\thm@headsep=\skip97
-\dth@everypar=\toks28
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks26
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -258,27 +169,32 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count110
+\Gread@gobject=\count105
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen123
-\Gin@req@width=\dimen124
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks27
+)
+\Gin@req@height=\dimen115
+\Gin@req@width=\dimen116
 )
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
 
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count111
+\etb@tempcnta=\count106
 )
-\csq@reset=\count112
-\csq@gtype=\count113
-\csq@glevel=\count114
-\csq@qlevel=\count115
-\csq@maxlvl=\count116
-\csq@tshold=\count117
-\csq@ltx@everypar=\toks29
+\csq@reset=\count107
+\csq@gtype=\count108
+\csq@glevel=\count109
+\csq@qlevel=\count110
+\csq@maxlvl=\count111
+\csq@tshold=\count112
+\csq@ltx@everypar=\toks28
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
@@ -291,20 +207,20 @@ File: csquotes.cfg
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count118
-\float@exts=\toks30
+\c@float@type=\count113
+\float@exts=\toks29
 \float@box=\box32
-\@float@everytoks=\toks31
+\@float@everytoks=\toks30
 \@floatcapt=\box33
 )
 (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2013/01/06 v5.00 algorithms environments
-\c@AlgoLine=\count119
+\c@AlgoLine=\count114
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\algocf@hangindent=\skip98
+\algocf@hangindent=\skip55
 
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
@@ -316,45 +232,45 @@ Package `algorithm2e' Release 5.1 -- october 19 2015 --
 subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 - Author: Christophe Fiorio (christophe.fiorio@umontpellier.fr)
 ********************************************************
-\skiptotal=\skip99
-\skiplinenumber=\skip100
-\skiprule=\skip101
-\skiphlne=\skip102
-\skiptext=\skip103
-\skiplength=\skip104
-\algomargin=\skip105
-\skipalgocfslide=\skip106
-\algowidth=\dimen125
-\inoutsize=\dimen126
-\inoutindent=\dimen127
-\interspacetitleruled=\dimen128
-\interspacealgoruled=\dimen129
-\interspacetitleboxruled=\dimen130
-\algocf@ruledwidth=\skip107
+\skiptotal=\skip56
+\skiplinenumber=\skip57
+\skiprule=\skip58
+\skiphlne=\skip59
+\skiptext=\skip60
+\skiplength=\skip61
+\algomargin=\skip62
+\skipalgocfslide=\skip63
+\algowidth=\dimen117
+\inoutsize=\dimen118
+\inoutindent=\dimen119
+\interspacetitleruled=\dimen120
+\interspacealgoruled=\dimen121
+\interspacetitleboxruled=\dimen122
+\algocf@ruledwidth=\skip64
 \algocf@inoutbox=\box34
 \algocf@inputbox=\box35
-\AlCapSkip=\skip108
-\AlCapHSkip=\skip109
-\algoskipindent=\skip110
+\AlCapSkip=\skip65
+\AlCapHSkip=\skip66
+\algoskipindent=\skip67
 \algocf@nlbox=\box36
 \algocf@hangingbox=\box37
 \algocf@untilbox=\box38
-\algocf@skipuntil=\skip111
+\algocf@skipuntil=\skip68
 \algocf@capbox=\box39
-\algoheightruledefault=\skip112
-\algoheightrule=\skip113
-\algotitleheightruledefault=\skip114
-\algotitleheightrule=\skip115
-\c@algocfline=\count120
-\c@algocfproc=\count121
-\c@algocf=\count122
+\algoheightruledefault=\skip69
+\algoheightrule=\skip70
+\algotitleheightruledefault=\skip71
+\algotitleheightrule=\skip72
+\c@algocfline=\count115
+\c@algocfproc=\count116
+\c@algocf=\count117
 \algocf@algoframe=\box40
 \algocf@algobox=\box41
 ) (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-))
+)
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 
@@ -362,12 +278,23 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 Package natbib Warning: The `cite' package should not be used
 (natbib)                with natbib. Use option `sort' instead.
 
-\bibhang=\skip116
-\bibsep=\skip117
+\bibhang=\skip73
+\bibsep=\skip74
 LaTeX Info: Redefining \cite on input line 694.
 LaTeX Info: Redefining \citenum on input line 708.
-\c@NAT@ctr=\count123
-) (/usr/share/texmf/tex/latex/lm/lmodern.sty
+\c@NAT@ctr=\count118
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip75
+\f@ncyO@elh=\skip76
+\f@ncyO@erh=\skip77
+\f@ncyO@olh=\skip78
+\f@ncyO@orh=\skip79
+\f@ncyO@elf=\skip80
+\f@ncyO@erf=\skip81
+\f@ncyO@olf=\skip82
+\f@ncyO@orf=\skip83
+)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -408,66 +335,107 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)))
+\@input{macros/style.aux}
+\openout2 = `macros/style.aux'.
+
+(./macros/style.tex
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count119
+\Gm@cntv=\count120
+\c@Gm@tempcnt=\count121
+\Gm@bindingoffset=\dimen123
+\Gm@wd@mp=\dimen124
+\Gm@odd@mp=\dimen125
+\Gm@even@mp=\dimen126
+\Gm@layoutwidth=\dimen127
+\Gm@layoutheight=\dimen128
+\Gm@layouthoffset=\dimen129
+\Gm@layoutvoffset=\dimen130
+\Gm@dimlist=\toks31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 44.
+\cftparskip=\skip84
+\cftbeforetoctitleskip=\skip85
+\cftaftertoctitleskip=\skip86
+\cftbeforepartskip=\skip87
+\cftpartnumwidth=\skip88
+\cftpartindent=\skip89
+\cftbeforechapskip=\skip90
+\cftchapindent=\skip91
+\cftchapnumwidth=\skip92
+\cftbeforesecskip=\skip93
+\cftsecindent=\skip94
+\cftsecnumwidth=\skip95
+\cftbeforesubsecskip=\skip96
+\cftsubsecindent=\skip97
+\cftsubsecnumwidth=\skip98
+\cftbeforesubsubsecskip=\skip99
+\cftsubsubsecindent=\skip100
+\cftsubsubsecnumwidth=\skip101
+\cftbeforeparaskip=\skip102
+\cftparaindent=\skip103
+\cftparanumwidth=\skip104
+\cftbeforesubparaskip=\skip105
+\cftsubparaindent=\skip106
+\cftsubparanumwidth=\skip107
+\cftbeforeloftitleskip=\skip108
+\cftafterloftitleskip=\skip109
+\cftbeforefigskip=\skip110
+\cftfigindent=\skip111
+\cftfignumwidth=\skip112
+\c@lofdepth=\count122
+\c@lotdepth=\count123
+\cftbeforelottitleskip=\skip113
+\cftafterlottitleskip=\skip114
+\cftbeforetabskip=\skip115
+\cfttabindent=\skip116
+\cfttabnumwidth=\skip117
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
- (./mainthesisUVIC.aux (./chapters/1/chapter_intro.aux) (./chapters/2/chapter_p
-roblem.aux)
-(./chapters/3/chapter_new.aux) (./chapters/4/chapter_experiments.aux)
-(./chapters/5/chapter_evaluation.aux) (./chapters/6/chapter_evaluation.aux)
-(./chapters/7/chapter_conclusion.aux))
+
+(./mainthesisUVIC.aux (./chapters/1/chapter_intro.aux)
+(./chapters/2/chapter_problem.aux) (./chapters/3/chapter_new.aux)
+(./chapters/4/chapter_experiments.aux) (./chapters/5/chapter_evaluation.aux)
+(./chapters/6/chapter_evaluation.aux) (./chapters/7/chapter_conclusion.aux))
 \openout1 = `mainthesisUVIC.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 23.
- (/usr/share/texmf/tex/latex/lm/t1lmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 21.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=433.62001pt
-* \textheight=650.43001pt
-* \oddsidemargin=36.13501pt
-* \evensidemargin=36.13501pt
-* \topmargin=-48.135pt
-* \headheight=12.0pt
-* \headsep=36.135pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=47.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count124
@@ -525,6 +493,40 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=433.62001pt
+* \textheight=650.43001pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-48.135pt
+* \headheight=12.0pt
+* \headsep=36.135pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=47.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 (./frontmatter/fm.tex (./frontmatter/tp.tex
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 27.
 
@@ -582,14 +584,27 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2] (./frontmatter/dorig.
-tex
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \tpbreak
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) [2] (./frontmatter/dorig.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-) (./frontmatter/abs.tex [3]) (./frontmatter/ded.tex [4] [5])
-(./frontmatter/ack.tex
+) (./frontmatter/abs.tex [3]) (./frontmatter/ded.tex [4])
+(./frontmatter/ack.tex [5]
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
@@ -599,17 +614,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
  []
 
-[6
-
-]) (./mainthesisUVIC.toc
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7]
-Overfull \hbox (2.09665pt too wide) in paragraph at lines 19--19
+[6]) (./mainthesisUVIC.toc [7]
+Overfull \hbox (2.07742pt too wide) in paragraph at lines 19--19
  [][] []\T1/lmr/m/n/12 Socio-Cultural Evo-lu-tion via Neighborhood-Restructurin
 g in In- 
  []
@@ -627,67 +633,73 @@ g in In-
 \openout5 = `mainthesisUVIC.lof'.
 
 
-(./frontmatter/acr.tex [14])
-Underfull \hbox (badness 10000) in paragraph at lines 6--45
+[14] (./mainthesisUVIC.loa)
+\tf@loa=\write6
+\openout6 = `mainthesisUVIC.loa'.
+
+ (./frontmatter/acr.tex [15
+
+])
+Underfull \hbox (badness 10000) in paragraph at lines 6--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--45
+Underfull \hbox (badness 10000) in paragraph at lines 6--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--45
+Underfull \hbox (badness 10000) in paragraph at lines 6--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--45
+Underfull \hbox (badness 10000) in paragraph at lines 6--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--45
+Underfull \hbox (badness 10000) in paragraph at lines 6--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--45
+Underfull \hbox (badness 10000) in paragraph at lines 6--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--45
+Underfull \hbox (badness 10000) in paragraph at lines 6--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--45
+Underfull \hbox (badness 10000) in paragraph at lines 6--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--45
+Underfull \hbox (badness 10000) in paragraph at lines 6--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--45
+Underfull \hbox (badness 10000) in paragraph at lines 6--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--45
+Underfull \hbox (badness 10000) in paragraph at lines 6--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--45
+Underfull \hbox (badness 10000) in paragraph at lines 6--55
 
  []
 
-[15])
+[16])
 \openout2 = `chapters/1/chapter_intro.aux'.
 
  (./chapters/1/chapter_intro.tex
@@ -706,7 +718,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
  (./chapters/2/chapter_problem.tex
 Chapter 2.
 \savedunitlength=\skip118
-<Figures/HMPCA.jpeg, id=70, 2423.0525pt x 989.6975pt>
+<Figures/HMPCA.jpeg, id=73, 2423.0525pt x 989.6975pt>
 File: Figures/HMPCA.jpeg Graphic file (type jpg)
  <use Figures/HMPCA.jpeg>
 Package pdftex.def Info: Figures/HMPCA.jpeg used on input line 12.
@@ -720,7 +732,7 @@ Overfull \hbox (2.51064pt too wide) in paragraph at lines 12--14
 
 
 
-] <Figures/SocialScale.jpg, id=74, 457.71pt x 325.215pt>
+] <Figures/SocialScale.jpg, id=77, 457.71pt x 325.215pt>
 File: Figures/SocialScale.jpg Graphic file (type jpg)
 
 <use Figures/SocialScale.jpg>
@@ -737,7 +749,7 @@ Overfull \hbox (22.45363pt too wide) in paragraph at lines 39--39
 []\T1/lmr/bx/n/14.4 Socio-Cultural Evo-lu-tion via Neighborhood-Restructuring
  []
 
-[11] <Figures/MultiLayer.jpeg, id=91, 773.89125pt x 457.71pt>
+[11] <Figures/MultiLayer.jpeg, id=94, 773.89125pt x 457.71pt>
 File: Figures/MultiLayer.jpeg Graphic file (type jpg)
 
 <use Figures/MultiLayer.jpeg>
@@ -750,7 +762,7 @@ re-vi-ous work of [Reynolds
  []
 
 [12 <./Figures/MultiLayer.jpeg>]
-<Figures/TwoLayerSF.jpeg, id=95, 991.705pt x 715.67375pt>
+<Figures/TwoLayerSF.jpeg, id=98, 991.705pt x 715.67375pt>
 File: Figures/TwoLayerSF.jpeg Graphic file (type jpg)
 
 <use Figures/TwoLayerSF.jpeg>
@@ -767,7 +779,7 @@ Chapter 3.
 
 
 ] [21] [22]
-<Figures/StandardCA.jpeg, id=131, 2929.94624pt x 1916.15875pt>
+<Figures/StandardCA.jpeg, id=134, 2929.94624pt x 1916.15875pt>
 File: Figures/StandardCA.jpeg Graphic file (type jpg)
 
 <use Figures/StandardCA.jpeg>
@@ -778,14 +790,14 @@ Package pdftex.def Info: Figures/StandardCA.jpeg used on input line 39.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [23] [24 <./Figures/StandardCA.jpeg>]
-<Figures/StandardNR.jpeg, id=138, 610.28pt x 393.47pt>
+<Figures/StandardNR.jpeg, id=141, 610.28pt x 393.47pt>
 File: Figures/StandardNR.jpeg Graphic file (type jpg)
 
 <use Figures/StandardNR.jpeg>
 Package pdftex.def Info: Figures/StandardNR.jpeg used on input line 50.
 (pdftex.def)             Requested size: 244.10767pt x 157.38521pt.
  [25 <./Figures/StandardNR.jpeg>]
-<Figures/SFNetworkModel.jpeg, id=142, 583.17876pt x 613.29124pt>
+<Figures/SFNetworkModel.jpeg, id=145, 583.17876pt x 613.29124pt>
 File: Figures/SFNetworkModel.jpeg Graphic file (type jpg)
 
 <use Figures/SFNetworkModel.jpeg>
@@ -795,14 +807,14 @@ Package pdftex.def Info: Figures/SFNetworkModel.jpeg used on input line 70.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26] <Figures/PSOModel.jpeg, id=149, 786.94pt x 290.08376pt>
+[26] <Figures/PSOModel.jpeg, id=152, 786.94pt x 290.08376pt>
 File: Figures/PSOModel.jpeg Graphic file (type jpg)
 
 <use Figures/PSOModel.jpeg>
 Package pdftex.def Info: Figures/PSOModel.jpeg used on input line 87.
 (pdftex.def)             Requested size: 314.77042pt x 116.03143pt.
  [27 <./Figures/SFNetworkModel.jpeg>]
-<Figures/TribePSO.png, id=154, 280.04625pt x 238.8925pt>
+<Figures/TribePSO.png, id=158, 280.04625pt x 238.8925pt>
 File: Figures/TribePSO.png Graphic file (type png)
 
 <use Figures/TribePSO.png>
@@ -842,7 +854,7 @@ Chapter 5.
 
 (./chapters/6/chapter_evaluation.tex
 Chapter 6.
-<Figures/func1_10.jpeg, id=214, 626.34pt x 432.11438pt>
+<Figures/func1_10.jpeg, id=217, 626.34pt x 432.11438pt>
 File: Figures/func1_10.jpeg Graphic file (type jpg)
 
 <use Figures/func1_10.jpeg>
@@ -853,21 +865,21 @@ Package pdftex.def Info: Figures/func1_10.jpeg used on input line 22.
 
 
 ]
-<Figures/func1_30.jpeg, id=218, 626.34pt x 432.11438pt>
+<Figures/func1_30.jpeg, id=221, 626.34pt x 432.11438pt>
 File: Figures/func1_30.jpeg Graphic file (type jpg)
 
 <use Figures/func1_30.jpeg>
 Package pdftex.def Info: Figures/func1_30.jpeg used on input line 40.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [45 <./Figures/func1_10.jpeg>]
-<Figures/func2_10.jpeg, id=222, 626.34pt x 432.11438pt>
+<Figures/func2_10.jpeg, id=226, 626.34pt x 432.11438pt>
 File: Figures/func2_10.jpeg Graphic file (type jpg)
 
 <use Figures/func2_10.jpeg>
 Package pdftex.def Info: Figures/func2_10.jpeg used on input line 63.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func2_30.jpeg, id=223, 626.34pt x 432.11438pt>
+<Figures/func2_30.jpeg, id=227, 626.34pt x 432.11438pt>
 File: Figures/func2_30.jpeg Graphic file (type jpg)
 
 <use Figures/func2_30.jpeg>
@@ -877,16 +889,22 @@ Package pdftex.def Info: Figures/func2_30.jpeg used on input line 81.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[46 <./Figures/func1_30.jpeg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[46 <./Figures/func1_30.jpeg>] [47 <./Figures/func2_10.jpeg> <./Figures/func2_3
-0.jpeg>] <Figures/func3_10.jpeg, id=231, 626.34pt x 432.11438pt>
+<Figures/func3_10.jpeg, id=231, 626.34pt x 432.11438pt>
 File: Figures/func3_10.jpeg Graphic file (type jpg)
 
 <use Figures/func3_10.jpeg>
 Package pdftex.def Info: Figures/func3_10.jpeg used on input line 103.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 <Figures/func3_30.jpeg, id=232, 626.34pt x 432.11438pt>
 File: Figures/func3_30.jpeg Graphic file (type jpg)
@@ -894,8 +912,9 @@ File: Figures/func3_30.jpeg Graphic file (type jpg)
 <use Figures/func3_30.jpeg>
 Package pdftex.def Info: Figures/func3_30.jpeg used on input line 122.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [48 <./Figures/func3_10.jpeg>]
-<Figures/func4_10.jpeg, id=236, 626.34pt x 432.11438pt>
+ [47 <./Figures/func2_10.jpeg> <./Figures/func2_30.jpeg>] [48 <./Figures/func3_
+10.jpeg> <./Figures/func3_30.jpeg>]
+<Figures/func4_10.jpeg, id=239, 626.34pt x 432.11438pt>
 File: Figures/func4_10.jpeg Graphic file (type jpg)
 
 <use Figures/func4_10.jpeg>
@@ -905,17 +924,14 @@ Package pdftex.def Info: Figures/func4_10.jpeg used on input line 144.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func4_30.jpeg, id=237, 626.34pt x 432.11438pt>
+<Figures/func4_30.jpeg, id=240, 626.34pt x 432.11438pt>
 File: Figures/func4_30.jpeg Graphic file (type jpg)
 
 <use Figures/func4_30.jpeg>
 Package pdftex.def Info: Figures/func4_30.jpeg used on input line 164.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [49 <./Figures/func3_30.jpeg>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/func5_10.jpeg, id=241, 626.34pt x 432.11438pt>
+ [49 <./Figures/func4_10.jpeg>]
+<Figures/func5_10.jpeg, id=244, 626.34pt x 432.11438pt>
 File: Figures/func5_10.jpeg Graphic file (type jpg)
 
 <use Figures/func5_10.jpeg>
@@ -928,39 +944,36 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func5_30.jpeg, id=242, 626.34pt x 432.11438pt>
+<Figures/func5_30.jpeg, id=245, 626.34pt x 432.11438pt>
 File: Figures/func5_30.jpeg Graphic file (type jpg)
 
 <use Figures/func5_30.jpeg>
 Package pdftex.def Info: Figures/func5_30.jpeg used on input line 205.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [50 <./Figures/func4_10.jpeg> <./Figures/func4_30.jpeg>] [51 <./Figures/func5_
-10.jpeg> <./Figures/func5_30.jpeg>]
-<Figures/func6_10.jpeg, id=249, 626.34pt x 432.11438pt>
+ [50 <./Figures/func4_30.jpeg>] [51 <./Figures/func5_10.jpeg> <./Figures/func5_
+30.jpeg>]
+<Figures/func6_10.jpeg, id=253, 626.34pt x 432.11438pt>
 File: Figures/func6_10.jpeg Graphic file (type jpg)
 
 <use Figures/func6_10.jpeg>
 Package pdftex.def Info: Figures/func6_10.jpeg used on input line 229.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/func6_30.jpeg, id=250, 626.34pt x 432.11438pt>
+<Figures/func6_30.jpeg, id=254, 626.34pt x 432.11438pt>
 File: Figures/func6_30.jpeg Graphic file (type jpg)
 
 <use Figures/func6_30.jpeg>
 Package pdftex.def Info: Figures/func6_30.jpeg used on input line 248.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [52 <./Figures/func6_10.jpeg>] [53 <./Figures/func6_30.jpeg>] <Figures/func7_1
-0.jpeg, id=258, 626.34pt x 432.11438pt>
+0.jpeg, id=261, 626.34pt x 432.11438pt>
 File: Figures/func7_10.jpeg Graphic file (type jpg)
 
 <use Figures/func7_10.jpeg>
 Package pdftex.def Info: Figures/func7_10.jpeg used on input line 272.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func7_30.jpeg, id=259, 626.34pt x 432.11438pt>
+<Figures/func7_30.jpeg, id=262, 626.34pt x 432.11438pt>
 File: Figures/func7_30.jpeg Graphic file (type jpg)
 
 <use Figures/func7_30.jpeg>
@@ -971,7 +984,7 @@ Overfull \hbox (12.94298pt too wide) in paragraph at lines 297--297
 []\T1/lmr/bx/n/17.28 Function 8: Griewank's plus Rosen-brock's Func-
  []
 
-<Figures/func8_10.jpeg, id=263, 626.34pt x 432.11438pt>
+<Figures/func8_10.jpeg, id=266, 626.34pt x 432.11438pt>
 File: Figures/func8_10.jpeg Graphic file (type jpg)
 
 <use Figures/func8_10.jpeg>
@@ -984,7 +997,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func8_30.jpeg, id=264, 626.34pt x 432.11438pt>
+<Figures/func8_30.jpeg, id=267, 626.34pt x 432.11438pt>
 File: Figures/func8_30.jpeg Graphic file (type jpg)
 
 <use Figures/func8_30.jpeg>
@@ -992,21 +1005,21 @@ Package pdftex.def Info: Figures/func8_30.jpeg used on input line 332.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [55 <./Figures/func7_30.jpeg>] [56 <./Figures/func8_10.jpeg> <./Figures/func8_
 30.jpeg>]
-<Figures/func9_10.jpeg, id=271, 626.34pt x 432.11438pt>
+<Figures/func9_10.jpeg, id=274, 626.34pt x 432.11438pt>
 File: Figures/func9_10.jpeg Graphic file (type jpg)
 
 <use Figures/func9_10.jpeg>
 Package pdftex.def Info: Figures/func9_10.jpeg used on input line 354.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func9_30.jpeg, id=272, 626.34pt x 432.11438pt>
+<Figures/func9_30.jpeg, id=275, 626.34pt x 432.11438pt>
 File: Figures/func9_30.jpeg Graphic file (type jpg)
 
 <use Figures/func9_30.jpeg>
 Package pdftex.def Info: Figures/func9_30.jpeg used on input line 373.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [57 <./Figures/func9_10.jpeg>]
-<Figures/func10_10.jpeg, id=276, 626.34pt x 432.11438pt>
+<Figures/func10_10.jpeg, id=280, 626.34pt x 432.11438pt>
 File: Figures/func10_10.jpeg Graphic file (type jpg)
 
 <use Figures/func10_10.jpeg>
@@ -1016,17 +1029,16 @@ Package pdftex.def Info: Figures/func10_10.jpeg used on input line 395.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/func10_30.jpeg, id=277, 626.34pt x 432.11438pt>
+<Figures/func10_30.jpeg, id=281, 626.34pt x 432.11438pt>
 File: Figures/func10_30.jpeg Graphic file (type jpg)
 
 <use Figures/func10_30.jpeg>
 Package pdftex.def Info: Figures/func10_30.jpeg used on input line 414.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [58 <./Figures/func9_30.jpeg>] [59 <./Figures/func10_10.jpeg> <./Figures/func1
-0_30.jpeg>]
+ [58 <./Figures/func9_30.jpeg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <Figures/func11_10.jpeg, id=285, 626.34pt x 432.11438pt>
 File: Figures/func11_10.jpeg Graphic file (type jpg)
 
@@ -1034,14 +1046,21 @@ File: Figures/func11_10.jpeg Graphic file (type jpg)
 Package pdftex.def Info: Figures/func11_10.jpeg used on input line 436.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <Figures/func11_30.jpeg, id=286, 626.34pt x 432.11438pt>
 File: Figures/func11_30.jpeg Graphic file (type jpg)
 
 <use Figures/func11_30.jpeg>
 Package pdftex.def Info: Figures/func11_30.jpeg used on input line 455.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [60 <./Figures/func11_10.jpeg>]
-<Figures/func12_10.jpeg, id=290, 626.34pt x 432.11438pt>
+ [59 <./Figures/func10_10.jpeg> <./Figures/func10_30.jpeg>] [60 <./Figures/func
+11_10.jpeg> <./Figures/func11_30.jpeg>]
+<Figures/func12_10.jpeg, id=293, 626.34pt x 432.11438pt>
 File: Figures/func12_10.jpeg Graphic file (type jpg)
 
 <use Figures/func12_10.jpeg>
@@ -1051,17 +1070,16 @@ Package pdftex.def Info: Figures/func12_10.jpeg used on input line 477.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/func12_30.jpeg, id=291, 626.34pt x 432.11438pt>
+<Figures/func12_30.jpeg, id=294, 626.34pt x 432.11438pt>
 File: Figures/func12_30.jpeg Graphic file (type jpg)
 
 <use Figures/func12_30.jpeg>
 Package pdftex.def Info: Figures/func12_30.jpeg used on input line 496.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [61 <./Figures/func11_30.jpeg>] [62 <./Figures/func12_10.jpeg> <./Figures/func
-12_30.jpeg>]
+ [61 <./Figures/func12_10.jpeg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <Figures/func13_10.jpeg, id=298, 626.34pt x 432.11438pt>
 File: Figures/func13_10.jpeg Graphic file (type jpg)
 
@@ -1072,14 +1090,18 @@ Package pdftex.def Info: Figures/func13_10.jpeg used on input line 518.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <Figures/func13_30.jpeg, id=299, 626.34pt x 432.11438pt>
 File: Figures/func13_30.jpeg Graphic file (type jpg)
 
 <use Figures/func13_30.jpeg>
 Package pdftex.def Info: Figures/func13_30.jpeg used on input line 537.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [63 <./Figures/func13_10.jpeg>]
-<Figures/func14_10.jpeg, id=303, 626.34pt x 432.11438pt>
+ [62 <./Figures/func12_30.jpeg>] [63 <./Figures/func13_10.jpeg> <./Figures/func
+13_30.jpeg>]
+<Figures/func14_10.jpeg, id=307, 626.34pt x 432.11438pt>
 File: Figures/func14_10.jpeg Graphic file (type jpg)
 
 <use Figures/func14_10.jpeg>
@@ -1089,17 +1111,13 @@ Package pdftex.def Info: Figures/func14_10.jpeg used on input line 559.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/func14_30.jpeg, id=304, 626.34pt x 432.11438pt>
+<Figures/func14_30.jpeg, id=308, 626.34pt x 432.11438pt>
 File: Figures/func14_30.jpeg Graphic file (type jpg)
 
 <use Figures/func14_30.jpeg>
 Package pdftex.def Info: Figures/func14_30.jpeg used on input line 578.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [64 <./Figures/func13_30.jpeg>] [65 <./Figures/func14_10.jpeg> <./Figures/func
-14_30.jpeg>]
+ [64 <./Figures/func14_10.jpeg>]
 <Figures/func15_10.jpeg, id=312, 626.34pt x 432.11438pt>
 File: Figures/func15_10.jpeg Graphic file (type jpg)
 
@@ -1107,37 +1125,45 @@ File: Figures/func15_10.jpeg Graphic file (type jpg)
 Package pdftex.def Info: Figures/func15_10.jpeg used on input line 600.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <Figures/func15_30.jpeg, id=313, 626.34pt x 432.11438pt>
 File: Figures/func15_30.jpeg Graphic file (type jpg)
 
 <use Figures/func15_30.jpeg>
 Package pdftex.def Info: Figures/func15_30.jpeg used on input line 619.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [66 <./Figures/func15_10.jpeg>]) [67 <./Figures/func15_30.jpeg>] [68]
+ [65 <./Figures/func14_30.jpeg>]) [66 <./Figures/func15_10.jpeg> <./Figures/fun
+c15_30.jpeg>] [67]
 \openout2 = `chapters/7/chapter_conclusion.aux'.
 
- (./chapters/7/chapter_conclusion.tex
+
+(./chapters/7/chapter_conclusion.tex
 Chapter 7.
-[69
+[68
 
 
 
-] [70]) [71] (./mainthesisUVIC.bbl [72
+] [69]) [70] (./mainthesisUVIC.bbl [71
 
 
-] [73] [74] [75] [76] [77]) [78]
+] [72] [73] [74] [75] [76]) [77]
 (./mainthesisUVIC.aux (./chapters/1/chapter_intro.aux)
 (./chapters/2/chapter_problem.aux) (./chapters/3/chapter_new.aux)
 (./chapters/4/chapter_experiments.aux) (./chapters/5/chapter_evaluation.aux)
 (./chapters/6/chapter_evaluation.aux) (./chapters/7/chapter_conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 6874 strings out of 493029
- 98582 string characters out of 6136234
- 190188 words of memory out of 5000000
+ 6876 strings out of 493029
+ 98615 string characters out of 6136234
+ 191112 words of memory out of 5000000
  10117 multiletter control sequences out of 15000+600000
- 64999 words of font info for 50 fonts, out of 8000000 for 9000
+ 61969 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,20n,45p,1815b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,20n,49p,1815b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
 {
 /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/d
 vips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/shar
@@ -1151,7 +1177,7 @@ ic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 sy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmsy8.pfb>
-Output written on mainthesisUVIC.pdf (93 pages, 4728764 bytes).
+Output written on mainthesisUVIC.pdf (93 pages, 4728164 bytes).
 PDF statistics:
  409 PDF objects out of 1000 (max. 8388607)
  258 compressed objects within 3 object streams

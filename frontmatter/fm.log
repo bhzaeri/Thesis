@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  20 NOV 2016 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  26 DEC 2016 14:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -9,7 +9,7 @@ Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 ! Undefined control sequence.
 <argument> \undefinedpagestyle 
                                
-l.22 \pagestyle{myheadings}
+l.20 \pagestyle{myheadings}
                            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18,7 +18,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.26 \fancypagestyle
+l.24 \fancypagestyle
                     {plain}{%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -33,7 +33,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 \fancypagestyle{p
+l.24 \fancypagestyle{p
                       lain}{%
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -44,7 +44,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.27 \fancyhf
+l.25 \fancyhf
              {}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -53,7 +53,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.28 \fancyhead
+l.26 \fancyhead
                [R]{\thepage}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -72,7 +72,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 \renewcommand{\headrulewidth}
+l.27 \renewcommand{\headrulewidth}
                                   {0pt}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -84,32 +84,32 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 \renewcommand{\footrulewidth}
+l.28 \renewcommand{\footrulewidth}
                                   {0pt}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 26--32
+Overfull \hbox (20.0pt too wide) in paragraph at lines 24--30
 []
  []
 
 ! I can't find file `frontmatter/tp'.
-l.34 \input frontmatter/tp
+l.32 \input frontmatter/tp
                           
 (Press Enter to retry, or Control-D to exit)
 Please type another input file name
 ! Emergency stop.
-l.34 \input frontmatter/tp
+l.32 \input frontmatter/tp
                           
 *** (job aborted, file error in nonstop mode)
 
  
 Here is how much of TeX's memory you used:
- 16 strings out of 493029
- 217 string characters out of 6136234
+ 17 strings out of 493029
+ 229 string characters out of 6136234
  53087 words of memory out of 5000000
- 3650 multiletter control sequences out of 15000+600000
+ 3651 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  7i,0n,6p,122b,28s stack positions out of 5000i,500n,10000p,200000b,80000s

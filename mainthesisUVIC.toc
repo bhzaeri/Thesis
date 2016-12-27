@@ -1,10 +1,10 @@
-\contentsline {chapter}{DECLARATION OF ORIGINALITY}{iii}
-\contentsline {chapter}{ABSTRACT}{iv}
-\contentsline {chapter}{DEDICATION}{v}
-\contentsline {chapter}{ACKNOWLEDGEMENTS}{vi}
-\contentsline {chapter}{LIST OF TABLES}{xi}
-\contentsline {chapter}{LIST OF FIGURES}{xiii}
-\contentsline {chapter}{LIST OF ABBREVIATIONS/SYMBOLS}{xv}
+\contentsline {chapter}{DECLARATION OF ORIGINALITY}{3}
+\contentsline {chapter}{ABSTRACT}{4}
+\contentsline {chapter}{DEDICATION}{5}
+\contentsline {chapter}{ACKNOWLEDGEMENTS}{6}
+\contentsline {chapter}{LIST OF TABLES}{11}
+\contentsline {chapter}{LIST OF FIGURES}{13}
+\contentsline {chapter}{LIST OF ABBREVIATIONS/SYMBOLS}{16}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Evolutionary Algorithms}{1}
 \contentsline {section}{\numberline {1.2}Robustness in Evolutionary Algorithms}{2}
@@ -65,7 +65,7 @@
 \contentsline {chapter}{\numberline {6}Evaluation, Analysis and Comparisons}{44}
 \contentsline {section}{\numberline {6.1}Function 1: Bent Cigar Function}{44}
 \contentsline {section}{\numberline {6.2}Function 2: Discus Function}{46}
-\contentsline {section}{\numberline {6.3}Function 3: Weierstrass Function}{48}
+\contentsline {section}{\numberline {6.3}Function 3: Weierstrass Function}{47}
 \contentsline {section}{\numberline {6.4}Function 4: Modified Schwefel's Function}{49}
 \contentsline {section}{\numberline {6.5}Function 5: Katsuura Function}{50}
 \contentsline {section}{\numberline {6.6}Function 6: HappyCat Function}{52}
@@ -73,13 +73,13 @@
 \contentsline {section}{\numberline {6.8}Function 8: Griewank's plus Rosenbrock's Function}{55}
 \contentsline {section}{\numberline {6.9}Function 9: Expanded Scaffer's F6 Function}{57}
 \contentsline {section}{\numberline {6.10}Function 10: Hybrid Function 1}{58}
-\contentsline {section}{\numberline {6.11}Function 11: Hybrid Function 2}{60}
+\contentsline {section}{\numberline {6.11}Function 11: Hybrid Function 2}{59}
 \contentsline {section}{\numberline {6.12}Function 12: Hybrid Function 3}{61}
-\contentsline {section}{\numberline {6.13}Function 13: Composition Function 1}{63}
+\contentsline {section}{\numberline {6.13}Function 13: Composition Function 1}{62}
 \contentsline {section}{\numberline {6.14}Function 14: Composition Function 2}{64}
-\contentsline {section}{\numberline {6.15}Function 15: Composition Function 3}{66}
+\contentsline {section}{\numberline {6.15}Function 15: Composition Function 3}{65}
 \contentsline {section}{\numberline {6.16}Summary of Results}{67}
-\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{69}
-\contentsline {section}{\numberline {7.1}Conclusion}{69}
-\contentsline {section}{\numberline {7.2}Future Work and Applications}{70}
-\contentsline {chapter}{Bibliography}{72}
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{68}
+\contentsline {section}{\numberline {7.1}Conclusion}{68}
+\contentsline {section}{\numberline {7.2}Future Work and Applications}{69}
+\contentsline {chapter}{Bibliography}{71}
