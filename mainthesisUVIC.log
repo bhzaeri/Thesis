@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  28 DEC 2016 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  11 JAN 2017 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1146,7 +1146,7 @@ Chapter 7.
 Here is how much of TeX's memory you used:
  6876 strings out of 493029
  98615 string characters out of 6136234
- 191112 words of memory out of 5000000
+ 192112 words of memory out of 5000000
  10117 multiletter control sequences out of 15000+600000
  61969 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1164,7 +1164,7 @@ ic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 sy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmsy8.pfb>
-Output written on mainthesisUVIC.pdf (93 pages, 4728227 bytes).
+Output written on mainthesisUVIC.pdf (93 pages, 4728260 bytes).
 PDF statistics:
  409 PDF objects out of 1000 (max. 8388607)
  258 compressed objects within 3 object streams
