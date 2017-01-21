@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  11 JAN 2017 22:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  21 JAN 2017 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -578,14 +578,14 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 28.
-) (./frontmatter/sc.tex [1
+) [1
 
 
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2] (./frontmatter/dorig.
-tex
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./frontmatter/sc.tex) [2]
+ (./frontmatter/dorig.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -1139,7 +1139,15 @@ Chapter 7.
 
 
 ] [72] [73] [74] [75] [76]) [77]
-(./mainthesisUVIC.aux (./chapters/1/chapter_intro.aux)
+! You can't use `macro parameter character #' in horizontal mode.
+l.57 ...ent languages such as Java, Javascript, C#
+                                                  , and etc. Also, he is int...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[78] (./mainthesisUVIC.aux (./chapters/1/chapter_intro.aux)
 (./chapters/2/chapter_problem.aux) (./chapters/3/chapter_new.aux)
 (./chapters/4/chapter_experiments.aux) (./chapters/5/chapter_evaluation.aux)
 (./chapters/6/chapter_evaluation.aux) (./chapters/7/chapter_conclusion.aux)) ) 
@@ -1164,10 +1172,10 @@ ic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 sy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmsy8.pfb>
-Output written on mainthesisUVIC.pdf (93 pages, 4728257 bytes).
+Output written on mainthesisUVIC.pdf (94 pages, 4729184 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
+ 412 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  196 words of extra memory for PDF output out of 10000 (max. 10000000)
 

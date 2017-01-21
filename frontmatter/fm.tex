@@ -9,18 +9,14 @@
 }
 %\HRule\\\panelist{Dr. Outside Member}{Outside Member}{Department of Not Same As Candidate}}
 %\HRule\\\panelist{Dr. \Ans{Current Unknown}}{Additional Member}{Department of \Ans{Current Unknown Department}}}
-% Titlepage break
+%Titlepage break
 \newcommand\tpbreak{\\[\baselineskip]}
-
-\newpage
-% Suppress numbers on the first page
-\thispagestyle{empty}
 
 % Header Footer Setup (for Front matter)
 \fancypagestyle{myheadingss}{%
 	\fancyhf{}
-	%\fancyfoot[C]{\thepage}
-	\fancyfoot[C]{\ifnum\thepage=2\relax\else\thepage\fi}
+	\fancyfoot[C]{\thepage}
+	%\fancyfoot[C]{\ifnum \thepage < 3 \relax \else \thepage \fi}
 	\renewcommand{\headrulewidth}{0pt}
 	\renewcommand{\footrulewidth}{0pt}
 }
@@ -33,12 +29,16 @@
 }
 
 \pagestyle{myheadingss}
-\pagenumbering{arabic}
+\pagenumbering{roman}
 % We use this in addition to the default \LaTeX page configuration routines
 % because we have no way of saying \thispagestyle after the glossary and bibliography starts.
 
 % Front Matter
+\newpage
+\thispagestyle{empty}
 \input frontmatter/tp
+\newpage
+\thispagestyle{empty}
 \input frontmatter/sc
 \input frontmatter/dorig
 \input frontmatter/abs
