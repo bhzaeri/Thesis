@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  21 JAN 2017 17:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.5.16)  26 JAN 2017 00:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -335,7 +335,19 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)))
+))
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/15 v2.10.1 Sectioning titles
+\ttl@box=\box42
+\beforetitleunit=\skip84
+\aftertitleunit=\skip85
+\ttl@plus=\dimen123
+\ttl@minus=\dimen124
+\ttl@toksa=\toks31
+\titlewidth=\dimen125
+\titlewidthlast=\dimen126
+\titlewidthfirst=\dimen127
+))
 \@input{macros/style.aux}
 \openout2 = `macros/style.aux'.
 
@@ -357,15 +369,15 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@cnth=\count119
 \Gm@cntv=\count120
 \c@Gm@tempcnt=\count121
-\Gm@bindingoffset=\dimen123
-\Gm@wd@mp=\dimen124
-\Gm@odd@mp=\dimen125
-\Gm@even@mp=\dimen126
-\Gm@layoutwidth=\dimen127
-\Gm@layoutheight=\dimen128
-\Gm@layouthoffset=\dimen129
-\Gm@layoutvoffset=\dimen130
-\Gm@dimlist=\toks31
+\Gm@bindingoffset=\dimen128
+\Gm@wd@mp=\dimen129
+\Gm@odd@mp=\dimen130
+\Gm@even@mp=\dimen131
+\Gm@layoutwidth=\dimen132
+\Gm@layoutheight=\dimen133
+\Gm@layouthoffset=\dimen134
+\Gm@layoutvoffset=\dimen135
+\Gm@dimlist=\toks32
 )
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -373,42 +385,42 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 44.
-\cftparskip=\skip84
-\cftbeforetoctitleskip=\skip85
-\cftaftertoctitleskip=\skip86
-\cftbeforepartskip=\skip87
-\cftpartnumwidth=\skip88
-\cftpartindent=\skip89
-\cftbeforechapskip=\skip90
-\cftchapindent=\skip91
-\cftchapnumwidth=\skip92
-\cftbeforesecskip=\skip93
-\cftsecindent=\skip94
-\cftsecnumwidth=\skip95
-\cftbeforesubsecskip=\skip96
-\cftsubsecindent=\skip97
-\cftsubsecnumwidth=\skip98
-\cftbeforesubsubsecskip=\skip99
-\cftsubsubsecindent=\skip100
-\cftsubsubsecnumwidth=\skip101
-\cftbeforeparaskip=\skip102
-\cftparaindent=\skip103
-\cftparanumwidth=\skip104
-\cftbeforesubparaskip=\skip105
-\cftsubparaindent=\skip106
-\cftsubparanumwidth=\skip107
-\cftbeforeloftitleskip=\skip108
-\cftafterloftitleskip=\skip109
-\cftbeforefigskip=\skip110
-\cftfigindent=\skip111
-\cftfignumwidth=\skip112
+\cftparskip=\skip86
+\cftbeforetoctitleskip=\skip87
+\cftaftertoctitleskip=\skip88
+\cftbeforepartskip=\skip89
+\cftpartnumwidth=\skip90
+\cftpartindent=\skip91
+\cftbeforechapskip=\skip92
+\cftchapindent=\skip93
+\cftchapnumwidth=\skip94
+\cftbeforesecskip=\skip95
+\cftsecindent=\skip96
+\cftsecnumwidth=\skip97
+\cftbeforesubsecskip=\skip98
+\cftsubsecindent=\skip99
+\cftsubsecnumwidth=\skip100
+\cftbeforesubsubsecskip=\skip101
+\cftsubsubsecindent=\skip102
+\cftsubsubsecnumwidth=\skip103
+\cftbeforeparaskip=\skip104
+\cftparaindent=\skip105
+\cftparanumwidth=\skip106
+\cftbeforesubparaskip=\skip107
+\cftsubparaindent=\skip108
+\cftsubparanumwidth=\skip109
+\cftbeforeloftitleskip=\skip110
+\cftafterloftitleskip=\skip111
+\cftbeforefigskip=\skip112
+\cftfigindent=\skip113
+\cftfignumwidth=\skip114
 \c@lofdepth=\count122
 \c@lotdepth=\count123
-\cftbeforelottitleskip=\skip113
-\cftafterlottitleskip=\skip114
-\cftbeforetabskip=\skip115
-\cfttabindent=\skip116
-\cfttabnumwidth=\skip117
+\cftbeforelottitleskip=\skip115
+\cftafterlottitleskip=\skip116
+\cftbeforetabskip=\skip117
+\cfttabindent=\skip118
+\cfttabnumwidth=\skip119
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
@@ -416,39 +428,39 @@ Package csquotes Info: ... none found.
 (./mainthesisUVIC.aux (./chapters/1/chapter_intro.aux)
 (./chapters/2/chapter_problem.aux) (./chapters/3/chapter_new.aux)
 (./chapters/4/chapter_experiments.aux) (./chapters/5/chapter_evaluation.aux)
-(./chapters/6/chapter_evaluation.aux) (./chapters/7/chapter_conclusion.aux))
+(./chapters/6/chapter_evaluation.aux) (./chapters/7/chapter_conclusion.aux)
+(./chapters/va/va.aux))
 \openout1 = `mainthesisUVIC.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 21.
-
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 38.
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count124
-\scratchdimen=\dimen131
-\scratchbox=\box42
+\scratchdimen=\dimen136
+\scratchbox=\box43
 \nofMPsegments=\count125
 \nofMParguments=\count126
-\everyMPshowfont=\toks32
+\everyMPshowfont=\toks33
 \MPscratchCnt=\count127
-\MPscratchDim=\dimen132
+\MPscratchDim=\dimen137
 \MPnumerator=\count128
 \makeMPintoPDFobject=\count129
-\everyMPtoPDFconversion=\toks33
+\everyMPtoPDFconversion=\toks34
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -527,57 +539,81 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./frontmatter/fm.tex (./frontmatter/tp.tex
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 27.
+(./frontmatter/fm.tex
 
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+! LaTeX Error: \listtablename {LIST OF TABLES}undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \renewcommand{\listtablename{LIST OF TABLES}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \listfigurename {LIST OF FIGURES}undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ...wcommand{\listfigurename{LIST OF FIGURES}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(./frontmatter/tp.tex
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 28.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 27.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 28.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 27.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 28.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 27.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 28.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 27.
+(Font)              <12> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 27.
+(Font)              <8> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 27.
-LaTeX Font Info:    Try loading font information for U+msa on input line 27.
+(Font)              <6> on input line 28.
+LaTeX Font Info:    Try loading font information for U+msa on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 27.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 28.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 29.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 28.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 29.
 ) [1
 
 
@@ -586,18 +622,18 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./frontmatter/sc.tex) [2]
  (./frontmatter/dorig.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
 ) (./frontmatter/abs.tex [3]) (./frontmatter/ded.tex [4])
 (./frontmatter/ack.tex [5]
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--12
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
@@ -620,73 +656,67 @@ g in In-
 \openout5 = `mainthesisUVIC.lof'.
 
 
-[14] (./mainthesisUVIC.loa)
-\tf@loa=\write6
-\openout6 = `mainthesisUVIC.loa'.
-
- (./frontmatter/acr.tex [15
-
-])
-Underfull \hbox (badness 10000) in paragraph at lines 6--55
+(./frontmatter/acr.tex [14]
+Underfull \hbox (badness 10000) in paragraph at lines 7--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--55
+Underfull \hbox (badness 10000) in paragraph at lines 7--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--55
+Underfull \hbox (badness 10000) in paragraph at lines 7--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--55
+Underfull \hbox (badness 10000) in paragraph at lines 7--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--55
+Underfull \hbox (badness 10000) in paragraph at lines 7--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--55
+Underfull \hbox (badness 10000) in paragraph at lines 7--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--55
+Underfull \hbox (badness 10000) in paragraph at lines 7--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--55
+Underfull \hbox (badness 10000) in paragraph at lines 7--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--55
+Underfull \hbox (badness 10000) in paragraph at lines 7--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--55
+Underfull \hbox (badness 10000) in paragraph at lines 7--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--55
+Underfull \hbox (badness 10000) in paragraph at lines 7--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--55
+Underfull \hbox (badness 10000) in paragraph at lines 7--20
 
  []
 
-[16])
+[15]))
 \openout2 = `chapters/1/chapter_intro.aux'.
 
  (./chapters/1/chapter_intro.tex
@@ -704,8 +734,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  (./chapters/2/chapter_problem.tex
 Chapter 2.
-\savedunitlength=\skip118
-<Figures/HMPCA.jpeg, id=73, 2423.0525pt x 989.6975pt>
+\savedunitlength=\skip120
+<Figures/HMPCA.jpeg, id=70, 2423.0525pt x 989.6975pt>
 File: Figures/HMPCA.jpeg Graphic file (type jpg)
  <use Figures/HMPCA.jpeg>
 Package pdftex.def Info: Figures/HMPCA.jpeg used on input line 12.
@@ -719,7 +749,7 @@ Overfull \hbox (2.51064pt too wide) in paragraph at lines 12--14
 
 
 
-] <Figures/SocialScale.jpg, id=77, 457.71pt x 325.215pt>
+] <Figures/SocialScale.jpg, id=74, 457.71pt x 325.215pt>
 File: Figures/SocialScale.jpg Graphic file (type jpg)
 
 <use Figures/SocialScale.jpg>
@@ -731,12 +761,7 @@ Overfull \hbox (1.38145pt too wide) in paragraph at lines 30--33
 -go-rithm Toolkit (CAT) thourgh
  []
 
-[9] [10]
-Overfull \hbox (22.45363pt too wide) in paragraph at lines 39--39
-[]\T1/lmr/bx/n/14.4 Socio-Cultural Evo-lu-tion via Neighborhood-Restructuring
- []
-
-[11] <Figures/MultiLayer.jpeg, id=94, 773.89125pt x 457.71pt>
+[9] [10] [11] <Figures/MultiLayer.jpeg, id=91, 773.89125pt x 457.71pt>
 File: Figures/MultiLayer.jpeg Graphic file (type jpg)
 
 <use Figures/MultiLayer.jpeg>
@@ -749,7 +774,12 @@ re-vi-ous work of [Reynolds
  []
 
 [12 <./Figures/MultiLayer.jpeg>]
-<Figures/TwoLayerSF.jpeg, id=98, 991.705pt x 715.67375pt>
+Overfull \hbox (7.18605pt too wide) in paragraph at lines 59--59
+|\T1/lmr/bx/n/14.4 Leveraged Neigh-bor-hood Re-struc-tur-ing in Cul-tural Al-go
+-rithms
+ []
+
+<Figures/TwoLayerSF.jpeg, id=95, 991.705pt x 715.67375pt>
 File: Figures/TwoLayerSF.jpeg Graphic file (type jpg)
 
 <use Figures/TwoLayerSF.jpeg>
@@ -766,7 +796,7 @@ Chapter 3.
 
 
 ] [21] [22]
-<Figures/StandardCA.jpeg, id=134, 2929.94624pt x 1916.15875pt>
+<Figures/StandardCA.jpeg, id=131, 2929.94624pt x 1916.15875pt>
 File: Figures/StandardCA.jpeg Graphic file (type jpg)
 
 <use Figures/StandardCA.jpeg>
@@ -777,14 +807,14 @@ Package pdftex.def Info: Figures/StandardCA.jpeg used on input line 39.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [23] [24 <./Figures/StandardCA.jpeg>]
-<Figures/StandardNR.jpeg, id=141, 610.28pt x 393.47pt>
+<Figures/StandardNR.jpeg, id=138, 610.28pt x 393.47pt>
 File: Figures/StandardNR.jpeg Graphic file (type jpg)
 
 <use Figures/StandardNR.jpeg>
 Package pdftex.def Info: Figures/StandardNR.jpeg used on input line 50.
 (pdftex.def)             Requested size: 244.10767pt x 157.38521pt.
  [25 <./Figures/StandardNR.jpeg>]
-<Figures/SFNetworkModel.jpeg, id=145, 583.17876pt x 613.29124pt>
+<Figures/SFNetworkModel.jpeg, id=142, 583.17876pt x 613.29124pt>
 File: Figures/SFNetworkModel.jpeg Graphic file (type jpg)
 
 <use Figures/SFNetworkModel.jpeg>
@@ -794,39 +824,29 @@ Package pdftex.def Info: Figures/SFNetworkModel.jpeg used on input line 70.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26] <Figures/PSOModel.jpeg, id=152, 786.94pt x 290.08376pt>
+[26] <Figures/PSOModel.jpeg, id=149, 786.94pt x 290.08376pt>
 File: Figures/PSOModel.jpeg Graphic file (type jpg)
 
 <use Figures/PSOModel.jpeg>
 Package pdftex.def Info: Figures/PSOModel.jpeg used on input line 87.
 (pdftex.def)             Requested size: 314.77042pt x 116.03143pt.
  [27 <./Figures/SFNetworkModel.jpeg>]
-<Figures/TribePSO.png, id=158, 280.04625pt x 238.8925pt>
+<Figures/TribePSO.png, id=154, 280.04625pt x 238.8925pt>
 File: Figures/TribePSO.png Graphic file (type png)
 
 <use Figures/TribePSO.png>
 Package pdftex.def Info: Figures/TribePSO.png used on input line 95.
 (pdftex.def)             Requested size: 168.02904pt x 143.3366pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[28 <./Figures/PSOModel.jpeg>])) [29 <./Figures/TribePSO.png>]
+ [28 <./Figures/PSOModel.jpeg>])) [29 <./Figures/TribePSO.png>]
 \openout2 = `chapters/4/chapter_experiments.aux'.
 
-
-(./chapters/4/chapter_experiments.tex
+ (./chapters/4/chapter_experiments.tex
 Chapter 4.
 [30
 
 
 
-] [31]
-Overfull \hbox (8.59927pt too wide) in paragraph at lines 45--45
-[]\T1/lmr/bx/n/17.28 Confidence based Nor-ma-tive Knowl-edge Source 
- []
-
-[32] [33]) [34]
+] [31] [32] [33]) [34]
 \openout2 = `chapters/5/chapter_evaluation.aux'.
 
  (./chapters/5/chapter_evaluation.tex
@@ -841,7 +861,7 @@ Chapter 5.
 
 (./chapters/6/chapter_evaluation.tex
 Chapter 6.
-<Figures/func1_10.jpeg, id=217, 626.34pt x 432.11438pt>
+<Figures/func1_10.jpeg, id=214, 626.34pt x 432.11438pt>
 File: Figures/func1_10.jpeg Graphic file (type jpg)
 
 <use Figures/func1_10.jpeg>
@@ -852,21 +872,21 @@ Package pdftex.def Info: Figures/func1_10.jpeg used on input line 22.
 
 
 ]
-<Figures/func1_30.jpeg, id=221, 626.34pt x 432.11438pt>
+<Figures/func1_30.jpeg, id=218, 626.34pt x 432.11438pt>
 File: Figures/func1_30.jpeg Graphic file (type jpg)
 
 <use Figures/func1_30.jpeg>
 Package pdftex.def Info: Figures/func1_30.jpeg used on input line 40.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [45 <./Figures/func1_10.jpeg>]
-<Figures/func2_10.jpeg, id=226, 626.34pt x 432.11438pt>
+<Figures/func2_10.jpeg, id=222, 626.34pt x 432.11438pt>
 File: Figures/func2_10.jpeg Graphic file (type jpg)
 
 <use Figures/func2_10.jpeg>
 Package pdftex.def Info: Figures/func2_10.jpeg used on input line 63.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func2_30.jpeg, id=227, 626.34pt x 432.11438pt>
+<Figures/func2_30.jpeg, id=223, 626.34pt x 432.11438pt>
 File: Figures/func2_30.jpeg Graphic file (type jpg)
 
 <use Figures/func2_30.jpeg>
@@ -880,7 +900,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func3_10.jpeg, id=231, 626.34pt x 432.11438pt>
+<Figures/func3_10.jpeg, id=228, 626.34pt x 432.11438pt>
 File: Figures/func3_10.jpeg Graphic file (type jpg)
 
 <use Figures/func3_10.jpeg>
@@ -893,7 +913,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func3_30.jpeg, id=232, 626.34pt x 432.11438pt>
+<Figures/func3_30.jpeg, id=229, 626.34pt x 432.11438pt>
 File: Figures/func3_30.jpeg Graphic file (type jpg)
 
 <use Figures/func3_30.jpeg>
@@ -901,7 +921,7 @@ Package pdftex.def Info: Figures/func3_30.jpeg used on input line 122.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [47 <./Figures/func2_10.jpeg> <./Figures/func2_30.jpeg>] [48 <./Figures/func3_
 10.jpeg> <./Figures/func3_30.jpeg>]
-<Figures/func4_10.jpeg, id=239, 626.34pt x 432.11438pt>
+<Figures/func4_10.jpeg, id=236, 626.34pt x 432.11438pt>
 File: Figures/func4_10.jpeg Graphic file (type jpg)
 
 <use Figures/func4_10.jpeg>
@@ -911,14 +931,14 @@ Package pdftex.def Info: Figures/func4_10.jpeg used on input line 144.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func4_30.jpeg, id=240, 626.34pt x 432.11438pt>
+<Figures/func4_30.jpeg, id=237, 626.34pt x 432.11438pt>
 File: Figures/func4_30.jpeg Graphic file (type jpg)
 
 <use Figures/func4_30.jpeg>
 Package pdftex.def Info: Figures/func4_30.jpeg used on input line 164.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [49 <./Figures/func4_10.jpeg>]
-<Figures/func5_10.jpeg, id=244, 626.34pt x 432.11438pt>
+<Figures/func5_10.jpeg, id=241, 626.34pt x 432.11438pt>
 File: Figures/func5_10.jpeg Graphic file (type jpg)
 
 <use Figures/func5_10.jpeg>
@@ -931,7 +951,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func5_30.jpeg, id=245, 626.34pt x 432.11438pt>
+<Figures/func5_30.jpeg, id=242, 626.34pt x 432.11438pt>
 File: Figures/func5_30.jpeg Graphic file (type jpg)
 
 <use Figures/func5_30.jpeg>
@@ -939,39 +959,35 @@ Package pdftex.def Info: Figures/func5_30.jpeg used on input line 205.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [50 <./Figures/func4_30.jpeg>] [51 <./Figures/func5_10.jpeg> <./Figures/func5_
 30.jpeg>]
-<Figures/func6_10.jpeg, id=253, 626.34pt x 432.11438pt>
+<Figures/func6_10.jpeg, id=249, 626.34pt x 432.11438pt>
 File: Figures/func6_10.jpeg Graphic file (type jpg)
 
 <use Figures/func6_10.jpeg>
 Package pdftex.def Info: Figures/func6_10.jpeg used on input line 229.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func6_30.jpeg, id=254, 626.34pt x 432.11438pt>
+<Figures/func6_30.jpeg, id=250, 626.34pt x 432.11438pt>
 File: Figures/func6_30.jpeg Graphic file (type jpg)
 
 <use Figures/func6_30.jpeg>
 Package pdftex.def Info: Figures/func6_30.jpeg used on input line 248.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [52 <./Figures/func6_10.jpeg>] [53 <./Figures/func6_30.jpeg>] <Figures/func7_1
-0.jpeg, id=261, 626.34pt x 432.11438pt>
+0.jpeg, id=258, 626.34pt x 432.11438pt>
 File: Figures/func7_10.jpeg Graphic file (type jpg)
 
 <use Figures/func7_10.jpeg>
 Package pdftex.def Info: Figures/func7_10.jpeg used on input line 272.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func7_30.jpeg, id=262, 626.34pt x 432.11438pt>
+<Figures/func7_30.jpeg, id=259, 626.34pt x 432.11438pt>
 File: Figures/func7_30.jpeg Graphic file (type jpg)
 
 <use Figures/func7_30.jpeg>
 Package pdftex.def Info: Figures/func7_30.jpeg used on input line 291.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [54 <./Figures/func7_10.jpeg>]
-Overfull \hbox (12.94298pt too wide) in paragraph at lines 297--297
-[]\T1/lmr/bx/n/17.28 Function 8: Griewank's plus Rosen-brock's Func-
- []
-
-<Figures/func8_10.jpeg, id=266, 626.34pt x 432.11438pt>
+<Figures/func8_10.jpeg, id=263, 626.34pt x 432.11438pt>
 File: Figures/func8_10.jpeg Graphic file (type jpg)
 
 <use Figures/func8_10.jpeg>
@@ -984,7 +1000,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func8_30.jpeg, id=267, 626.34pt x 432.11438pt>
+<Figures/func8_30.jpeg, id=264, 626.34pt x 432.11438pt>
 File: Figures/func8_30.jpeg Graphic file (type jpg)
 
 <use Figures/func8_30.jpeg>
@@ -992,21 +1008,21 @@ Package pdftex.def Info: Figures/func8_30.jpeg used on input line 332.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [55 <./Figures/func7_30.jpeg>] [56 <./Figures/func8_10.jpeg> <./Figures/func8_
 30.jpeg>]
-<Figures/func9_10.jpeg, id=274, 626.34pt x 432.11438pt>
+<Figures/func9_10.jpeg, id=271, 626.34pt x 432.11438pt>
 File: Figures/func9_10.jpeg Graphic file (type jpg)
 
 <use Figures/func9_10.jpeg>
 Package pdftex.def Info: Figures/func9_10.jpeg used on input line 354.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-<Figures/func9_30.jpeg, id=275, 626.34pt x 432.11438pt>
+<Figures/func9_30.jpeg, id=272, 626.34pt x 432.11438pt>
 File: Figures/func9_30.jpeg Graphic file (type jpg)
 
 <use Figures/func9_30.jpeg>
 Package pdftex.def Info: Figures/func9_30.jpeg used on input line 373.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [57 <./Figures/func9_10.jpeg>]
-<Figures/func10_10.jpeg, id=280, 626.34pt x 432.11438pt>
+<Figures/func10_10.jpeg, id=276, 626.34pt x 432.11438pt>
 File: Figures/func10_10.jpeg Graphic file (type jpg)
 
 <use Figures/func10_10.jpeg>
@@ -1016,7 +1032,7 @@ Package pdftex.def Info: Figures/func10_10.jpeg used on input line 395.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func10_30.jpeg, id=281, 626.34pt x 432.11438pt>
+<Figures/func10_30.jpeg, id=277, 626.34pt x 432.11438pt>
 File: Figures/func10_30.jpeg Graphic file (type jpg)
 
 <use Figures/func10_30.jpeg>
@@ -1026,7 +1042,7 @@ Package pdftex.def Info: Figures/func10_30.jpeg used on input line 414.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func11_10.jpeg, id=285, 626.34pt x 432.11438pt>
+<Figures/func11_10.jpeg, id=282, 626.34pt x 432.11438pt>
 File: Figures/func11_10.jpeg Graphic file (type jpg)
 
 <use Figures/func11_10.jpeg>
@@ -1039,7 +1055,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func11_30.jpeg, id=286, 626.34pt x 432.11438pt>
+<Figures/func11_30.jpeg, id=283, 626.34pt x 432.11438pt>
 File: Figures/func11_30.jpeg Graphic file (type jpg)
 
 <use Figures/func11_30.jpeg>
@@ -1047,7 +1063,7 @@ Package pdftex.def Info: Figures/func11_30.jpeg used on input line 455.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
  [59 <./Figures/func10_10.jpeg> <./Figures/func10_30.jpeg>] [60 <./Figures/func
 11_10.jpeg> <./Figures/func11_30.jpeg>]
-<Figures/func12_10.jpeg, id=293, 626.34pt x 432.11438pt>
+<Figures/func12_10.jpeg, id=290, 626.34pt x 432.11438pt>
 File: Figures/func12_10.jpeg Graphic file (type jpg)
 
 <use Figures/func12_10.jpeg>
@@ -1057,28 +1073,19 @@ Package pdftex.def Info: Figures/func12_10.jpeg used on input line 477.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func12_30.jpeg, id=294, 626.34pt x 432.11438pt>
+<Figures/func12_30.jpeg, id=291, 626.34pt x 432.11438pt>
 File: Figures/func12_30.jpeg Graphic file (type jpg)
 
 <use Figures/func12_30.jpeg>
 Package pdftex.def Info: Figures/func12_30.jpeg used on input line 496.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [61 <./Figures/func12_10.jpeg>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/func13_10.jpeg, id=298, 626.34pt x 432.11438pt>
+ [61] [62 <./Figures/func12_10.jpeg> <./Figures/func12_30.jpeg>] <Figures/func1
+3_10.jpeg, id=298, 626.34pt x 432.11438pt>
 File: Figures/func13_10.jpeg Graphic file (type jpg)
 
 <use Figures/func13_10.jpeg>
 Package pdftex.def Info: Figures/func13_10.jpeg used on input line 518.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 <Figures/func13_30.jpeg, id=299, 626.34pt x 432.11438pt>
 File: Figures/func13_30.jpeg Graphic file (type jpg)
@@ -1086,9 +1093,8 @@ File: Figures/func13_30.jpeg Graphic file (type jpg)
 <use Figures/func13_30.jpeg>
 Package pdftex.def Info: Figures/func13_30.jpeg used on input line 537.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [62 <./Figures/func12_30.jpeg>] [63 <./Figures/func13_10.jpeg> <./Figures/func
-13_30.jpeg>]
-<Figures/func14_10.jpeg, id=307, 626.34pt x 432.11438pt>
+ [63 <./Figures/func13_10.jpeg>]
+<Figures/func14_10.jpeg, id=303, 626.34pt x 432.11438pt>
 File: Figures/func14_10.jpeg Graphic file (type jpg)
 
 <use Figures/func14_10.jpeg>
@@ -1098,13 +1104,14 @@ Package pdftex.def Info: Figures/func14_10.jpeg used on input line 559.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/func14_30.jpeg, id=308, 626.34pt x 432.11438pt>
+<Figures/func14_30.jpeg, id=304, 626.34pt x 432.11438pt>
 File: Figures/func14_30.jpeg Graphic file (type jpg)
 
 <use Figures/func14_30.jpeg>
 Package pdftex.def Info: Figures/func14_30.jpeg used on input line 578.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [64 <./Figures/func14_10.jpeg>]
+ [64 <./Figures/func13_30.jpeg>] [65 <./Figures/func14_10.jpeg> <./Figures/func
+14_30.jpeg>]
 <Figures/func15_10.jpeg, id=312, 626.34pt x 432.11438pt>
 File: Figures/func15_10.jpeg Graphic file (type jpg)
 
@@ -1112,67 +1119,64 @@ File: Figures/func15_10.jpeg Graphic file (type jpg)
 Package pdftex.def Info: Figures/func15_10.jpeg used on input line 600.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 <Figures/func15_30.jpeg, id=313, 626.34pt x 432.11438pt>
 File: Figures/func15_30.jpeg Graphic file (type jpg)
 
 <use Figures/func15_30.jpeg>
 Package pdftex.def Info: Figures/func15_30.jpeg used on input line 619.
 (pdftex.def)             Requested size: 313.16922pt x 216.05666pt.
- [65 <./Figures/func14_30.jpeg>]) [66 <./Figures/func15_10.jpeg> <./Figures/fun
-c15_30.jpeg>] [67]
+ [66 <./Figures/func15_10.jpeg>]) [67 <./Figures/func15_30.jpeg>] [68]
 \openout2 = `chapters/7/chapter_conclusion.aux'.
 
-
-(./chapters/7/chapter_conclusion.tex
+ (./chapters/7/chapter_conclusion.tex
 Chapter 7.
-[68
+[69
 
 
 
-]) [69] [70] (./mainthesisUVIC.bbl [71
+]) [70] [71] (./mainthesisUVIC.bbl [72
+
+] [73] [74] [75] [76] [77]) [78]
+\openout2 = `chapters/va/va.aux'.
 
 
-] [72] [73] [74] [75] [76]) [77]
-! You can't use `macro parameter character #' in horizontal mode.
-l.57 ...ent languages such as Java, Javascript, C#
-                                                  , and etc. Also, he is int...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+(./chapters/va/va.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
-[78] (./mainthesisUVIC.aux (./chapters/1/chapter_intro.aux)
+ []
+
+) [79
+
+] (./mainthesisUVIC.aux (./chapters/1/chapter_intro.aux)
 (./chapters/2/chapter_problem.aux) (./chapters/3/chapter_new.aux)
 (./chapters/4/chapter_experiments.aux) (./chapters/5/chapter_evaluation.aux)
-(./chapters/6/chapter_evaluation.aux) (./chapters/7/chapter_conclusion.aux)) ) 
+(./chapters/6/chapter_evaluation.aux) (./chapters/7/chapter_conclusion.aux)
+(./chapters/va/va.aux)) )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 3 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 6876 strings out of 493029
- 98615 string characters out of 6136234
- 192112 words of memory out of 5000000
- 10117 multiletter control sequences out of 15000+600000
- 61969 words of font info for 49 fonts, out of 8000000 for 9000
+ 7158 strings out of 493029
+ 102318 string characters out of 6136234
+ 197739 words of memory out of 5000000
+ 10390 multiletter control sequences out of 15000+600000
+ 64967 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,20n,49p,1815b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
-{
-/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/d
-vips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/shar
-e/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
-thex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-sy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmsy8.pfb>
-Output written on mainthesisUVIC.pdf (94 pages, 4729184 bytes).
+ 38i,20n,46p,1815b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/
+texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-
+rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/e
+nc/dvips/lm/lm-mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on mainthesisUVIC.pdf (94 pages, 4728808 bytes).
 PDF statistics:
  412 PDF objects out of 1000 (max. 8388607)
  260 compressed objects within 3 object streams

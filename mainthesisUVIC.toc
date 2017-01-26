@@ -4,7 +4,7 @@
 \contentsline {chapter}{ACKNOWLEDGEMENTS}{vi}
 \contentsline {chapter}{LIST OF TABLES}{xi}
 \contentsline {chapter}{LIST OF FIGURES}{xiii}
-\contentsline {chapter}{LIST OF ABBREVIATIONS/SYMBOLS}{xvi}
+\contentsline {chapter}{LIST OF ABBREVIATIONS/SYMBOLS}{xv}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Evolutionary Algorithms}{1}
 \contentsline {section}{\numberline {1.2}Robustness in Evolutionary Algorithms}{2}
@@ -48,7 +48,7 @@
 \contentsline {subsection}{\numberline {5.2.2}Simple Multimodal Functions}{37}
 \contentsline {subsubsection}{Shifted and Rotated Weierstrass Function}{37}
 \contentsline {subsubsection}{Shifted and Rotated Schwefel's Function}{37}
-\contentsline {subsubsection}{Shifted and Rotated Katsuura Function}{37}
+\contentsline {subsubsection}{Shifted and Rotated Katsuura Function}{38}
 \contentsline {subsubsection}{Shifted and Rotated HappyCat Function}{38}
 \contentsline {subsubsection}{Shifted and Rotated HGBat Function}{38}
 \contentsline {subsubsection}{Shifted and Rotated Expanded Griewank's plus Rosenbrock's Function}{39}
@@ -67,7 +67,7 @@
 \contentsline {section}{\numberline {6.2}Function 2: Discus Function}{46}
 \contentsline {section}{\numberline {6.3}Function 3: Weierstrass Function}{47}
 \contentsline {section}{\numberline {6.4}Function 4: Modified Schwefel's Function}{49}
-\contentsline {section}{\numberline {6.5}Function 5: Katsuura Function}{50}
+\contentsline {section}{\numberline {6.5}Function 5: Katsura Function}{50}
 \contentsline {section}{\numberline {6.6}Function 6: HappyCat Function}{52}
 \contentsline {section}{\numberline {6.7}Function 7: HGBat Function}{54}
 \contentsline {section}{\numberline {6.8}Function 8: Griewank's plus Rosenbrock's Function}{55}
@@ -79,8 +79,8 @@
 \contentsline {section}{\numberline {6.14}Function 14: Composition Function 2}{64}
 \contentsline {section}{\numberline {6.15}Function 15: Composition Function 3}{65}
 \contentsline {section}{\numberline {6.16}Summary of Results}{67}
-\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{68}
-\contentsline {section}{\numberline {7.1}Conclusion}{68}
-\contentsline {section}{\numberline {7.2}Future Work and Applications}{69}
-\contentsline {chapter}{Bibliography}{71}
-\contentsline {chapter}{Vita Auctoris}{78}
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{69}
+\contentsline {section}{\numberline {7.1}Conclusion}{69}
+\contentsline {section}{\numberline {7.2}Future Work and Applications}{70}
+\contentsline {chapter}{BIBLIOGRAPHY}{72}
+\contentsline {chapter}{VITA AUCTORIS}{79}

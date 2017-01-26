@@ -1,12 +1,17 @@
-\newcommand\thesistitle{Improving Robustness in Social Fabric-based Cultural Algorithms}
-\newcommand\thesistitlee{\textbf{IMPROVING ROBUSTNESS IN SOCIAL FABRIC-BASED CULTURAL ALGORITHMS}}
+%\newcommand\thesistitle{Improving Robustness in Social Fabric-based Cultural Algorithms}
+\newcommand\thesistitle{\textbf{Improving Robustness in Social Fabric-based Cultural Algorithms}}
 % One needs to make adjustments for a Master's Thesis
-\newcommand\nameanddegrees{Bahram Zaeri}
+\newcommand\nameanddegrees{\textbf{Bahram Zaeri}}
 \newcommand\panel{%
 \HRule\\\panelist{Dr. Kemal Tepe}{External Reader}{Department of Electrical and Computer Engineering}
 \HRule\\\panelist{Dr. Mehdi Kargar}{Internal Reader}{School of Computer Science}
-\HRule\\\panelist{Dr. Ziad Kobti}{Advisor}{School of Computer Science}
+\HRule\\\panelist{Dr. Ziad Kobti, Advisor}{Advisor}{School of Computer Science}
 }
+%\renewcommand{\printtoctitle}[1]{\Huge\sffamily #1}
+\renewcommand{\contentsname}{TABLE OF CONTENTS}
+\renewcommand{\listtablename{LIST OF TABLES}}
+\renewcommand{\listfigurename{LIST OF FIGURES}}
+
 %\HRule\\\panelist{Dr. Outside Member}{Outside Member}{Department of Not Same As Candidate}}
 %\HRule\\\panelist{Dr. \Ans{Current Unknown}}{Additional Member}{Department of \Ans{Current Unknown Department}}}
 %Titlepage break
@@ -17,6 +22,7 @@
 	\fancyhf{}
 	\fancyfoot[C]{\thepage}
 	%\fancyfoot[C]{\ifnum \thepage < 3 \relax \else \thepage \fi}
+%	\renewcommand{\headheight}{50pt}
 	\renewcommand{\headrulewidth}{0pt}
 	\renewcommand{\footrulewidth}{0pt}
 }
@@ -49,8 +55,11 @@
 \TOCadd{LIST OF TABLES}
 \listoftables
 %\setcounter{lofdepth}{2}
-\TOCadd{LIST OF FIGURES}\listoffigures
-\listofalgorithms
+\TOCadd{LIST OF FIGURES}
+\listoffigures
+%\TOCadd{LIST OF ALGORITHMS}
+%\listofalgorithms
+%\addtocontents{loa}{\def\string\figurename{Algorithmdd}}
 \input frontmatter/acr
 
 

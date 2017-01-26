@@ -2,6 +2,23 @@
 \include{macros/use_packages}
 \include{macros/style}
 \graphicspath{{Figures/}}
+\renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
+\renewcommand{\cftlottitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftafterlottitle}{\hfill}
+\renewcommand{\cftloftitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftafterloftitle}{\hfill}
+%\floatname{algorithm}{\textnormal{Algorithm}}
+%\renewcommand{\thealgorithm}{\textnormal{\arabic{algorithm}.} }
+
+%\renewcommand{\listalgorithmname}{LIST OF ALGORITHMS\\
+%	\thispagestyle{plain}%
+%	\par\nobreak {\normalfont ALGORITHM \hfill PAGE}\par\nobreak
+%}
+
+%\newlistof{listofalgorithms}{loa}{\listalgorithmcfname}
+%\renewcommand{\cftloatitlefont}{\hfill\Large\bfseries}
+%\renewcommand{\cftafterloatitle}{\hfill}
 
 \newenvironment{dedication}
 {%\clearpage           % we want a new page          %% I commented this
@@ -44,15 +61,19 @@
 
 % The Bibliography file is a BibTex file named
 % UVicThesis.bib and called below
+%\titleformat{\chapter}[display]{\hfill\Large\bfseries}{}{}{\Large}
 
-	\TOCadd{Bibliography}
+%\makeatletter
+\renewcommand\bibsection{
+	\begin{center}
+		\section*{\Large\centering{BIBLIOGRAPHY}}
+	\end{center}
+}
+%	\renewcommand{\bibname}{\protect\centering{BIBLIOGRAPHY}}
+	\TOCadd{BIBLIOGRAPHY}
 	%\bibliographystyle{plain}%{macros/aaai}
 	\bibliographystyle{plainnat}
 	\bibliography{UvicThesis}
-	
-	\TOCadd{Vita Auctoris}
-		{\centering
-			\textbf{Vita Auctoris}
-	\par}
-	Bahram Zaeri completed his Bachelor's degree in Computer Science from the Islamic Azad University in Iran in the year 2008. Then, he started working as a software developer in Tehran, Iran for about 5 years. He has worked in numerous big and medium scale projects as both back-end and front-end developer with different languages such as Java, Javascript, C#, and etc. Also, he is interested in AI and specially Swarm Intelligence. He has published some papers and articles about Ant Colony Optimization (ACO) and its applications. He will complete his Master of Science in Computer Science in 2017 through the University of Windsor. 
+
+	\include{chapters/va/va}
 \end{document}
